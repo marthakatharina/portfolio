@@ -18,8 +18,8 @@ export default function PostCard({ post }) {
     }, []);
 
     return (
-        <div class="container">
-            <div class="post-card--container">
+        <div className="container">
+            <div className="post-card--container">
                 <p className="post-card--date">
                     {new Date(Date.now()).toLocaleDateString("en-UK", {
                         day: "numeric",
@@ -32,7 +32,7 @@ export default function PostCard({ post }) {
                     className="post-card--excerpt"
                     dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
                 />
-                <img src={featuredImage} class="mask" />
+                <img src={featuredImage} className="post-card--img" />
             </div>
         </div>
     );

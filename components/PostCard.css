@@ -11,7 +11,7 @@
     transition: all 0.3s ease;
 }
 
-img {
+.post-card--img {
     width: 400px;
     height: 210px;
     object-fit: cover;

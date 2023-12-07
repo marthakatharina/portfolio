@@ -1,24 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./PostCard.css";
+import "./ProjectCard.css";
 
 export default function ProjectCard({ project }) {
     const [featuredImage, setFeaturedImage] = useState("");
-
-    // const getImage = async () => {
-    //     if (project.featured_media !== 0) {
-    //         await fetch(project?._links["wp:featuredmedia"][0]?.href)
-    //             .then((response) => {
-    //                 setFeaturedImage(response.data.source_url);
-    //             })
-    //             .catch((error) => {
-    //                 console.error("Error fetching image:", error);
-    //             });
-    //     } else {
-    //         // No featured image available
-    //         setFeaturedImage("");
-    //     }
-    // };
 
     const getImage = async () => {
         try {
@@ -38,10 +23,12 @@ export default function ProjectCard({ project }) {
 
     return (
         <div className="container">
-            <div className="post-card--container">
-                <h2 className="post-card--title">{project.title.rendered}</h2>
+            <div className="project-card--container">
+                <h2 className="project-card--title">
+                    {project.title.rendered}
+                </h2>
                 <p
-                    className="post-card--excerpt"
+                    className="project-card--excerpt"
                     dangerouslySetInnerHTML={{
                         __html: project.excerpt.rendered,
                     }}
@@ -51,7 +38,7 @@ export default function ProjectCard({ project }) {
                 {featuredImage !== "" ? (
                     <img
                         src={featuredImage}
-                        className="post-card--img"
+                        className="project-card--img"
                         alt="Featured"
                     />
                 ) : (

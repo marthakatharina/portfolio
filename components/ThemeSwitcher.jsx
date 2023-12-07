@@ -7,7 +7,7 @@ export default function ThemeSwitcher() {
     const { theme, setTheme } = useContext(ThemeContext);
 
     return (
-        <>
+        <div>
             {themes.map((themeName) => (
                 <button
                     disabled={themeName === theme}
@@ -16,6 +16,6 @@ export default function ThemeSwitcher() {
                     {themeName}
                 </button>
             ))}
-        </>
+        </div>
     );
 }

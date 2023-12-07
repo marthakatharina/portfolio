@@ -37,14 +37,16 @@ export default function App() {
             <Content>
                 <ThemeSwitcher />
                 <BrowserRouter>
-                    <div>
+                    <nav className="menu">
                         <Link to="/">Projects</Link>
-                    </div>
+                        <Link to="/about">About</Link>
+                    </nav>
                     <Routes>
                         <Route
                             path="/"
-                            element={<ProjectList projects={projects} />}
+                            element={<Home projects={projects} />}
                         />
+                        <Route path="/about" element={<About />} />
                         <Route path="/:slug" element={<ProjectPage />} />
                     </Routes>
                 </BrowserRouter>
@@ -53,17 +55,20 @@ export default function App() {
     );
 }
 
-function ProjectList({ projects }) {
+function Content({ children }) {
+    const { theme } = useContext(ThemeContext);
+    return <main className={theme}>{children}</main>;
+}
+
+function Home({ projects }) {
     return (
-        <div style={{ display: "flex" }}>
+        <div className="project-cards">
             {projects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
             ))}
         </div>
     );
 }
-
-function Content({ children }) {
-    const { theme } = useContext(ThemeContext);
-    return <div className={theme}>{children}</div>;
+function About() {
+    return <div>Here will be a page about me.</div>;
 }

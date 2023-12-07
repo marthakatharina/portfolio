@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./PostCard.css";
@@ -6,19 +5,30 @@ import "./PostCard.css";
 export default function ProjectCard({ project }) {
     const [featuredImage, setFeaturedImage] = useState("");
 
-    const getImage = () => {
-        if (project.featured_media !== 0) {
-            axios
-                .get(project?._links["wp:featuredmedia"][0]?.href)
-                .then((response) => {
-                    setFeaturedImage(response.data.source_url);
-                })
-                .catch((error) => {
-                    console.error("Error fetching image:", error);
-                });
-        } else {
-            // No featured image available
-            setFeaturedImage("");
+    // const getImage = async () => {
+    //     if (project.featured_media !== 0) {
+    //         await fetch(project?._links["wp:featuredmedia"][0]?.href)
+    //             .then((response) => {
+    //                 setFeaturedImage(response.data.source_url);
+    //             })
+    //             .catch((error) => {
+    //                 console.error("Error fetching image:", error);
+    //             });
+    //     } else {
+    //         // No featured image available
+    //         setFeaturedImage("");
+    //     }
+    // };
+
+    const getImage = async () => {
+        try {
+            const res = await fetch(
+                project?._links["wp:featuredmedia"][0]?.href
+            );
+            const data = await res.json();
+            setFeaturedImage(data.source_url);
+        } catch (error) {
+            console.error("Error fetching projects:", error);
         }
     };
 

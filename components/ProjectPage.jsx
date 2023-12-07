@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { useParams } from "react-router-dom";
 
 export default function ProjectPage() {
@@ -9,10 +8,11 @@ export default function ProjectPage() {
     useEffect(() => {
         const fetchPage = async () => {
             try {
-                const res = await axios.get(
+                const res = await fetch(
                     `http://localhost:8888/headless-cms/wp-json/wp/v2/pages?slug=${slug}`
                 );
-                setPage(res.data[0]);
+                const data = await res.json();
+                setPage(data[0]);
             } catch (error) {
                 console.error("Error fetching page:", error);
             }

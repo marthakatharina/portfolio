@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import ProjectCard from "/components/ProjectCard";
 import ProjectPage from "/components/ProjectPage";
@@ -10,7 +9,7 @@ import "./App.css";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
-    const [theme, setTheme] = useState("dark");
+    const [theme, setTheme] = useState("light");
 
     const contextValues = {
         theme,
@@ -19,11 +18,11 @@ export default function App() {
 
     const fetchProjects = async () => {
         try {
-            const res = await axios.get(
+            const res = await fetch(
                 "http://localhost:8888/headless-cms/wp-json/wp/v2/pages"
             );
-
-            setProjects(res.data);
+            const data = await res.json();
+            setProjects(data);
         } catch (error) {
             console.error("Error fetching projects:", error);
         }

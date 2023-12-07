@@ -6,21 +6,23 @@
 
 body {
     /* color-scheme: dark light; */
-    background-color: black;
+    /* background-color: black;
     min-height: 100vh;
-    height: 100%;
-}
-
-.dark {
-    background-color: black;
-    color: white;
+    height: 100%; */
 }
 
 .light {
     background-color: white;
     color: black;
 }
-
+.dark {
+    background-color: black;
+    color: white;
+}
+.surprise {
+    background-color: blue;
+    color: white;
+}
 /* .logo {
     height: 6em;
     padding: 1.5em;

@@ -21,7 +21,7 @@ export default function ProjectPage() {
     }, [slug]);
 
     return (
-        <div>
+        <div className="page-container">
             <h1>{page.title?.rendered}</h1>
             <div dangerouslySetInnerHTML={{ __html: page.content?.rendered }} />
         </div>

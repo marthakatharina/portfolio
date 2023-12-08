@@ -4,12 +4,15 @@ import ProjectCard from "/components/ProjectCard";
 import ProjectPage from "/components/ProjectPage";
 import ThemeContext from "/components/ThemeContext";
 import ThemeSwitcher from "/components/ThemeSwitcher";
-import { useContext } from "react";
+// import { useContext } from "react";
 import "./App.css";
+import Main from "../components/Main";
+import Dot from "../components/Dot";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
     const [theme, setTheme] = useState("light");
+    const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
 
     const contextValues = {
         theme,
@@ -33,32 +36,36 @@ export default function App() {
     }, []);
 
     return (
-        <ThemeContext.Provider value={contextValues}>
-            <Content>
-                <ThemeSwitcher />
-                <BrowserRouter>
-                    <nav className="menu">
-                        <Link to="/">Projects</Link>
-                        <Link to="/about">About</Link>
-                    </nav>
-                    <Routes>
-                        <Route
-                            path="/"
-                            element={<Home projects={projects} />}
-                        />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/:slug" element={<ProjectPage />} />
-                    </Routes>
-                </BrowserRouter>
-            </Content>
-        </ThemeContext.Provider>
+        <>
+            <ThemeContext.Provider value={contextValues}>
+                <Main onPointerMove={setCoordinates}>
+                    <Dot coordinates={coordinates} />
+
+                    <ThemeSwitcher />
+                    <BrowserRouter>
+                        <nav className="menu">
+                            <Link to="/">Projects</Link>
+                            <Link to="/about">About</Link>
+                        </nav>
+                        <Routes>
+                            <Route
+                                path="/"
+                                element={<Home projects={projects} />}
+                            />
+                            <Route path="/about" element={<About />} />
+                            <Route path="/:slug" element={<ProjectPage />} />
+                        </Routes>
+                    </BrowserRouter>
+                </Main>
+            </ThemeContext.Provider>
+        </>
     );
 }
 
-function Content({ children }) {
-    const { theme } = useContext(ThemeContext);
-    return <main className={theme}>{children}</main>;
-}
+// function Content({ children }) {
+//     const { theme } = useContext(ThemeContext);
+//     return <main className={theme}>{children}</main>;
+// }
 
 function Home({ projects }) {
     return (

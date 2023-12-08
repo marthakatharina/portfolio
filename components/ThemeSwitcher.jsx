@@ -12,6 +12,7 @@ export default function ThemeSwitcher() {
                 <button
                     disabled={themeName === theme}
                     onClick={() => setTheme(themeName)}
+                    key={themeName}
                 >
                     {themeName}
                 </button>

@@ -1,7 +1,39 @@
 /* Apply this CSS method to truncate article descriptions */
-.article__description {
+.article--description {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+}
+.article--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+.article--img {
+    height: auto;
+    width: 100%;
+    object-position: 50% 50%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.article--card {
+    max-width: 50%;
+    flex-basis: 50%;
+    border: 1px solid gray;
+}
+.article--author,
+.article--date {
+    display: inline;
+}
+.article--meta span {
+    padding: 0 10px 0 10px;
 }

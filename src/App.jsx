@@ -99,14 +99,20 @@ const Article = () => {
     }, []);
 
     return (
-        <div className="article__container container grid">
-            <h1>Medium articles</h1>
+        <div className="article--container">
+            <h1>Medium Articles</h1>
             <p>I write about UX design for AI</p>
-            {articles.map((article, index) => {
-                return (
-                    <ArticleItems key={index} article={article} index={index} />
-                );
-            })}
+            <div className="container grid">
+                {articles.map((article, index) => {
+                    return (
+                        <ArticleItems
+                            key={index}
+                            article={article}
+                            index={index}
+                        />
+                    );
+                })}
+            </div>
         </div>
     );
 };

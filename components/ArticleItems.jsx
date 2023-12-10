@@ -49,29 +49,29 @@ export default function ArticleItems({ article, index }) {
     const formattedDate = formatDate(article.pubDate);
 
     return (
-        <div className="article__card" key={index}>
+        <div className="article--card" key={index}>
             <img
-                className="article__img"
+                className="article--img"
                 src={article.thumbnail}
                 alt={article.title}
             />
-            <div className="article__body">
-                <div className="article__header">
-                    <h3 className="article__title">{article.title}</h3>
-                    <p className="article__description">{content}</p>
-                    {/* <p
-                        className="article__description"
-                        dangerouslySetInnerHTML={{
-                            __html: article.description,
-                        }}
-                    /> */}
+
+            <div className="article--meta">
+                <p className="article--author">{article.author}</p>
+                <span>·</span>
+                <p className="article--date">{formattedDate}</p>
+            </div>
+            <div className="article--body">
+                <div className="article--header">
+                    <h3 className="article--title">{article.title}</h3>
+                    <p className="article--description">{content}</p>
                 </div>
-                <div className="article__details">
-                    <p className="article__date">{formattedDate}</p>
+                <div className="article--button">
                     <a
                         href={article.link}
                         target="_blank"
-                        className="article__button"
+                        className="article--link"
+                        rel="noreferrer"
                     >
                         Read more{" "}
                         <i className="bx bx-right-arrow-alt article__button-icon"></i>

@@ -8,11 +8,13 @@ import ThemeSwitcher from "/components/ThemeSwitcher";
 import "./App.css";
 import Main from "../components/Main";
 import Dot from "../components/Dot";
+import ArticleItems from "../components/ArticleItems";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
     const [theme, setTheme] = useState("light");
     const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
+    // const [articles, setArticles] = useState([]);
 
     const contextValues = {
         theme,
@@ -46,6 +48,7 @@ export default function App() {
                         <nav className="menu">
                             <Link to="/">Projects</Link>
                             <Link to="/about">About</Link>
+                            <Link to="/blog">Blog</Link>
                         </nav>
                         <Routes>
                             <Route
@@ -53,6 +56,7 @@ export default function App() {
                                 element={<Home projects={projects} />}
                             />
                             <Route path="/about" element={<About />} />
+                            <Route path="/blog" element={<Article />} />
                             <Route path="/:slug" element={<ProjectPage />} />
                         </Routes>
                     </BrowserRouter>
@@ -61,11 +65,6 @@ export default function App() {
         </>
     );
 }
-
-// function Content({ children }) {
-//     const { theme } = useContext(ThemeContext);
-//     return <main className={theme}>{children}</main>;
-// }
 
 function Home({ projects }) {
     return (
@@ -79,3 +78,35 @@ function Home({ projects }) {
 function About() {
     return <div>Here will be a page about me.</div>;
 }
+
+const Article = () => {
+    const [articles, setArticles] = useState([]);
+
+    const fetchArticles = async () => {
+        try {
+            const res = await fetch(
+                "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@marta.wlusek"
+            );
+            const data = await res.json();
+            setArticles(data.items);
+        } catch (error) {
+            console.error("Error fetching Medium articles:", error);
+        }
+    };
+
+    useEffect(() => {
+        fetchArticles();
+    }, []);
+
+    return (
+        <div className="article__container container grid">
+            <h1>Medium articles</h1>
+            <p>I write about UX design for AI</p>
+            {articles.map((article, index) => {
+                return (
+                    <ArticleItems key={index} article={article} index={index} />
+                );
+            })}
+        </div>
+    );
+};

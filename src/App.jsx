@@ -9,6 +9,7 @@ import "./App.css";
 import Main from "../components/Main";
 import Dot from "../components/Dot";
 import ArticleItems from "../components/ArticleItems";
+import RSSFeed from "../components/RSSFeed";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
@@ -56,7 +57,8 @@ export default function App() {
                                 element={<Home projects={projects} />}
                             />
                             <Route path="/about" element={<About />} />
-                            <Route path="/blog" element={<RSSFeed />} />
+                            <Route path="/blog" element={<Article />} />
+                            {/* <Route path="/blog" element={<RSSFeed />} /> */}
                             <Route path="/:slug" element={<ProjectPage />} />
                         </Routes>
                     </BrowserRouter>
@@ -79,66 +81,41 @@ function About() {
     return <div>Here will be a page about me.</div>;
 }
 
-// const Article = () => {
-//     const [articles, setArticles] = useState([]);
+const Article = () => {
+    const [articles, setArticles] = useState([]);
 
-//     const fetchArticles = async () => {
-//         try {
-//             const res = await fetch(
-//                 "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@marta.wlusek"
-//             );
-//             const data = await res.json();
-//             console.log(data);
-//             setArticles(data.items);
-//         } catch (error) {
-//             console.error("Error fetching Medium articles:", error);
-//         }
-//     };
+    const fetchArticles = async () => {
+        try {
+            const res = await fetch(
+                "https://rss.app/feeds/v1.1/G2MwPBVp9LCyGUnf.json"
+            );
+            const data = await res.json();
+            console.log(data);
+            setArticles(data.items);
+        } catch (error) {
+            console.error("Error fetching Medium articles:", error);
+        }
+    };
 
-//     useEffect(() => {
-//         fetchArticles();
-//     }, []);
-
-//     return (
-//         <div className="article--container">
-//             <h1>Medium Articles</h1>
-//             <p>I write about UX design for AI</p>
-//             <div className="container grid">
-//                 {articles.map((article, index) => {
-//                     return (
-//                         <ArticleItems
-//                             key={index}
-//                             article={article}
-//                             index={index}
-//                         />
-//                     );
-//                 })}
-//             </div>
-//         </div>
-//     );
-// };
-
-const RSSFeed = () => {
     useEffect(() => {
-        const script = document.createElement("script");
-        script.src = "https://widget.rss.app/v1/list.js";
-        script.async = true;
-
-        document.body.appendChild(script);
-
-        return () => {
-            document.body.removeChild(script);
-        };
+        fetchArticles();
     }, []);
 
     return (
         <div className="article--container">
-            <div className="content">
-                <h1>Medium Articles</h1>
-                <p>I write about UX design for AI</p>
+            <h1>Medium Articles</h1>
+            <p>I write about UX design for AI</p>
+            <div className="container grid">
+                {articles.map((article, index) => {
+                    return (
+                        <ArticleItems
+                            key={index}
+                            article={article}
+                            index={index}
+                        />
+                    );
+                })}
             </div>
-
-            <rssapp-list id="G2MwPBVp9LCyGUnf"></rssapp-list>
         </div>
     );
 };

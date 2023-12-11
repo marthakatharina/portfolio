@@ -37,3 +37,7 @@
 .article--meta span {
     padding: 0 10px 0 10px;
 }
+.list-card h3 {
+    font-family: inherit !important;
+    color: inherit !important;
+}

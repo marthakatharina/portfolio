@@ -15,6 +15,9 @@
 .article--heading > * {
     text-align: center;
 }
+.article--heading {
+    margin-bottom: 2em;
+}
 .article--img {
     height: auto;
     width: 100%;
@@ -45,13 +48,14 @@ article {
 .article--meta {
     flex: 0 1 auto;
     margin-bottom: 16px;
+    font-size: 13px;
 }
 
-.article--header {
+.article--content {
     flex: 0 1 auto;
     padding-bottom: 16px;
 }
-.article--header p {
+.article--content p {
     padding-top: 8px;
 }
 .article--button {

@@ -33,7 +33,7 @@ export default function ArticleItems({ article, index }) {
                         <span>·</span>
                         <p className="article--date">{formattedDate}</p>
                     </div>
-                    <div className="article--header">
+                    <div className="article--content">
                         <h3 className="article--title">{article.title}</h3>
 
                         <p
@@ -50,8 +50,8 @@ export default function ArticleItems({ article, index }) {
                             className="article--link"
                             rel="noreferrer"
                         >
-                            Read more{" "}
-                            <i className="bx bx-right-arrow-alt article__button-icon"></i>
+                            Read more →{" "}
+                            {/* <i className="bx bx-right-arrow-alt article__button-icon"></i> */}
                         </a>
                     </div>
                 </div>

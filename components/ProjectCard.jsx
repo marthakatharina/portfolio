@@ -24,17 +24,6 @@ export default function ProjectCard({ project }) {
     return (
         <div className="container">
             <div className="project-card--container">
-                <h2 className="project-card--title">
-                    {project.title.rendered}
-                </h2>
-                <p
-                    className="project-card--excerpt"
-                    dangerouslySetInnerHTML={{
-                        __html: project.excerpt.rendered,
-                    }}
-                />
-                <Link to={`/${project.slug}`}>View Project</Link>
-
                 {featuredImage !== "" ? (
                     <img
                         src={featuredImage}
@@ -44,6 +33,14 @@ export default function ProjectCard({ project }) {
                 ) : (
                     ""
                 )}
+                <div className="overlay"></div>
+                <div className="project-card--content">
+                    <h2 className="project-card--title">
+                        {project.title.rendered}
+                    </h2>
+
+                    <Link to={`/${project.slug}`}>View project →</Link>
+                </div>
             </div>
         </div>
     );

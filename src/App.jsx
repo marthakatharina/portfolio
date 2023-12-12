@@ -46,11 +46,15 @@ export default function App() {
 
                     <ThemeSwitcher />
                     <BrowserRouter>
-                        <nav className="menu">
-                            <Link to="/">Projects</Link>
-                            <Link to="/about">About</Link>
-                            <Link to="/blog">Blog</Link>
-                        </nav>
+                        <header id="header">
+                            <div className="logo">MW</div>
+                            <nav className="menu">
+                                <Link to="/">Projects</Link>
+                                <Link to="/about">About</Link>
+                                <Link to="/blog">Blog</Link>
+                            </nav>
+                        </header>
+
                         <Routes>
                             <Route
                                 path="/"

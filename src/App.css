@@ -13,52 +13,136 @@ main {
     min-height: 100vh;
     width: 100svw;
     /* position: relative; */
+    padding: 1rem 3rem;
 }
 
 .dot {
     width: 20px;
     height: 20px;
     background-color: #ead200;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     position: fixed;
-    top: -0px;
-    left: -20px;
+    top: -10px;
+    left: -30px;
+    transition: transform 0.25s ease-out;
     z-index: 999;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted black;
+    margin-bottom: 2rem;
+}
+.light header {
+    border-bottom: 1px dotted black;
+}
+.dark header {
+    border-bottom: 1px dotted white;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 button {
     cursor: pointer;
 }
 
+.theme-switcher--container {
+    text-align: center;
+}
+.theme-switcher--container button:nth-child(2) {
+    background-color: #000000;
+}
+.theme-switcher--container button:nth-child(2):disabled {
+    background-color: revert;
+}
+
+.theme-switcher {
+    border: 4px solid rgb(0 0 0 / 50%);
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    margin: 2px;
+    transition: 0.2s ease;
+}
+
 .light {
-    background-color: white;
-    color: black;
+    background-color: #fcfcfc;
+    color: #111111;
 }
-.dark {
-    background-color: black;
-    color: white;
+
+.dark,
+.dark a {
+    background-color: #111111;
+    color: #fcfcfc;
 }
-.surprise {
+
+/* .surprise,
+.surprise a {
     background-color: blue;
     color: white;
-}
+} */
 .menu a {
-    padding-right: 1rem;
+    margin-left: 1.4rem;
+    font-size: 14px;
 }
 img {
     height: auto;
     width: auto;
 }
+.logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+h1,
+h2 {
+    font-family: Big Caslon, Georgia, Cambria, "Times New Roman", Times, serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 .container {
-    width: 100%;
-    flex-grow: 1;
+    width: 50%;
+    padding-bottom: 2em;
 }
 .container:nth-child(odd) {
-    border-right: 1px solid black;
+    border-right: 1px dotted black;
+    padding-right: 2em;
+}
+.dark .container:nth-child(odd) {
+    border-right: 1px dotted white;
+}
+.container:nth-child(even) {
+    padding-left: 2em;
 }
 
 .project-cards {
     display: flex;
+    flex-wrap: wrap;
+    height: 100%;
 }
 @media only screen and (max-width: 768px) {
     .project-cards {

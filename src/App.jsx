@@ -47,7 +47,7 @@ export default function App() {
                     <ThemeSwitcher />
                     <BrowserRouter>
                         <header id="header">
-                            <div className="logo">MW</div>
+                            <div className="logo">Marta Wlusek</div>
                             <nav className="menu">
                                 <Link to="/">Projects</Link>
                                 <Link to="/about">About</Link>

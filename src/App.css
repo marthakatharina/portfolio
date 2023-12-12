@@ -19,13 +19,16 @@ main {
 .dot {
     width: 20px;
     height: 20px;
-    background-color: #ead200;
+    background-color: black;
     /* border-radius: 50%; */
     position: fixed;
-    top: -10px;
+    top: 20px;
     left: -30px;
     transition: transform 0.25s ease-out;
     z-index: 999;
+}
+.dark .dot {
+    background-color: white;
 }
 
 header {
@@ -116,6 +119,7 @@ img {
 .logo {
     font-size: 1.4rem;
     font-weight: 700;
+    font-family: Big Caslon, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 h1,
 h2 {
@@ -126,11 +130,13 @@ h2 {
 
 .container {
     width: 50%;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 .container:nth-child(odd) {
     border-right: 1px dotted black;
     padding-right: 2em;
+    display: flex;
+    justify-content: flex-end;
 }
 .dark .container:nth-child(odd) {
     border-right: 1px dotted white;
@@ -143,6 +149,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    margin: auto;
 }
 @media only screen and (max-width: 768px) {
     .project-cards {

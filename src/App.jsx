@@ -103,9 +103,12 @@ const Article = () => {
 
     return (
         <div className="article--container">
-            <h1>Medium Articles</h1>
-            <p>I write about UX design for AI</p>
-            <div className="container grid">
+            <div className="article--heading">
+                <h1>Medium Articles</h1>
+                <p>I write about UX design for AI</p>
+            </div>
+
+            <div className="grid">
                 {articles.map((article, index) => {
                     return (
                         <ArticleItems

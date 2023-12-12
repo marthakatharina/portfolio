@@ -16,7 +16,7 @@ export default function RSSFeed() {
 
     return (
         <div className="article--container">
-            <div className="content">
+            <div className="article--heading">
                 <h1>Medium Articles</h1>
                 <p>I write about UX design for AI</p>
             </div>

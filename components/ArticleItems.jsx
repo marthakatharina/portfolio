@@ -17,41 +17,45 @@ export default function ArticleItems({ article, index }) {
     const formattedDate = formatDate(article.date_published);
 
     return (
-        <div className="article--card" key={index}>
-            <img
-                className="article--img"
-                src={article.image}
-                alt={article.title}
-            />
+        <article>
+            <div className="article--card" key={index}>
+                <img
+                    className="article--img"
+                    src={article.image}
+                    alt={article.title}
+                />
 
-            <div className="article--meta">
-                <p className="article--author">{article.authors[0].name}</p>
-                <span>·</span>
-                <p className="article--date">{formattedDate}</p>
-            </div>
-            <div className="article--body">
-                <div className="article--header">
-                    <h3 className="article--title">{article.title}</h3>
+                <div className="article--body">
+                    <div className="article--meta">
+                        <p className="article--author">
+                            {article.authors[0].name}
+                        </p>
+                        <span>·</span>
+                        <p className="article--date">{formattedDate}</p>
+                    </div>
+                    <div className="article--header">
+                        <h3 className="article--title">{article.title}</h3>
 
-                    <p
-                        className="article--description"
-                        dangerouslySetInnerHTML={{
-                            __html: article.content_text,
-                        }}
-                    />
-                </div>
-                <div className="article--button">
-                    <a
-                        href={article.url}
-                        target="_blank"
-                        className="article--link"
-                        rel="noreferrer"
-                    >
-                        Read more{" "}
-                        <i className="bx bx-right-arrow-alt article__button-icon"></i>
-                    </a>
+                        <p
+                            className="article--description"
+                            dangerouslySetInnerHTML={{
+                                __html: article.content_text,
+                            }}
+                        />
+                    </div>
+                    <div className="article--button">
+                        <a
+                            href={article.url}
+                            target="_blank"
+                            className="article--link"
+                            rel="noreferrer"
+                        >
+                            Read more{" "}
+                            <i className="bx bx-right-arrow-alt article__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </article>
     );
 }

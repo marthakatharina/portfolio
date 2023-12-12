@@ -18,7 +18,7 @@ main {
 .dot {
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: #ead200;
     border-radius: 50%;
     position: fixed;
     top: -0px;
@@ -49,10 +49,16 @@ img {
     height: auto;
     width: auto;
 }
+.container {
+    width: 100%;
+    flex-grow: 1;
+}
+.container:nth-child(odd) {
+    border-right: 1px solid black;
+}
 
 .project-cards {
     display: flex;
-    gap: 30px;
 }
 @media only screen and (max-width: 768px) {
     .project-cards {

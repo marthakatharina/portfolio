@@ -2,24 +2,26 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import ProjectCard from "/components/ProjectCard";
 import ProjectPage from "/components/ProjectPage";
-import ThemeContext from "/components/ThemeContext";
+import Context from "/components/Context";
 import ThemeSwitcher from "/components/ThemeSwitcher";
 // import { useContext } from "react";
 import "./App.css";
 import Main from "../components/Main";
 import Dot from "../components/Dot";
 import ArticleItems from "../components/ArticleItems";
-import RSSFeed from "../components/RSSFeed";
+// import RSSFeed from "../components/RSSFeed";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
     const [theme, setTheme] = useState("light");
     const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
-    // const [articles, setArticles] = useState([]);
+    const [hideDot, setHideDot] = useState(false);
 
     const contextValues = {
         theme,
         setTheme,
+        hideDot,
+        setHideDot,
     };
 
     const fetchProjects = async () => {
@@ -40,7 +42,7 @@ export default function App() {
 
     return (
         <>
-            <ThemeContext.Provider value={contextValues}>
+            <Context.Provider value={contextValues}>
                 <Main onPointerMove={setCoordinates}>
                     <Dot coordinates={coordinates} />
 
@@ -67,7 +69,7 @@ export default function App() {
                         </Routes>
                     </BrowserRouter>
                 </Main>
-            </ThemeContext.Provider>
+            </Context.Provider>
         </>
     );
 }

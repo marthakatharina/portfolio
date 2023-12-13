@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import ThemeContext from "./ThemeContext";
+import Context from "./Context";
 
 const themes = ["light", "dark"];
 
 export default function ThemeSwitcher() {
-    const { theme, setTheme } = useContext(ThemeContext);
+    const { theme, setTheme } = useContext(Context);
 
     return (
         <div className="theme-switcher--container">

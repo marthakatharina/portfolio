@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Context from "./Context";
 
 export default function Main({ children, onPointerMove }) {
-    const { theme, setHideDot } = useContext(Context);
+    const { theme, setHideDot, setCoordinates } = useContext(Context);
 
     const handlePointer = (e) => {
         onPointerMove({ x: e.clientX, y: e.clientY });

@@ -50,7 +50,11 @@ export default function App() {
                         <header id="header">
                             <ThemeSwitcher />
                             <div className="menu-container">
-                                <div className="logo">Marta Wlusek</div>
+                                <div className="logo">
+                                    Marta Wlusek:
+                                    <br />
+                                    Product Designer
+                                </div>
                                 <nav className="menu">
                                     <ul>
                                         <li>
@@ -66,17 +70,21 @@ export default function App() {
                                 </nav>
                             </div>
                         </header>
-
-                        <Routes>
-                            <Route
-                                path="/"
-                                element={<Home projects={projects} />}
-                            />
-                            <Route path="/about" element={<About />} />
-                            <Route path="/blog" element={<Article />} />
-                            {/* <Route path="/blog" element={<RSSFeed />} /> */}
-                            <Route path="/:slug" element={<ProjectPage />} />
-                        </Routes>
+                        <div className="content">
+                            <Routes>
+                                <Route
+                                    path="/"
+                                    element={<Home projects={projects} />}
+                                />
+                                <Route path="/about" element={<About />} />
+                                <Route path="/blog" element={<Article />} />
+                                {/* <Route path="/blog" element={<RSSFeed />} /> */}
+                                <Route
+                                    path="/:slug"
+                                    element={<ProjectPage />}
+                                />
+                            </Routes>
+                        </div>
                     </BrowserRouter>
                 </Main>
             </Context.Provider>

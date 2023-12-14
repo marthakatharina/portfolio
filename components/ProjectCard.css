@@ -1,10 +1,7 @@
 .project-card--container {
     position: relative;
     width: 100%;
-    border-bottom: 1px solid black;
-}
-.dark .project-card--container {
-    border-bottom: 1px solid white;
+    border-bottom: 1px dotted currentColor;
 }
 
 .project-card--img {
@@ -30,10 +27,13 @@
     max-height: 450px;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    transition: 0.5s ease;
+    /* transition: 0.5s ease; */
     opacity: 1;
     font-size: 20px;
     padding: 20px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
 }
 
 .project-card--container:hover .overlay {

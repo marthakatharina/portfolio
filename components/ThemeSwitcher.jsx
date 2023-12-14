@@ -11,6 +11,7 @@ export default function ThemeSwitcher() {
             {themes.map((themeName) => (
                 <button
                     className="theme-switcher"
+                    id={themeName}
                     disabled={themeName === theme}
                     onClick={() => setTheme(themeName)}
                     key={themeName}

@@ -14,7 +14,7 @@ import ArticleItems from "../components/ArticleItems";
 export default function App() {
     const [projects, setProjects] = useState([]);
     const [theme, setTheme] = useState("light");
-    const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
+    const [coordinates, setCoordinates] = useState({ x: 45, y: 30 });
     const [hideDot, setHideDot] = useState(false);
 
     const contextValues = {
@@ -46,15 +46,25 @@ export default function App() {
                 <Main onPointerMove={setCoordinates}>
                     <Dot coordinates={coordinates} />
 
-                    <ThemeSwitcher />
                     <BrowserRouter>
                         <header id="header">
-                            <div className="logo">Marta Wlusek</div>
-                            <nav className="menu">
-                                <Link to="/">Projects</Link>
-                                <Link to="/about">About</Link>
-                                <Link to="/blog">Blog</Link>
-                            </nav>
+                            <ThemeSwitcher />
+                            <div className="menu-container">
+                                <div className="logo">Marta Wlusek</div>
+                                <nav className="menu">
+                                    <ul>
+                                        <li>
+                                            <Link to="/">Projects</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/about">About</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/blog">Blog</Link>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </header>
 
                         <Routes>

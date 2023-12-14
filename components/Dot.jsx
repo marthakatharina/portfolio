@@ -8,8 +8,10 @@ export default function Dot({ coordinates }) {
         <div
             className="dot"
             style={{
-                transform: `translate(${coordinates.x}px, ${coordinates.y}px)`,
-                visibility: hideDot ? "hidden" : "visible",
+                transform: `translate(${coordinates.x}px, ${coordinates.y}px) ${
+                    hideDot ? "scale(0.0)" : ""
+                }`,
+                // visibility: hideDot ? "hidden" : "visible",
             }}
         />
     );

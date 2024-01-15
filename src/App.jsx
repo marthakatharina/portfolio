@@ -7,9 +7,9 @@ import ThemeSwitcher from "/components/ThemeSwitcher";
 // import { useContext } from "react";
 import "./App.css";
 import Main from "../components/Main";
-import Dot from "../components/Dot";
+// import Dot from "../components/Dot";
 import ArticleItems from "../components/ArticleItems";
-// import RSSFeed from "../components/RSSFeed";
+import RSSFeed from "../components/RSSFeed";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
@@ -44,7 +44,7 @@ export default function App() {
         <>
             <Context.Provider value={contextValues}>
                 <Main onPointerMove={setCoordinates}>
-                    <Dot coordinates={coordinates} />
+                    {/* <Dot coordinates={coordinates} /> */}
 
                     <BrowserRouter>
                         <header id="header">
@@ -77,8 +77,8 @@ export default function App() {
                                     element={<Home projects={projects} />}
                                 />
                                 <Route path="/about" element={<About />} />
-                                <Route path="/blog" element={<Article />} />
-                                {/* <Route path="/blog" element={<RSSFeed />} /> */}
+                                {/* <Route path="/blog" element={<Article />} /> */}
+                                <Route path="/blog" element={<RSSFeed />} />
                                 <Route
                                     path="/:slug"
                                     element={<ProjectPage />}

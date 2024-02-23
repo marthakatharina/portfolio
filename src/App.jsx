@@ -43,12 +43,12 @@ export default function App() {
     return (
         <>
             <Context.Provider value={contextValues}>
+                <ThemeSwitcher />
                 <Main onPointerMove={setCoordinates}>
                     {/* <Dot coordinates={coordinates} /> */}
 
                     <BrowserRouter>
                         <header id="header">
-                            <ThemeSwitcher />
                             <div className="menu-container">
                                 <div className="logo">
                                     Marta Wlusek:

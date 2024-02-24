@@ -31,9 +31,7 @@ export default function App() {
 
     const fetchProjects = async () => {
         try {
-            const res = await fetch(
-                "http://localhost:8888/headless-cms/wp-json/wp/v2/pages"
-            );
+            const res = await fetch("/projects.json");
             const data = await res.json();
             setProjects(data);
         } catch (error) {

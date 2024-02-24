@@ -32,7 +32,7 @@ main {
 }
 
 .light {
-    background-color: #f3f1e6;
+    background-color: #f2f0e6;
     color: #111111;
 }
 
@@ -41,21 +41,22 @@ main {
     color: #fcfcfc;
 }
 
-/* .surprise,
-.surprise a {
-    background-color: blue;
-    color: white;
-} */
+.surprise {
+    background-color: #ebe6f2;
+    color: #111111;
+}
 
 .theme-switcher {
-    /* border: 4px solid rgb(0 0 0 / 50%); */
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #111111;
     text-indent: -9999px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     /* z-index: 9999; */
+    vertical-align: middle;
 }
 
 .theme-switcher--container {
@@ -64,20 +65,28 @@ main {
     padding-bottom: 2px;
 }
 .theme-switcher--container button:nth-child(1) {
-    background-color: #ffeb80;
-    border: 2px solid #ffeb80;
+    background-color: #f2f0e6;
 }
 .theme-switcher--container button:nth-child(1):disabled {
-    background-color: #ffeb80;
-    border: 2px solid #fff;
+    background-color: #f2f0e6;
+    width: 14px;
+    height: 14px;
 }
 .theme-switcher--container button:nth-child(2) {
-    background-color: black;
-    border: 2px solid black;
+    background-color: #111111;
 }
 .theme-switcher--container button:nth-child(2):disabled {
-    background-color: black;
-    border: 2px solid #fff;
+    background-color: #111111;
+    width: 14px;
+    height: 14px;
+}
+.theme-switcher--container button:nth-child(3) {
+    background-color: #ebe6f2;
+}
+.theme-switcher--container button:nth-child(3):disabled {
+    background-color: #ebe6f2;
+    width: 14px;
+    height: 14px;
 }
 
 #header {

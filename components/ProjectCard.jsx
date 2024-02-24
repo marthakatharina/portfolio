@@ -33,7 +33,7 @@ export default function ProjectCard({ project }) {
                 ) : (
                     ""
                 )}
-                <div className="overlay"></div>
+
                 <div className="project-card--content">
                     <h2 className="project-card--title">
                         {project.title.rendered}

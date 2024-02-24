@@ -26,7 +26,7 @@ export default function App() {
     };
 
     const handleHeaderToggle = () => {
-        setIsHeaderHidden(!isHeaderHidden); // Toggle the state
+        setIsHeaderHidden(!isHeaderHidden); // Toggle the state on large vieports
     };
 
     const fetchProjects = async () => {
@@ -53,19 +53,21 @@ export default function App() {
                     <BrowserRouter>
                         {isHeaderHidden && (
                             <div id="open-button" onClick={handleHeaderToggle}>
-                                <span>|||</span>
+                                <span>→</span>
                             </div>
                         )}
 
                         <header
                             id="header"
-                            className={isHeaderHidden ? "hide-header" : ""}
+                            className={
+                                isHeaderHidden ? "hide-header" : "show-header"
+                            }
                         >
                             <div
                                 id="close-button"
                                 onClick={() => setIsHeaderHidden(true)}
                             >
-                                x
+                                ←
                             </div>
                             <div className="menu-container">
                                 <div className="logo">
@@ -76,13 +78,34 @@ export default function App() {
                                 <nav className="menu">
                                     <ul>
                                         <li>
-                                            <Link to="/">Projects</Link>
+                                            <Link
+                                                to="/"
+                                                onClick={() =>
+                                                    setIsHeaderHidden(true)
+                                                }
+                                            >
+                                                Projects
+                                            </Link>
                                         </li>
                                         <li>
-                                            <Link to="/about">About</Link>
+                                            <Link
+                                                to="/about"
+                                                onClick={() =>
+                                                    setIsHeaderHidden(true)
+                                                }
+                                            >
+                                                About
+                                            </Link>
                                         </li>
                                         <li>
-                                            <Link to="/blog">Blog</Link>
+                                            <Link
+                                                to="/blog"
+                                                onClick={() =>
+                                                    setIsHeaderHidden(true)
+                                                }
+                                            >
+                                                Blog
+                                            </Link>
                                         </li>
                                     </ul>
                                 </nav>

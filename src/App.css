@@ -55,8 +55,8 @@ main {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    /* z-index: 9999; */
     vertical-align: middle;
+    margin-right: 2px;
 }
 
 .theme-switcher--container {
@@ -153,15 +153,18 @@ img {
 }
 #close-button {
     position: fixed;
-    left: 225px;
-    font-size: 24px;
+    left: 200px;
+    font-size: 40px;
+    cursor: pointer;
 }
 #open-button {
-    padding: 0.8rem;
     position: fixed;
+    padding-left: 0.8rem;
+    font-size: 40px;
+    cursor: pointer;
 }
 .logo {
-    /* padding-top: 1em; */
+    padding-top: 2em;
     padding-bottom: 1em;
     font-size: 14px;
     font-weight: 500;
@@ -202,5 +205,16 @@ h2 {
     }
     .container {
         width: 100%;
+    }
+    #header {
+        flex: 0 0 0;
+        visibility: hidden;
+    }
+    #header.show-header {
+        flex: 0 0 100%;
+        visibility: visible;
+    }
+    #close-button {
+        left: 86%;
     }
 }

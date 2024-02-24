@@ -16,12 +16,17 @@ export default function App() {
     const [theme, setTheme] = useState("light");
     const [coordinates, setCoordinates] = useState({ x: 45, y: 30 });
     const [hideDot, setHideDot] = useState(false);
+    const [isHeaderHidden, setIsHeaderHidden] = useState(false);
 
     const contextValues = {
         theme,
         setTheme,
         hideDot,
         setHideDot,
+    };
+
+    const handleHeaderToggle = () => {
+        setIsHeaderHidden(!isHeaderHidden); // Toggle the state
     };
 
     const fetchProjects = async () => {
@@ -48,12 +53,27 @@ export default function App() {
                     {/* <Dot coordinates={coordinates} /> */}
 
                     <BrowserRouter>
-                        <header id="header">
+                        {isHeaderHidden && (
+                            <div id="open-button" onClick={handleHeaderToggle}>
+                                <span>|||</span>
+                            </div>
+                        )}
+
+                        <header
+                            id="header"
+                            className={isHeaderHidden ? "hide-header" : ""}
+                        >
+                            <div
+                                id="close-button"
+                                onClick={() => setIsHeaderHidden(true)}
+                            >
+                                x
+                            </div>
                             <div className="menu-container">
                                 <div className="logo">
                                     Marta Wlusek:
                                     <br />
-                                    Product Designer
+                                    UX/UI Designer
                                 </div>
                                 <nav className="menu">
                                     <ul>
@@ -105,7 +125,7 @@ function About() {
     return <div>Here will be a page about me.</div>;
 }
 
-const Article = () => {
+const Blog = () => {
     const [articles, setArticles] = useState([]);
 
     const fetchArticles = async () => {

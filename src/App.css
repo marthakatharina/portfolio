@@ -93,10 +93,16 @@ main {
 #header {
     border-right: 1px dotted currentColor;
     flex: 0 0 250px;
-    /* position: fixed; */
-    /* top: 0; */
-    /* bottom: 0; */
-    /* width: 15%; */
+    position: relative;
+    top: 0;
+    bottom: 0;
+    transition: flex 0.4s ease-out;
+    visibility: visible;
+}
+
+#header.hide-header {
+    flex: 0 0 0px;
+    visibility: hidden;
 }
 
 a {
@@ -145,8 +151,17 @@ img {
     height: auto;
     width: auto;
 }
+#close-button {
+    text-align: right;
+    padding-right: 0.8rem;
+    font-size: 24px;
+}
+#open-button {
+    padding: 0.8rem;
+    position: absolute;
+}
 .logo {
-    padding-top: 1em;
+    /* padding-top: 1em; */
     padding-bottom: 1em;
     font-size: 14px;
     font-weight: 500;
@@ -181,9 +196,6 @@ h2 {
     padding: 2em;
     margin: auto;
 }
-
-/* .page-container {
-} */
 
 @media only screen and (max-width: 768px) {
     .project-cards {

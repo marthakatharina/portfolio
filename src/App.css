@@ -152,13 +152,13 @@ img {
     width: auto;
 }
 #close-button {
-    text-align: right;
-    padding-right: 0.8rem;
+    position: fixed;
+    left: 225px;
     font-size: 24px;
 }
 #open-button {
     padding: 0.8rem;
-    position: absolute;
+    position: fixed;
 }
 .logo {
     /* padding-top: 1em; */

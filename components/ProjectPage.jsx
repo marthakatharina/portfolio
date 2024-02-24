@@ -8,9 +8,7 @@ export default function ProjectPage() {
     useEffect(() => {
         const fetchPage = async () => {
             try {
-                const res = await fetch(
-                    `http://localhost:8888/headless-cms/wp-json/wp/v2/pages?slug=${slug}`
-                );
+                const res = await fetch(`/projects.json?slug=${slug}`);
                 const data = await res.json();
                 setPage(data[0]);
             } catch (error) {

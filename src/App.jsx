@@ -52,8 +52,13 @@ export default function App() {
 
                     <BrowserRouter>
                         {isHeaderHidden && (
-                            <div id="open-button" onClick={handleHeaderToggle}>
-                                <span>→</span>
+                            <div>
+                                <span
+                                    id="open-button"
+                                    onClick={handleHeaderToggle}
+                                >
+                                    →
+                                </span>
                             </div>
                         )}
 
@@ -63,11 +68,13 @@ export default function App() {
                                 isHeaderHidden ? "hide-header" : "show-header"
                             }
                         >
-                            <div
-                                id="close-button"
-                                onClick={() => setIsHeaderHidden(true)}
-                            >
-                                ←
+                            <div>
+                                <span
+                                    id="close-button"
+                                    onClick={() => setIsHeaderHidden(true)}
+                                >
+                                    ←
+                                </span>
                             </div>
                             <div className="menu-container">
                                 <div className="logo">

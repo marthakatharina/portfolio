@@ -13,7 +13,6 @@ main {
     min-height: 100vh;
     width: 100svw;
     position: relative;
-    /* padding: 20px; */
     display: flex;
 }
 
@@ -93,16 +92,20 @@ main {
 #header {
     border-right: 1px dotted currentColor;
     flex: 0 0 250px;
-    position: relative;
+    position: sticky;
     top: 0;
-    bottom: 0;
-    transition: flex 0.4s ease-out;
+    height: 100vh;
+
     visibility: visible;
+    transform: translateX(0);
+    transition: transform 0.4s ease-out;
+    /* transition: flex 0.4s ease-out; */
 }
 
 #header.hide-header {
     flex: 0 0 0px;
     visibility: hidden;
+    transform: translateX(-250px);
 }
 
 a {
@@ -213,7 +216,7 @@ h2 {
         flex: 0 0 100%;
         visibility: visible;
     }
-    #close-button {
+    /* #close-button {
         left: 86%;
-    }
+    } */
 }

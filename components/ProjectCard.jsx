@@ -5,28 +5,26 @@ import "./ProjectCard.css";
 export default function ProjectCard({ project }) {
     const [featuredImage, setFeaturedImage] = useState("");
 
-    const getImage = async () => {
-        try {
-            const res = await fetch(
-                project?._links["wp:featuredmedia"][0]?.href
-            );
-            const data = await res.json();
-            setFeaturedImage(data.source_url);
-        } catch (error) {
-            console.error("Error fetching projects:", error);
-        }
-    };
+    // const getImage = async () => {
+    //     try {
+    //         const res = await fetch(project?._links["featuredmedia"][0]?.href);
+    //         const data = await res.json();
+    //         setFeaturedImage(data.source_url);
+    //     } catch (error) {
+    //         console.error("Error fetching projects:", error);
+    //     }
+    // };
 
-    useEffect(() => {
-        getImage();
-    }, [project.featured_media]);
+    // useEffect(() => {
+    //     getImage();
+    // }, [project.featured_media]);
 
     return (
         <div className="container">
             <div className="project-card--container">
-                {featuredImage !== "" ? (
+                {project?._links["featuredmedia"][0]?.href !== "" ? (
                     <img
-                        src={featuredImage}
+                        src={project._links["featuredmedia"][0]?.href}
                         className="project-card--img"
                         alt="Featured"
                     />

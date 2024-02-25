@@ -1,17 +1,12 @@
 [
     {
-        "id": 26,
+        "id": 2,
         "date": "2023-12-14T19:07:17",
         "date_gmt": "2023-12-14T18:07:17",
-        "guid": {
-            "rendered": "http://localhost:8888/headless-cms/?page_id=26"
-        },
         "modified": "2023-12-14T22:25:38",
         "modified_gmt": "2023-12-14T21:25:38",
         "slug": "petition-website",
-        "status": "publish",
-        "type": "page",
-        "link": "http://localhost:8888/headless-cms/petition-website/",
+        "link": "/petition-website/",
         "title": {
             "rendered": "Petition website"
         },
@@ -24,93 +19,29 @@
             "protected": false
         },
         "author": 1,
-        "featured_media": 20,
-        "parent": 0,
-        "menu_order": 0,
-        "comment_status": "closed",
-        "ping_status": "closed",
-        "template": "",
-        "meta": {
-            "footnotes": ""
-        },
+        "featured_media": 2,
         "_links": {
-            "self": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/26"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages"
-                }
-            ],
-            "about": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/types/page"
-                }
-            ],
-            "author": [
+            "featuredmedia": [
                 {
                     "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/users/1"
-                }
-            ],
-            "replies": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/comments?post=26"
-                }
-            ],
-            "version-history": [
-                {
-                    "count": 1,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/26/revisions"
-                }
-            ],
-            "predecessor-version": [
-                {
-                    "id": 27,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/26/revisions/27"
-                }
-            ],
-            "wp:featuredmedia": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media/20"
-                }
-            ],
-            "wp:attachment": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media?parent=26"
-                }
-            ],
-            "curies": [
-                {
-                    "name": "wp",
-                    "href": "https://api.w.org/{rel}",
-                    "templated": true
+                    "href": "/vite.svg"
                 }
             ]
         }
     },
     {
-        "id": 24,
-        "date": "2023-12-12T20:05:43",
-        "date_gmt": "2023-12-12T19:05:43",
-        "guid": {
-            "rendered": "http://localhost:8888/headless-cms/?page_id=24"
-        },
-        "modified": "2023-12-12T20:05:43",
-        "modified_gmt": "2023-12-12T19:05:43",
+        "id": 1,
+        "date": "2023-12-14T19:07:17",
+        "date_gmt": "2023-12-14T18:07:17",
+        "modified": "2023-12-14T22:25:38",
+        "modified_gmt": "2023-12-14T21:25:38",
         "slug": "design-of-apto-app",
-        "status": "publish",
-        "type": "page",
-        "link": "http://localhost:8888/headless-cms/design-of-apto-app/",
+        "link": "/design-of-apto-app/",
         "title": {
             "rendered": "Design of APTO App"
         },
         "content": {
-            "rendered": "\n<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>\n",
+            "rendered": "\n<p>App to come: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>\n",
             "protected": false
         },
         "excerpt": {
@@ -118,259 +49,12 @@
             "protected": false
         },
         "author": 1,
-        "featured_media": 21,
-        "parent": 0,
-        "menu_order": 0,
-        "comment_status": "closed",
-        "ping_status": "closed",
-        "template": "",
-        "meta": {
-            "footnotes": ""
-        },
+        "featured_media": 1,
         "_links": {
-            "self": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/24"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages"
-                }
-            ],
-            "about": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/types/page"
-                }
-            ],
-            "author": [
+            "featuredmedia": [
                 {
                     "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/users/1"
-                }
-            ],
-            "replies": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/comments?post=24"
-                }
-            ],
-            "version-history": [
-                {
-                    "count": 1,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/24/revisions"
-                }
-            ],
-            "predecessor-version": [
-                {
-                    "id": 25,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/24/revisions/25"
-                }
-            ],
-            "wp:featuredmedia": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media/21"
-                }
-            ],
-            "wp:attachment": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media?parent=24"
-                }
-            ],
-            "curies": [
-                {
-                    "name": "wp",
-                    "href": "https://api.w.org/{rel}",
-                    "templated": true
-                }
-            ]
-        }
-    },
-    {
-        "id": 22,
-        "date": "2023-12-12T20:00:49",
-        "date_gmt": "2023-12-12T19:00:49",
-        "guid": {
-            "rendered": "http://localhost:8888/headless-cms/?page_id=22"
-        },
-        "modified": "2023-12-12T20:02:32",
-        "modified_gmt": "2023-12-12T19:02:32",
-        "slug": "design-of-talime-website",
-        "status": "publish",
-        "type": "page",
-        "link": "http://localhost:8888/headless-cms/design-of-talime-website/",
-        "title": {
-            "rendered": "Design of Talime website"
-        },
-        "content": {
-            "rendered": "\n<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>\n",
-            "protected": false
-        },
-        "excerpt": {
-            "rendered": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, [&hellip;]</p>\n",
-            "protected": false
-        },
-        "author": 1,
-        "featured_media": 16,
-        "parent": 0,
-        "menu_order": 0,
-        "comment_status": "closed",
-        "ping_status": "closed",
-        "template": "",
-        "meta": {
-            "footnotes": ""
-        },
-        "_links": {
-            "self": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/22"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages"
-                }
-            ],
-            "about": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/types/page"
-                }
-            ],
-            "author": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/users/1"
-                }
-            ],
-            "replies": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/comments?post=22"
-                }
-            ],
-            "version-history": [
-                {
-                    "count": 1,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/22/revisions"
-                }
-            ],
-            "predecessor-version": [
-                {
-                    "id": 23,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/22/revisions/23"
-                }
-            ],
-            "wp:featuredmedia": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media/16"
-                }
-            ],
-            "wp:attachment": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media?parent=22"
-                }
-            ],
-            "curies": [
-                {
-                    "name": "wp",
-                    "href": "https://api.w.org/{rel}",
-                    "templated": true
-                }
-            ]
-        }
-    },
-    {
-        "id": 2,
-        "date": "2023-12-01T21:29:34",
-        "date_gmt": "2023-12-01T20:29:34",
-        "guid": {
-            "rendered": "http://localhost:8888/headless-cms/?page_id=2"
-        },
-        "modified": "2023-12-12T19:55:33",
-        "modified_gmt": "2023-12-12T18:55:33",
-        "slug": "beispiel-seite",
-        "status": "publish",
-        "type": "page",
-        "link": "http://localhost:8888/headless-cms/beispiel-seite/",
-        "title": {
-            "rendered": "Beispiel-Seite"
-        },
-        "content": {
-            "rendered": "\n<p>Dies ist eine Beispiel-Seite. Sie unterscheidet sich von Beiträgen, da sie stets an derselben Stelle bleibt und (bei den meisten Themes) in der Website-Navigation angezeigt wird. Die meisten starten mit einem Impressum, der Datenschutzerklärung oder einer „Über&nbsp;uns“-Seite, um sich potenziellen Besuchern der Website vorzustellen. Dort könnte zum Beispiel stehen:</p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>Hallo! Tagsüber arbeite ich als Fahrradkurier, nachts bin ich ein aufstrebender Schauspieler und dies hier ist meine Website. Ich lebe in Berlin, habe einen großen Hund namens Jack, mag Piña Coladas, jedoch weniger (ohne Schirm) im Regen stehen gelassen zu werden.</p>\n</blockquote>\n\n\n\n<p>&#8230;&nbsp;oder so etwas wie:</p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>Das Unternehmen XYZ wurde 1971 gegründet und versorgt die Öffentlichkeit seither mit qualitativ hochwertigen Produkten. An seinem Standort in einer kleinen Großstadt beschäftigt der Betrieb über 2.000 Menschen und unterstützt die Stadtbewohner in vielfacher Hinsicht.</p>\n</blockquote>\n\n\n\n<p>Als neuer WordPress-Benutzer solltest du <a href=\"http://localhost:8888/headless-cms/wp-admin/\">dein Dashboard</a> aufrufen, um diese Seite zu löschen und neue Seiten und Beiträge für deine Website erstellen. Viel Spaß!</p>\n",
-            "protected": false
-        },
-        "excerpt": {
-            "rendered": "<p>Dies ist eine Beispiel-Seite. Sie unterscheidet sich von Beiträgen, da sie stets an derselben Stelle bleibt und (bei den meisten Themes) in der Website-Navigation angezeigt wird. Die meisten starten mit einem Impressum, der Datenschutzerklärung oder einer „Über&nbsp;uns“-Seite, um sich potenziellen Besuchern der Website vorzustellen. Dort könnte zum Beispiel stehen: Hallo! Tagsüber arbeite ich als Fahrradkurier, [&hellip;]</p>\n",
-            "protected": false
-        },
-        "author": 1,
-        "featured_media": 18,
-        "parent": 0,
-        "menu_order": 0,
-        "comment_status": "closed",
-        "ping_status": "open",
-        "template": "",
-        "meta": {
-            "footnotes": ""
-        },
-        "_links": {
-            "self": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/2"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages"
-                }
-            ],
-            "about": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/types/page"
-                }
-            ],
-            "author": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/users/1"
-                }
-            ],
-            "replies": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/comments?post=2"
-                }
-            ],
-            "version-history": [
-                {
-                    "count": 2,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/2/revisions"
-                }
-            ],
-            "predecessor-version": [
-                {
-                    "id": 17,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/pages/2/revisions/17"
-                }
-            ],
-            "wp:featuredmedia": [
-                {
-                    "embeddable": true,
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media/18"
-                }
-            ],
-            "wp:attachment": [
-                {
-                    "href": "http://localhost:8888/headless-cms/wp-json/wp/v2/media?parent=2"
-                }
-            ],
-            "curies": [
-                {
-                    "name": "wp",
-                    "href": "https://api.w.org/{rel}",
-                    "templated": true
+                    "href": ""
                 }
             ]
         }

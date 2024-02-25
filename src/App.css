@@ -96,15 +96,14 @@ main {
     border-right: 1px dotted currentColor;
     flex: 0 0 250px;
     visibility: visible;
-    /* transform: translateX(0); */
     transition: transform 0.4s ease-out;
-    transition: flex 0.4s ease-out;
+    /* transition: flex 0.4s ease-out; */
 }
 
 #header.hide-header {
     flex: 0 0 0px;
     visibility: hidden;
-    /* transform: translateX(-250px); */
+    transform: translateX(-250px);
 }
 
 a {

@@ -47,7 +47,7 @@ export default function App() {
         <>
             <Context.Provider value={contextValues}>
                 <ThemeSwitcher />
-                <Main onPointerMove={setCoordinates}>
+                <Main onPointerMove={setCoordinates} id="main-container">
                     {/* <Dot coordinates={coordinates} /> */}
 
                     <BrowserRouter>

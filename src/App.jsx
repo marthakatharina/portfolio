@@ -68,15 +68,15 @@ export default function App() {
                                 isHeaderHidden ? "hide-header" : "show-header"
                             }
                         >
-                            <div>
-                                <span
-                                    id="close-button"
-                                    onClick={() => setIsHeaderHidden(true)}
-                                >
-                                    ←
-                                </span>
-                            </div>
                             <div className="menu-container">
+                                <div>
+                                    <span
+                                        id="close-button"
+                                        onClick={() => setIsHeaderHidden(true)}
+                                    >
+                                        ←
+                                    </span>
+                                </div>
                                 <div className="logo">
                                     Marta Wlusek:
                                     <br />

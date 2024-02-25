@@ -6,17 +6,17 @@
 
 #root {
     width: 100vw;
-    overflow: hidden;
 }
 
 main {
     min-height: 100vh;
     width: 100svw;
-    position: relative;
+    /* position: relative; */
     display: flex;
+    overflow: auto;
 }
 
-.dot {
+/* .dot {
     width: 20px;
     height: 20px;
     background-color: #ead200;
@@ -28,7 +28,7 @@ main {
     -webkit-transition: transform 0.5s ease-out;
     -o-transition: transform 0.5s ease-out;
     z-index: 999;
-}
+} */
 
 .light {
     background-color: #f2f0e6;
@@ -90,22 +90,21 @@ main {
 }
 
 #header {
-    border-right: 1px dotted currentColor;
-    flex: 0 0 250px;
     position: sticky;
     top: 0;
-    height: 100vh;
-
+    z-index: 1000;
+    border-right: 1px dotted currentColor;
+    flex: 0 0 250px;
     visibility: visible;
-    transform: translateX(0);
+    /* transform: translateX(0); */
     transition: transform 0.4s ease-out;
-    /* transition: flex 0.4s ease-out; */
+    transition: flex 0.4s ease-out;
 }
 
 #header.hide-header {
     flex: 0 0 0px;
     visibility: hidden;
-    transform: translateX(-250px);
+    /* transform: translateX(-250px); */
 }
 
 a {
@@ -139,8 +138,7 @@ button {
 } */
 
 .menu-container {
-    margin: 20px;
-    padding-top: 1em;
+    padding-left: 1em;
     position: fixed;
 }
 
@@ -155,13 +153,13 @@ img {
     width: auto;
 }
 #close-button {
-    padding-left: 0.4em;
     font-size: 40px;
     cursor: pointer;
 }
 #open-button {
-    position: fixed;
-    padding-left: 0.4em;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
     font-size: 40px;
     cursor: pointer;
 }
@@ -216,7 +214,4 @@ h2 {
         flex: 0 0 100%;
         visibility: visible;
     }
-    /* #close-button {
-        left: 86%;
-    } */
 }

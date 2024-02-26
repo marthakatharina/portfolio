@@ -145,7 +145,7 @@ button {
 
 .menu-container {
     padding-left: 1em;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .menu li {
@@ -163,9 +163,7 @@ img {
     cursor: pointer;
 }
 #open-button {
-    /* position: fixed; */
-    position: sticky;
-    top: 0;
+    position: fixed;
     font-size: 40px;
     cursor: pointer;
 }

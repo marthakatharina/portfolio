@@ -13,7 +13,8 @@ main {
     width: 100svw;
     /* position: relative; */
     display: flex;
-    overflow-y: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 /* .dot {
@@ -145,7 +146,6 @@ button {
 
 .menu-container {
     padding-left: 1em;
-    position: fixed;
 }
 
 .menu li {
@@ -163,7 +163,8 @@ img {
     cursor: pointer;
 }
 #open-button {
-    position: fixed;
+    position: sticky;
+    top: 0;
     font-size: 40px;
     cursor: pointer;
 }

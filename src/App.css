@@ -13,7 +13,7 @@ main {
     width: 100svw;
     /* position: relative; */
     display: flex;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 /* .dot {

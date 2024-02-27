@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overscroll-behavior: none;
+}
+
 #root {
     width: 100vw;
 }
@@ -100,6 +104,9 @@ main {
     visibility: visible;
     transition: transform 0.4s ease-out;
     /* transition: flex 0.4s ease-out; */
+    min-height: 100%;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
 }
 #header.show-header {
     flex: 0 0 250px;

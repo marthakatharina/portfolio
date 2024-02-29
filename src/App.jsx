@@ -52,12 +52,22 @@ export default function App() {
 
                     <BrowserRouter>
                         {isHeaderHidden && (
-                            <div>
+                            <div class="open-button-container">
                                 <span
                                     id="open-button"
                                     onClick={handleHeaderToggle}
                                 >
                                     →
+                                </span>
+                            </div>
+                        )}
+                        {!isHeaderHidden && (
+                            <div class="close-button-container">
+                                <span
+                                    id="close-button"
+                                    onClick={() => setIsHeaderHidden(true)}
+                                >
+                                    ←
                                 </span>
                             </div>
                         )}
@@ -68,14 +78,6 @@ export default function App() {
                                 isHeaderHidden ? "hide-header" : "show-header"
                             }
                         >
-                            <div class="close-button-container">
-                                <span
-                                    id="close-button"
-                                    onClick={() => setIsHeaderHidden(true)}
-                                >
-                                    ←
-                                </span>
-                            </div>
                             <div className="menu-container">
                                 <div className="logo">
                                     Marta Wlusek:

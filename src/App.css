@@ -65,6 +65,7 @@ main {
 
 .theme-switcher--container {
     text-align: right;
+    background-color: #ffffff;
     border-bottom: 1px solid #111111;
     padding-right: 1.5em;
     padding-bottom: 2px;
@@ -150,7 +151,7 @@ button {
 } */
 
 .menu-container {
-    padding-left: 45px;
+    padding: 45px 1em 1em 1em;
     height: 100vh;
 }
 
@@ -172,9 +173,11 @@ img {
     font-size: 40px;
     cursor: pointer;
 }
+.open-button-container {
+    position: sticky;
+    top: 0;
+}
 #open-button {
-    position: fixed;
-    /* top: 0; */
     font-size: 40px;
     cursor: pointer;
 }
@@ -195,7 +198,7 @@ h2 {
 
 .content {
     flex-grow: 1;
-    margin: 1em 1em 1em 45px;
+    margin: 1em;
 }
 
 .project-cards {

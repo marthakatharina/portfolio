@@ -173,8 +173,8 @@ img {
     cursor: pointer;
 }
 #open-button {
-    position: sticky;
-    top: 0;
+    position: fixed;
+    /* top: 0; */
     font-size: 40px;
     cursor: pointer;
 }
@@ -195,7 +195,7 @@ h2 {
 
 .content {
     flex-grow: 1;
-    margin: 1em;
+    margin: 1em 1em 1em 45px;
 }
 
 .project-cards {

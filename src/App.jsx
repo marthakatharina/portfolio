@@ -150,7 +150,7 @@ function Home({ projects }) {
     );
 }
 function About() {
-    return <div>Here will be a page about me.</div>;
+    return <div class="page-container">Here will be a page about me.</div>;
 }
 
 const Blog = () => {

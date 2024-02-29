@@ -68,7 +68,7 @@ export default function App() {
                                 isHeaderHidden ? "hide-header" : "show-header"
                             }
                         >
-                            <div>
+                            <div class="close-button-container">
                                 <span
                                     id="close-button"
                                     onClick={() => setIsHeaderHidden(true)}

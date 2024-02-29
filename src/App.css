@@ -103,9 +103,9 @@ main {
     visibility: visible;
     transition: transform 0.4s ease-out;
     /* transition: flex 0.4s ease-out; */
-    min-height: 100%;
+    height: 100%;
     overflow-y: auto;
-    overscroll-behavior-y: contain;
+    overscroll-behavior-y: none;
 }
 #header.show-header {
     flex: 0 0 260px;
@@ -152,7 +152,7 @@ button {
 
 .menu-container {
     padding: 45px 1em 1em 1em;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .menu li {

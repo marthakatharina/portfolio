@@ -41,7 +41,7 @@ main {
 }
 
 .dark {
-    background-color: #191919;
+    background-color: #1c1c1c;
     color: #fcfcfc;
 }
 
@@ -79,10 +79,10 @@ main {
     height: 14px;
 }
 .theme-switcher--container button:nth-child(2) {
-    background-color: #191919;
+    background-color: #1c1c1c;
 }
 .theme-switcher--container button:nth-child(2):disabled {
-    background-color: #191919;
+    background-color: #1c1c1c;
     width: 14px;
     height: 14px;
 }
@@ -193,6 +193,13 @@ img {
 h1,
 h2 {
     font-family: Big Caslon, Georgia, Cambria, "Times New Roman", Times, serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+h3,
+h4,
+h5,
+h6 {
     padding-top: 8px;
     padding-bottom: 8px;
 }

@@ -35,13 +35,13 @@
         "date_gmt": "2023-12-14T18:07:17",
         "modified": "2023-12-14T22:25:38",
         "modified_gmt": "2023-12-14T21:25:38",
-        "slug": "design-of-apto-app",
-        "link": "/design-of-apto-app/",
+        "slug": "thalime-website",
+        "link": "/thalime-website/",
         "title": {
-            "rendered": "Design of APTO App"
+            "rendered": "Thalime"
         },
         "content": {
-            "rendered": "\n<p>App to come: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>\n",
+            "rendered": "\n<p>Marta Wlusek - UX/UI Design - Project: Thalime</p><br>\n<h2>Restaurant Concept</h2>\n<h4>Restaurant Name & URL</h4>\n<p>Thalime</p>\n<p>thali.me</p>\n<p>Location: Germany, Berlin - Mitte</p>\n<h4>Food & drink</h4>\n<p>Indian thalis\n<p>Coctails\n<h4>Optional customization</h4>\n<p>Compose your own thali\n<p>Choose from:\n<ul><li><b>curries:</b> chicken curry, fish curry, paneer curry, veggie curry, dal</li><li><b>rice:</b> basmati, spiced rice</li><li><b>extras:</b> chutney, jogurt, salat, vegfry</li></ul>\n<p>Cost in €: affordable</p>\n<h4>Main target audience</h4>\n<p>Busy, working, and open-minded folks</p>\n<h4>Elevator pitch</h4>\n<em>Inspired by home-made Indian cuisine, we serve authentic, high quality and affordable thalis to bring you the experience of South India in the heart of Berlin.</em>\n<h2>Strategy</h2>\n<h3>Target Audience</h3>\n<p>The website/app will focus on the following target audiences:</p><p><b>Roles</b> (groups of people with similar goals)</p>\n<ul><li>People working in Berlin Mitte who like Asian cuisine and like to have affordable lunches or after-work dinners with co-workers in the area.</li><li>People living in Berlin Mitte who like traveling and trying new food, eat often Asian cuisine, and who are looking for a variety of Asian food in their neighbourhood</li><li>Tourists who visit famous Mitte neighbourhood, have already tried German food, so next up feel like eating something more spicy and good</li></ul>",
             "protected": false
         },
         "excerpt": {

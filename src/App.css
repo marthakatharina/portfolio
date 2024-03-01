@@ -193,6 +193,7 @@ img {
 h1,
 h2 {
     font-family: Big Caslon, Georgia, Cambria, "Times New Roman", Times, serif;
+    padding-top: 8px;
     padding-bottom: 8px;
 }
 
@@ -216,8 +217,9 @@ h2 {
     margin: auto;
 }
 .page-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
+    padding: 0 1rem 2rem 1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -227,6 +229,9 @@ h2 {
     }
     .container {
         width: 100%;
+    }
+    .page-container {
+        padding: 0 0 2rem 0;
     }
     #header {
         flex: 0 0 0;

@@ -234,6 +234,16 @@ h6 {
     margin: auto;
     padding: 0 1rem 2rem 1rem;
 }
+.persona {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 20px 0;
+}
+.persona img {
+    width: 129px;
+}
 
 @media only screen and (max-width: 768px) {
     .project-cards {

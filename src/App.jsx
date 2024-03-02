@@ -52,7 +52,7 @@ export default function App() {
 
                     <BrowserRouter>
                         {isHeaderHidden && (
-                            <div class="open-button-container">
+                            <div className="open-button-container">
                                 <span
                                     id="open-button"
                                     onClick={handleHeaderToggle}
@@ -62,7 +62,7 @@ export default function App() {
                             </div>
                         )}
                         {!isHeaderHidden && (
-                            <div class="close-button-container">
+                            <div className="close-button-container">
                                 <span
                                     id="close-button"
                                     onClick={() => setIsHeaderHidden(true)}

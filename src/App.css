@@ -232,7 +232,10 @@ h6 {
 .page-container {
     max-width: 1000px;
     margin: auto;
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 1rem 4rem 1rem;
+}
+.page-container h2 {
+    margin-top: 30px;
 }
 .persona {
     display: flex;
@@ -242,7 +245,8 @@ h6 {
     padding: 20px 0;
 }
 .persona img {
-    width: 129px;
+    min-width: 120px;
+    max-width: 120px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -254,7 +258,7 @@ h6 {
         width: 100%;
     }
     .page-container {
-        padding: 0 0 2rem 0;
+        padding: 0 0 4rem 0;
     }
     #header {
         flex: 0 0 0;

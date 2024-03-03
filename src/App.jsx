@@ -152,7 +152,17 @@ function Home({ projects }) {
     );
 }
 function About() {
-    return <div class="page-container">Here will be a page about me.</div>;
+    return (
+        <div className="page-container">
+            <p>
+                You can see my CV
+                <a href="/CV_MartaWlusek.pdf/">
+                    <b> here</b>
+                </a>
+                .
+            </p>
+        </div>
+    );
 }
 
 const Blog = () => {

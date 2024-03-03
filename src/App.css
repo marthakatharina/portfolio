@@ -232,7 +232,7 @@ h6 {
 .page-container {
     max-width: 1000px;
     margin: auto;
-    padding: 0 1rem 4rem 1rem;
+    padding: 0 1em 6em 1em;
 }
 .page-container h2 {
     margin-top: 30px;
@@ -258,7 +258,7 @@ h6 {
         padding: 2em 0;
     }
     .page-container {
-        padding: 0 0 4rem 0;
+        padding: 0 0 6em 0;
     }
     #header {
         flex: 0 0 0;

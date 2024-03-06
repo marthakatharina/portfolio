@@ -199,7 +199,8 @@ h2 {
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -236,6 +237,9 @@ h6 {
 }
 .page-container h2 {
     margin-top: 30px;
+}
+.page-container h3 {
+    margin-top: 20px;
 }
 .persona {
     display: flex;

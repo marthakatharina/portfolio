@@ -197,16 +197,16 @@ h2 {
     padding-bottom: 8px;
     line-height: normal;
 }
-h3,
-h4,
-h5,
-h6,
-p {
+.page-container h3,
+.page-container h4,
+.page-container h5,
+.page-container h6,
+.page-container p {
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.content ul,
-.content ol {
+.page-container ul,
+.page-container ol {
     margin-block-start: 0.4em;
     margin-block-end: 1em;
     padding-inline-start: 1em;

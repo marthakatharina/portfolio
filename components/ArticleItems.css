@@ -3,16 +3,17 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    -moz-line-clamp: 3;
-    line-clamp: 3;
+    -webkit-line-clamp: 4;
+    -moz-line-clamp: 4;
+    line-clamp: 4;
 }
 .article--container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 600px;
+    max-width: 525px;
     margin: auto;
+    padding-bottom: 6em;
 }
 .article--heading > * {
     text-align: center;
@@ -51,7 +52,7 @@ article {
 .article--meta {
     padding: 0.8em;
     flex: 0 1 auto;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .article--content {
@@ -83,4 +84,7 @@ article {
 }
 .article--meta span {
     padding: 0 10px 0 10px;
+}
+.article--title {
+    padding-bottom: 0.8em;
 }

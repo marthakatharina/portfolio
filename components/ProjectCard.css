@@ -12,11 +12,11 @@
     display: block;
 }
 
-.project-card--title {
-}
+/* .project-card--title {
+} */
 
-.project-card--excerpt {
-}
+/* .project-card--excerpt {
+} */
 
 /* .overlay {
     position: absolute;
@@ -35,9 +35,10 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
 } */
 
-.project-card--container:hover .overlay {
-    opacity: 0;
-}
+/* .project-card--container {
+   
+} */
 .project-card--content {
-    padding-bottom: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
 }

@@ -11,6 +11,7 @@
 #root {
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 main {
@@ -18,8 +19,7 @@ main {
     /* width: 100svw; */
     /* position: relative; */
     display: flex;
-    /* overflow-y: scroll; */
-    overflow-x: hidden;
+    /* overflow: hidden; */
 }
 
 /* .dot {
@@ -104,9 +104,9 @@ main {
     visibility: visible;
     transition: transform 0.4s ease-out;
     /* transition: flex 0.4s ease-out; */
-    height: 100vh;
+    /* height: 100vh;
     overflow-y: auto;
-    overscroll-behavior-y: contain;
+    overscroll-behavior-y: contain; */
 }
 #header.show-header {
     flex: 0 0 260px;
@@ -215,7 +215,7 @@ h2 {
 
 .content {
     flex-grow: 1;
-    margin: 1em;
+    padding: 1em;
     height: 100%;
     overflow-y: scroll;
 }

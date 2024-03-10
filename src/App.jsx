@@ -9,7 +9,7 @@ import "./App.css";
 import Main from "../components/Main";
 // import Dot from "../components/Dot";
 import ArticleItems from "../components/ArticleItems";
-import RSSFeed from "../components/RSSFeed";
+// import RSSFeed from "../components/RSSFeed";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
@@ -127,8 +127,8 @@ export default function App() {
                                     element={<Home projects={projects} />}
                                 />
                                 <Route path="/about" element={<About />} />
-                                {/* <Route path="/blog" element={<Article />} /> */}
-                                <Route path="/blog" element={<RSSFeed />} />
+                                <Route path="/blog" element={<Blog />} />
+                                {/* <Route path="/blog" element={<RSSFeed />} /> */}
                                 <Route
                                     path="/:slug"
                                     element={<ProjectPage />}
@@ -155,7 +155,15 @@ function About() {
     return (
         <div className="page-container">
             <p>
-                You can see my CV
+                Hi, I'm Marta, a UI UX designer and frontend developer with
+                experience at a digital PR agency and a software development
+                company in Berlin. With my hands-on experience in designing and
+                developing digital products, along with a deep understanding of
+                both disciplines, I efficiently bridge the gap between design
+                and development.
+            </p>
+            <p>
+                You can see and download my CV
                 <a href="/CV_MartaWlusek.pdf/">
                     <b> here</b>
                 </a>
@@ -171,7 +179,7 @@ const Blog = () => {
     const fetchArticles = async () => {
         try {
             const res = await fetch(
-                "https://rss.app/feeds/v1.1/G2MwPBVp9LCyGUnf.json"
+                "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@marta.wlusek"
             );
             const data = await res.json();
             console.log(data);
@@ -192,7 +200,7 @@ const Blog = () => {
                 <p>I write about UX design for AI</p>
             </div>
 
-            <div className="grid">
+            <div className="container grid">
                 {articles.map((article, index) => {
                     return (
                         <ArticleItems

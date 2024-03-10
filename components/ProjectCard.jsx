@@ -23,11 +23,14 @@ export default function ProjectCard({ project }) {
         <div className="container">
             <div className="project-card--container">
                 {project?._links["featuredmedia"][0]?.href !== "" ? (
-                    <img
-                        src={project._links["featuredmedia"][0]?.href}
-                        className="project-card--img"
-                        alt="Featured"
-                    />
+                    <Link to={`/${project.slug}`}>
+                        {" "}
+                        <img
+                            src={project._links["featuredmedia"][0]?.href}
+                            className="project-card--img"
+                            alt="Featured"
+                        />
+                    </Link>
                 ) : (
                     ""
                 )}

@@ -155,12 +155,12 @@ function About() {
     return (
         <div className="page-container">
             <p>
-                Hi, I'm Marta, a UI UX designer and frontend developer with
-                experience at a digital PR agency and a software development
-                company in Berlin. With my hands-on experience in designing and
-                developing digital products, along with a deep understanding of
-                both disciplines, I efficiently bridge the gap between design
-                and development.
+                Hi, I'm Marta, a UI UX designer and developer with experience at
+                a digital PR agency and a software development company in
+                Berlin. With my hands-on experience in designing and developing
+                digital products, along with a deep understanding of both
+                disciplines, I efficiently bridge the gap between design and
+                development.
             </p>
             <p>
                 You can see and download my CV

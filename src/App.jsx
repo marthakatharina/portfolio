@@ -80,9 +80,11 @@ export default function App() {
                         >
                             <div className="menu-container">
                                 <div className="logo">
-                                    Marta Wlusek:
-                                    <br />
-                                    UX/UI Designer
+                                    <p>
+                                        Marta Wlusek:
+                                        <br />
+                                        UX/UI Designer
+                                    </p>
                                 </div>
                                 <nav className="menu">
                                     <ul>

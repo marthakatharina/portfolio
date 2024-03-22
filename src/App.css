@@ -194,6 +194,12 @@ h2 {
     padding-bottom: 8px;
     line-height: 1.5;
 }
+.home-intro {
+    max-width: 700px;
+    margin: auto;
+    padding: 2em 1em;
+}
+
 .page-container h3,
 .page-container h4,
 .page-container h5,
@@ -254,6 +260,12 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+    .home-intro {
+        max-width: 700px;
+        margin: auto;
+        padding: 2em 0;
+    }
+
     .project-cards {
         max-width: 100%;
         display: block;

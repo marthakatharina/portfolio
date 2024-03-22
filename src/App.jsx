@@ -80,11 +80,7 @@ export default function App() {
                         >
                             <div className="menu-container">
                                 <div className="logo">
-                                    <p>
-                                        Marta Wlusek:
-                                        <br />
-                                        UX/UI Designer
-                                    </p>
+                                    <p>Marta Wlusek | Portfolio</p>
                                 </div>
                                 <nav className="menu">
                                     <ul>
@@ -146,26 +142,32 @@ export default function App() {
 
 function Home({ projects }) {
     return (
-        <div className="project-cards">
-            {projects.map((project) => (
-                <ProjectCard key={project.id} project={project} />
-            ))}
-        </div>
+        <>
+            <h1 style={{ textAlign: "center" }}>Design Projects</h1>
+            <div className="home-intro">
+                <p>
+                    Hi, I'm Marta, a UX/UI designer and developer with
+                    experience at a digital PR agency and a software development
+                    company in Berlin. With my hands-on experience in designing
+                    and developing digital products, along with a deep
+                    understanding of both disciplines, I efficiently bridge the
+                    gap between design and development.
+                </p>
+            </div>
+            <div className="project-cards">
+                {projects.map((project) => (
+                    <ProjectCard key={project.id} project={project} />
+                ))}
+            </div>
+        </>
     );
 }
 function About() {
     return (
         <div className="page-container">
+            <p>Page under construction.</p>
             <p>
-                Hi, I'm Marta, a UI UX designer and developer with experience at
-                a digital PR agency and a software development company in
-                Berlin. With my hands-on experience in designing and developing
-                digital products, along with a deep understanding of both
-                disciplines, I efficiently bridge the gap between design and
-                development.
-            </p>
-            <p>
-                You can see and download my CV
+                Meanwhile, you can see and download my CV
                 <a href="/CV_MartaWlusek.pdf/">
                     <b> here</b>
                 </a>

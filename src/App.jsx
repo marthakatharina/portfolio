@@ -16,7 +16,7 @@ export default function App() {
     const [theme, setTheme] = useState("light");
     const [coordinates, setCoordinates] = useState({ x: 45, y: 30 });
     const [hideDot, setHideDot] = useState(false);
-    const [isHeaderHidden, setIsHeaderHidden] = useState(false);
+    const [isHeaderHidden, setIsHeaderHidden] = useState(true);
 
     const contextValues = {
         theme,
@@ -79,9 +79,7 @@ export default function App() {
                             }
                         >
                             <div className="menu-container">
-                                <div className="logo">
-                                    <p>Marta Wlusek | Portfolio</p>
-                                </div>
+                                <div className="logo"></div>
                                 <nav className="menu">
                                     <ul>
                                         <li>
@@ -143,7 +141,9 @@ export default function App() {
 function Home({ projects }) {
     return (
         <>
-            <h1 style={{ textAlign: "center" }}>Design Projects</h1>
+            <h1 style={{ textAlign: "center" }}>
+                Marta Wlusek - Design Projects
+            </h1>
             <div className="home-intro">
                 <p>
                     Hi, I'm Marta, a UX/UI designer and developer with

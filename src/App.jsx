@@ -141,12 +141,10 @@ export default function App() {
 function Home({ projects }) {
     return (
         <>
-            <h1 style={{ textAlign: "center" }}>
-                Marta Wlusek - Design Projects
-            </h1>
+            <h1 style={{ textAlign: "center" }}>Design Projects</h1>
             <div className="home-intro">
                 <p>
-                    Hi, I'm Marta, a UX/UI designer and developer with
+                    Hi, I'm Marta Wlusek, a UX/UI designer and developer with
                     experience at a digital PR agency and a software development
                     company in Berlin. With my hands-on experience in designing
                     and developing digital products, along with a deep

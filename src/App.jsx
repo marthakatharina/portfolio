@@ -188,7 +188,7 @@ const Blog = () => {
             const data = await res.json();
             // console.log(data);
             setArticles(data.items);
-            setLoading(false);
+            setLoading(true);
         } catch (error) {
             console.error("Error fetching Medium articles:", error);
         }

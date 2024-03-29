@@ -4,6 +4,7 @@ const Loading = () => {
     return (
         <div id="loader-container">
             <svg
+                id="loader"
                 width="270"
                 height="30"
                 viewBox="0 0 270 30"

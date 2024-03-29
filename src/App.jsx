@@ -10,6 +10,7 @@ import Main from "../components/Main";
 // import Dot from "../components/Dot";
 import ArticleItems from "../components/ArticleItems";
 // import RSSFeed from "../components/RSSFeed";
+import Loading from "../components/Loading";
 
 export default function App() {
     const [projects, setProjects] = useState([]);
@@ -177,6 +178,7 @@ function About() {
 
 const Blog = () => {
     const [articles, setArticles] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     const fetchArticles = async () => {
         try {
@@ -184,8 +186,9 @@ const Blog = () => {
                 "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@marta.wlusek"
             );
             const data = await res.json();
-            console.log(data);
+            // console.log(data);
             setArticles(data.items);
+            setLoading(false);
         } catch (error) {
             console.error("Error fetching Medium articles:", error);
         }
@@ -196,23 +199,29 @@ const Blog = () => {
     }, []);
 
     return (
-        <div className="article--container">
-            <div className="article--heading">
-                <h1>Medium Articles</h1>
-                <p>I write about UX design for AI</p>
-            </div>
+        <>
+            {loading ? (
+                <Loading />
+            ) : (
+                <div className="article--container">
+                    <div className="article--heading">
+                        <h1>Medium Articles</h1>
+                        <p>I write about UX design for AI</p>
+                    </div>
 
-            <div className="container grid">
-                {articles.map((article, index) => {
-                    return (
-                        <ArticleItems
-                            key={index}
-                            article={article}
-                            index={index}
-                        />
-                    );
-                })}
-            </div>
-        </div>
+                    <div className="container grid">
+                        {articles.map((article, index) => {
+                            return (
+                                <ArticleItems
+                                    key={index}
+                                    article={article}
+                                    index={index}
+                                />
+                            );
+                        })}
+                    </div>
+                </div>
+            )}
+        </>
     );
 };

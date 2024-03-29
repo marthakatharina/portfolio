@@ -5,9 +5,9 @@ const Loading = () => {
         <div id="loader-container">
             <svg
                 id="loader"
-                width="270"
+                width="180"
                 height="30"
-                viewBox="0 0 270 30"
+                viewBox="0 0 210 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
             >
@@ -19,14 +19,21 @@ const Loading = () => {
                     stroke-width="2"
                 />
                 <circle
-                    cx="55"
+                    cx="45"
                     cy="15"
                     r="14"
                     stroke="#111111"
                     stroke-width="2"
                 />
                 <circle
-                    cx="95"
+                    cx="75"
+                    cy="15"
+                    r="14"
+                    stroke="#111111"
+                    stroke-width="2"
+                />
+                <circle
+                    cx="105"
                     cy="15"
                     r="14"
                     stroke="#111111"
@@ -40,21 +47,7 @@ const Loading = () => {
                     stroke-width="2"
                 />
                 <circle
-                    cx="175"
-                    cy="15"
-                    r="14"
-                    stroke="#111111"
-                    stroke-width="2"
-                />
-                <circle
-                    cx="215"
-                    cy="15"
-                    r="14"
-                    stroke="#111111"
-                    stroke-width="2"
-                />
-                <circle
-                    cx="255"
+                    cx="165"
                     cy="15"
                     r="14"
                     stroke="#111111"

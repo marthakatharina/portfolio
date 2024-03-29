@@ -188,7 +188,7 @@ const Blog = () => {
             const data = await res.json();
             // console.log(data);
             setArticles(data.items);
-            setLoading(false);
+            setLoading(true);
         } catch (error) {
             console.error("Error fetching Medium articles:", error);
         }
@@ -199,29 +199,26 @@ const Blog = () => {
     }, []);
 
     return (
-        <>
+        <div className="article--container">
+            <div className="article--heading">
+                <h1>Medium Articles</h1>
+                <p>I write about UX design for AI</p>
+            </div>
             {loading ? (
                 <Loading />
             ) : (
-                <div className="article--container">
-                    <div className="article--heading">
-                        <h1>Medium Articles</h1>
-                        <p>I write about UX design for AI</p>
-                    </div>
-
-                    <div className="container grid">
-                        {articles.map((article, index) => {
-                            return (
-                                <ArticleItems
-                                    key={index}
-                                    article={article}
-                                    index={index}
-                                />
-                            );
-                        })}
-                    </div>
+                <div className="container grid">
+                    {articles.map((article, index) => {
+                        return (
+                            <ArticleItems
+                                key={index}
+                                article={article}
+                                index={index}
+                            />
+                        );
+                    })}
                 </div>
             )}
-        </>
+        </div>
     );
 };

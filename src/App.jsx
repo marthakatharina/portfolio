@@ -145,12 +145,11 @@ function Home({ projects }) {
             <h1 style={{ textAlign: "center" }}>Design Projects</h1>
             <div className="home-intro">
                 <p>
-                    Hi, I'm Marta Wlusek, a UX/UI designer and developer with
-                    experience at a digital PR agency and a software development
-                    company in Berlin. With my hands-on experience in designing
-                    and developing digital products, along with a deep
-                    understanding of both disciplines, I efficiently bridge the
-                    gap between design and development.
+                    Hi! I'm Marta, a UX/UI designer passionate about making
+                    AI-powered products easy and enjoyable to use. I love
+                    finding ways to simplify complex data and interactions.
+                    Let's collaborate to create seamless and delightful user
+                    experiences!
                 </p>
             </div>
             <div className="project-cards">

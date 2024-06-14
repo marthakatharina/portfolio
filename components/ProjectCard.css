@@ -2,8 +2,9 @@
     position: relative;
     max-width: 700px;
     height: auto;
-    /* border: 1px solid currentColor;
-    border-radius: 14px; */
+    border: 1px solid currentColor;
+    border-radius: 14px;
+    overflow: hidden;
 }
 
 .project-card--img {
@@ -11,7 +12,7 @@
     object-fit: cover;
     overflow: hidden;
     display: block;
-    border-radius: 14px;
+    /* border-radius: 14px; */
 }
 
 /* .project-card--title {
@@ -43,4 +44,6 @@
 .project-card--content {
     padding-top: 0.5em;
     padding-bottom: 1em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
 }

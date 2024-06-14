@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-#root {
+/* #root {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-}
+} */
 
 main {
     height: 100%;
@@ -254,6 +254,21 @@ h2 {
 .persona img {
     min-width: 120px;
     max-width: 120px;
+}
+footer {
+    border-top: 1px solid #111111;
+    padding: 1em 2em;
+    font-size: 16px;
+    color: #111111;
+}
+footer li {
+    list-style: none;
+}
+footer p {
+    border-top: 0.6px solid #111111;
+    margin-top: 1em;
+    padding-top: 1em;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 768px) {

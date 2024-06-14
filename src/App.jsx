@@ -134,6 +134,27 @@ export default function App() {
                         </div>
                     </BrowserRouter>
                 </Main>
+                <footer>
+                    <ul>
+                        <li>
+                            <a href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/">
+                                Curriculum Vitae
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/marta-wlusek/"
+                                target="_blank"
+                            >
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        © 2024 Marta Wlusek. Designed and developed with ♡ in
+                        React by Marta. All rights reserved.
+                    </p>
+                </footer>
             </Context.Provider>
         </>
     );

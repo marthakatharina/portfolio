@@ -214,7 +214,7 @@ const Blog = () => {
             console.error("Error fetching Medium articles:", error);
             const timer = setTimeout(() => {
                 setError(
-                    `API failed to fetch articles from Medium.com at this time. Please try again later or visit my Medium profile at <a href="https://medium.com/@marta.wlusek" target="_blank"><strong>https://medium.com/@marta.wlusek</strong></a>.`
+                    `API failed to fetch articles from Medium.com at this time. Please try again later or visit my Medium profile at <a href="https://medium.com/@marta.wlusek" target="_blank"><strong>https://medium.com/@marta.wlusek</strong></a>`
                 );
                 setLoading(false);
             }, 10000); // 10 seconds

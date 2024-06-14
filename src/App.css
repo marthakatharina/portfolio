@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-/* html {
-    overscroll-behavior: none;
-} */
-
 #root {
     height: 100vh;
     width: 100vw;
@@ -193,6 +189,9 @@ h2 {
     padding-top: 8px;
     padding-bottom: 8px;
     line-height: 1.5;
+}
+p {
+    font-size: 18px;
 }
 .home-intro {
     max-width: 700px;

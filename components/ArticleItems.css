@@ -21,6 +21,9 @@
 .article--heading {
     margin-bottom: 2em;
 }
+.article--error-message {
+    text-align: center;
+}
 .article--img {
     height: auto;
     width: 100%;

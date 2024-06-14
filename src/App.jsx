@@ -151,8 +151,8 @@ export default function App() {
                         </li>
                     </ul>
                     <p>
-                        © 2024 Marta Wlusek. Designed and developed with ♡ in
-                        React by Marta. All rights reserved.
+                        © 2024 Marta Wlusek. Designed and developed with ♡ React
+                        by Marta. All rights reserved.
                     </p>
                 </footer>
             </Context.Provider>
@@ -199,6 +199,7 @@ function About() {
 const Blog = () => {
     const [articles, setArticles] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     const fetchArticles = async () => {
         try {
@@ -211,6 +212,13 @@ const Blog = () => {
             setLoading(false);
         } catch (error) {
             console.error("Error fetching Medium articles:", error);
+            const timer = setTimeout(() => {
+                setError(
+                    `API failed to fetch articles from Medium.com at this time. Please try again later or visit my Medium profile at <a href="https://medium.com/@marta.wlusek" target="_blank"><strong>https://medium.com/@marta.wlusek</strong></a>.`
+                );
+                setLoading(false);
+            }, 10000); // 10 seconds
+            return () => clearTimeout(timer);
         }
     };
 
@@ -226,6 +234,11 @@ const Blog = () => {
             </div>
             {loading ? (
                 <Loading />
+            ) : error ? (
+                <div
+                    className="article--error-message"
+                    dangerouslySetInnerHTML={{ __html: error }}
+                ></div>
             ) : (
                 <div className="container grid">
                     {articles.map((article, index) => {

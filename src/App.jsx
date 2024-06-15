@@ -179,8 +179,8 @@ function Home({ projects }) {
             <div className="home-intro">
                 <p>
                     Hi! I'm Marta, a UX/UI designer passionate about making
-                    AI-powered products easy and enjoyable to use. I love
-                    finding ways to simplify complex data and interactions.
+                    AI-powered and data products easy and enjoyable to use. I
+                    love finding ways to simplify complex data and interactions.
                     Let's collaborate to create seamless and delightful user
                     experiences!
                 </p>

@@ -135,21 +135,33 @@ export default function App() {
                     </BrowserRouter>
                 </Main>
                 <footer>
-                    <ul>
-                        <li>
-                            <a href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/">
-                                Curriculum Vitae
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.linkedin.com/in/marta-wlusek/"
-                                target="_blank"
-                            >
-                                LinkedIn
-                            </a>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/">
+                                    Curriculum Vitae
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/marta-wlusek/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://cargocollective.com/martawlusek/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    My Art Projects
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <p>
                         © 2024 Marta Wlusek. Designed and developed with ♡ React
                         by Marta. All rights reserved.

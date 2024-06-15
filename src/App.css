@@ -261,6 +261,11 @@ footer {
     font-size: 16px;
     color: #111111;
 }
+footer ul {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
 footer li {
     list-style: none;
 }

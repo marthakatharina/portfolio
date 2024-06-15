@@ -4,6 +4,7 @@ import ProjectCard from "/components/ProjectCard";
 import ProjectPage from "/components/ProjectPage";
 import Context from "/components/Context";
 import ThemeSwitcher from "/components/ThemeSwitcher";
+import ScrollToTop from "/components/ScrollToTop";
 // import { useContext } from "react";
 import "./App.css";
 import Main from "../components/Main";
@@ -52,6 +53,7 @@ export default function App() {
                     {/* <Dot coordinates={coordinates} /> */}
 
                     <BrowserRouter>
+                        <ScrollToTop />
                         {isHeaderHidden && (
                             <div className="open-button-container">
                                 <span

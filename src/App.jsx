@@ -58,6 +58,7 @@ export default function App() {
                             <div className="open-button-container">
                                 <span
                                     id="open-button"
+                                    className="menu-button"
                                     onClick={handleHeaderToggle}
                                 >
                                     →
@@ -68,6 +69,7 @@ export default function App() {
                             <div className="close-button-container">
                                 <span
                                     id="close-button"
+                                    className="menu-button"
                                     onClick={() => setIsHeaderHidden(true)}
                                 >
                                     ←

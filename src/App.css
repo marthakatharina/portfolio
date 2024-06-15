@@ -66,6 +66,9 @@ main {
     border-bottom: 1px solid #111111;
     padding-right: 1.5em;
     padding-bottom: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .theme-switcher--container button:nth-child(1) {
     background-color: #f2f0e6;
@@ -149,7 +152,7 @@ button {
 } */
 
 .menu-container {
-    padding: 45px 1em;
+    padding: 2em;
     /* height: 100vh; */
 }
 
@@ -163,20 +166,28 @@ img {
     height: auto;
     width: auto;
 }
-
+.menu-button {
+    color: #111111;
+}
 .open-button-container {
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    height: 100vh;
+    height: 100vh; */
+    position: fixed;
+    top: -20px;
+    z-index: 99999;
 }
 #open-button {
     font-size: 40px;
     cursor: pointer;
 }
 .close-button-container {
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    height: 100vh;
+    height: 100vh; */
+    position: fixed;
+    top: -20px;
+    z-index: 99999;
 }
 #close-button {
     font-size: 40px;
@@ -268,7 +279,7 @@ footer {
 }
 footer ul {
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
     flex-wrap: wrap;
 }
 footer li {
@@ -301,14 +312,21 @@ footer p {
     .page-container {
         padding: 0 0 6em 0;
     }
+    #close-button {
+        color: #fff;
+    }
     #header {
         flex: 0 0 0;
         visibility: hidden;
     }
     #header.show-header {
-        /* position: sticky;
+        position: fixed;
         top: 0;
-        z-index: 1000; */
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #111111;
+        color: #ffffff;
         flex: 0 0 100%;
         visibility: visible;
     }

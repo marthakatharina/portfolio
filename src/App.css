@@ -12,7 +12,7 @@
 
 main {
     height: 100%;
-    width: 100svw;
+    width: 100%;
     /* position: relative; */
     display: flex;
     overflow: hidden;

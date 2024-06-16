@@ -97,7 +97,7 @@ main {
 
 #header {
     /* position: sticky;
-    top: 0;
+    top: 0; 
     height: 100vh; */
     position: fixed;
     top: 0;
@@ -160,7 +160,7 @@ button {
 
 .menu-container {
     padding: 2em;
-    height: 100vh;
+    height: 100%;
 }
 
 .menu li {
@@ -320,17 +320,11 @@ footer p {
         color: #fff;
     }
     #header {
+        height: 100vh;
         flex: 0 0 0;
         visibility: hidden;
     }
     #header.show-header {
-        /* position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #111111; 
-        color: #ffffff;*/
         flex: 0 0 100%;
         visibility: visible;
     }

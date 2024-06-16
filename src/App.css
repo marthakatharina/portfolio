@@ -108,7 +108,7 @@ main {
     color: #ffffff;
     z-index: 11000;
     visibility: visible;
-    transition: transform 0.4s, right 0.5s, bottom 0.5s ease-out;
+    transition: transform 0.4s, bottom 0.4s, right 0.4s ease-out;
     /* transition: flex 1s ease-out; 
     overflow-y: auto;
     overscroll-behavior-y: none; */
@@ -117,8 +117,8 @@ main {
     flex: 0 0 260px;
     visibility: visible;
     transform: translateX(0);
-    right: 0;
     bottom: 0;
+    right: 0;
 }
 
 #header.hide-header {
@@ -160,7 +160,7 @@ button {
 
 .menu-container {
     padding: 2em;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .menu li {

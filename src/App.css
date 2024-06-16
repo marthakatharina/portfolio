@@ -101,15 +101,14 @@ main {
     height: 100vh; */
     position: fixed;
     top: 0;
-    bottom: 0;
+    bottom: 30%;
     left: 0;
-    right: 0;
+    right: 30%;
     background-color: #111111;
     color: #ffffff;
     z-index: 11000;
-    border-right: 1px solid currentColor;
     visibility: visible;
-    transition: transform 0.4s ease-out;
+    transition: transform 0.4s, right 0.5s, bottom 0.5s ease-out;
     /* transition: flex 1s ease-out; 
     overflow-y: auto;
     overscroll-behavior-y: none; */
@@ -118,6 +117,8 @@ main {
     flex: 0 0 260px;
     visibility: visible;
     transform: translateX(0);
+    right: 0;
+    bottom: 0;
 }
 
 #header.hide-header {

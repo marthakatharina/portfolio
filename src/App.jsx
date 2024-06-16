@@ -61,7 +61,10 @@ export default function App() {
                                     className="menu-button"
                                     onClick={handleHeaderToggle}
                                 >
-                                    →
+                                    <img
+                                        src="/images/icons/menu-svgrepo-com.svg"
+                                        alt="menu"
+                                    />
                                 </span>
                             </div>
                         )}
@@ -72,7 +75,10 @@ export default function App() {
                                     className="menu-button"
                                     onClick={() => setIsHeaderHidden(true)}
                                 >
-                                    ←
+                                    <img
+                                        src="/images/icons/close-svgrepo-com.svg"
+                                        alt="close menu"
+                                    />
                                 </span>
                             </div>
                         )}

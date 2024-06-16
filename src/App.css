@@ -61,11 +61,11 @@ main {
 }
 
 .theme-switcher--container {
+    height: 40px;
     text-align: right;
     background-color: #ffffff;
     border-bottom: 1px solid #111111;
     padding-right: 1.5em;
-    padding-bottom: 2px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -174,7 +174,7 @@ img {
     top: 0;
     height: 100vh; */
     position: fixed;
-    top: -20px;
+    top: -10px;
     z-index: 99999;
 }
 #open-button {
@@ -186,7 +186,7 @@ img {
     top: 0;
     height: 100vh; */
     position: fixed;
-    top: -20px;
+    top: -10px;
     z-index: 99999;
 }
 #close-button {

@@ -38,7 +38,7 @@ main {
 }
 
 .dark {
-    background-color: #1c1c1c;
+    background-color: #1f1f1f;
     color: #f3f3f3;
 }
 
@@ -79,10 +79,10 @@ main {
     height: 14px;
 }
 .theme-switcher--container button:nth-child(2) {
-    background-color: #1c1c1c;
+    background-color: #1f1f1f;
 }
 .theme-switcher--container button:nth-child(2):disabled {
-    background-color: #1c1c1c;
+    background-color: #1f1f1f;
     width: 14px;
     height: 14px;
 }

@@ -161,6 +161,9 @@ button {
 .menu-container {
     padding: 2em;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu li {

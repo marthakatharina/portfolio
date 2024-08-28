@@ -163,6 +163,15 @@ export default function App() {
                             </li>
                             <li>
                                 <a
+                                    href="https://github.com/marthakatharina"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    GitHub
+                                </a>
+                            </li>
+                            <li>
+                                <a
                                     href="https://cargocollective.com/martawlusek/"
                                     target="_blank"
                                     rel="noreferrer"
@@ -188,11 +197,11 @@ function Home({ projects }) {
             <h1 style={{ textAlign: "center" }}>Design Projects</h1>
             <div className="home-intro">
                 <p>
-                    Hi! I'm Marta, a UX/UI designer passionate about making
-                    AI-powered and data products easy and enjoyable to use. I
-                    love finding ways to simplify complex data and interactions.
-                    Let's collaborate to create seamless and delightful user
-                    experiences!
+                    Hi! I'm Marta, a UX/UI Designer and Design Engineer
+                    passionate about making AI-powered and data products easy
+                    and enjoyable to use. I love finding ways to simplify
+                    complex data and interactions. Let's collaborate to create
+                    seamless and delightful user experiences!
                 </p>
             </div>
             <div className="project-cards">

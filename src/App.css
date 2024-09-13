@@ -356,4 +356,10 @@ footer p {
     .logo {
         padding: 0 0 2em 0;
     }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 22px;
+    }
 }

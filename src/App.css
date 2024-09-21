@@ -177,7 +177,7 @@ img {
 .menu li {
     list-style: none;
     /* font-family: "Big Caslon", Georgia, Cambria, "Times New Roman", Times, serif; */
-    font-size: 6em;
+    font-size: 5.8em;
 }
 .menu-button {
     color: #111111;
@@ -210,6 +210,7 @@ img {
 .logo {
     width: 205px;
     padding: 2em;
+    color: #c8c8c8;
 }
 h1,
 h2 {

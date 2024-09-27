@@ -108,7 +108,7 @@ main {
     color: #ffffff;
     z-index: 11000;
     visibility: visible;
-    transition: transform 0.4s, bottom 0.3s, right 0.3s ease-in;
+    transition: transform 0.4s, right 0.3s ease-in;
     /* transition: flex 1s ease-out; 
     overflow-y: auto;
     overscroll-behavior-y: none; */
@@ -165,19 +165,21 @@ img {
 .menu-container {
     padding: 3em;
     height: 100%;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: flex-start;
 }
 
 .menu {
-    transform: translate(50%);
+    justify-self: center;
+    align-self: center;
 }
 
 .menu li {
     list-style: none;
     /* font-family: "Big Caslon", Georgia, Cambria, "Times New Roman", Times, serif; */
-    font-size: 5.8em;
+    font-size: 4em;
+    font-weight: 500;
 }
 .menu-button {
     color: #111111;
@@ -346,13 +348,13 @@ footer p {
         transform: translateX(-100%);
     }
     .menu-container {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
     .menu {
-        transform: none;
+        align-self: start;
     }
     .menu li {
-        font-size: 3em;
+        font-size: 3.2em;
     }
     .logo {
         padding: 0 0 2em 0;

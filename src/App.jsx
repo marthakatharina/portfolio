@@ -237,7 +237,7 @@ const Blog = () => {
     const fetchArticles = async () => {
         try {
             const res = await fetch(
-                "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@marta.wlusek"
+                "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@martawlusek"
             );
             const data = await res.json();
             // console.log(data);
@@ -247,7 +247,7 @@ const Blog = () => {
             console.error("Error fetching Medium articles:", error);
             const timer = setTimeout(() => {
                 setError(
-                    `API failed to fetch articles from Medium.com at this time. Please try again later or visit my Medium profile at <a href="https://medium.com/@marta.wlusek" target="_blank"><strong>https://medium.com/@marta.wlusek</strong></a>`
+                    `API failed to fetch articles from Medium.com at this time. Please try again later or visit my Medium profile at <a href="https://medium.com/@martawlusek" target="_blank"><strong>https://medium.com/@martawlusek</strong></a>`
                 );
                 setLoading(false);
             }, 10000); // 10 seconds

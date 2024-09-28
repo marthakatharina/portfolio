@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-/* #root {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-} */
-
 main {
     height: 100%;
     width: 100%;
@@ -109,9 +103,6 @@ main {
     z-index: 11000;
     visibility: visible;
     transition: transform 0.4s, right 0.3s ease-in;
-    /* transition: flex 1s ease-out; 
-    overflow-y: auto;
-    overscroll-behavior-y: none; */
 }
 #header.show-header {
     flex: 0 0 260px;
@@ -185,9 +176,6 @@ img {
     color: #111111;
 }
 .open-button-container {
-    /* position: sticky;
-    top: 0;
-    height: 100vh; */
     position: fixed;
     top: -10px;
     z-index: 99999;
@@ -197,9 +185,6 @@ img {
     cursor: pointer;
 }
 .close-button-container {
-    /* position: sticky;
-    top: 0;
-    height: 100vh; */
     position: fixed;
     top: -10px;
     z-index: 99999;
@@ -210,7 +195,7 @@ img {
 }
 
 .logo {
-    width: 205px;
+    width: 200px;
     padding: 2em;
     color: #c8c8c8;
 }
@@ -258,9 +243,6 @@ h2 {
 }
 
 .project-cards {
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* height: 100%; */
     padding-bottom: 4em;
 }
 
@@ -286,7 +268,6 @@ h2 {
     display: flex;
     gap: 20px;
     align-items: center;
-    /* flex-wrap: wrap; */
     padding: 20px 0;
 }
 .persona img {

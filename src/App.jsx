@@ -184,8 +184,8 @@ export default function App() {
                         </ul>
                     </div>
                     <p>
-                        © Marta Wlusek 2024. Designed and developed with ♡ React
-                        by Marta. All rights reserved.
+                        © Marta Wlusek 2024. Designed and developed with ♡
+                        React.js by Marta. All rights reserved.
                     </p>
                 </footer>
             </Context.Provider>
@@ -199,7 +199,7 @@ function Home({ projects }) {
             <h1 style={{ textAlign: "center" }}>Design Projects</h1>
             <div className="home-intro">
                 <p>
-                    Hi! I'm Marta, a UX/UI Designer and Design Engineer
+                    Hi! I'm Marta, a Product Designer and Design Engineer
                     passionate about making AI-powered and data products easy
                     and enjoyable to use. I love finding ways to simplify
                     complex data and interactions. Let's collaborate to create

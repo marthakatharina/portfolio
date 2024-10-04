@@ -242,6 +242,15 @@ h2 {
     /* overflow-y: scroll; */
 }
 
+.about-heading {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.about {
+    display: flex;
+    gap: 40px;
+}
+
 .project-cards {
     padding-bottom: 4em;
 }
@@ -256,7 +265,7 @@ h2 {
 .page-container {
     max-width: 1000px;
     margin: auto;
-    padding: 1em 1em 6em 1em;
+    padding: 0 1em 6em 1em;
 }
 .page-container h2 {
     margin-top: 30px;
@@ -310,6 +319,14 @@ footer p {
     }
     .page-container {
         padding: 0 0 6em 0;
+    }
+    .about {
+        display: block;
+        gap: 40px;
+    }
+    .about--img {
+        text-align: center;
+        margin-top: 1em;
     }
     #close-button {
         color: #fff;

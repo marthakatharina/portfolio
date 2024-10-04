@@ -321,12 +321,15 @@ footer p {
         padding: 0 0 6em 0;
     }
     .about {
-        display: block;
-        gap: 40px;
+        flex-direction: column;
+        gap: 0;
     }
     .about--img {
         text-align: center;
         margin-top: 1em;
+    }
+    .about--img img {
+        max-width: 100%;
     }
     #close-button {
         color: #fff;
@@ -352,7 +355,7 @@ footer p {
         align-self: start;
     }
     .menu li {
-        font-size: 3.2em;
+        font-size: 3em;
     }
     .logo {
         padding: 0 0 2em 0;

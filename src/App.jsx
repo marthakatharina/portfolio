@@ -199,11 +199,11 @@ function Home({ projects }) {
             <h1 style={{ textAlign: "center" }}>Design Projects</h1>
             <div className="home-intro">
                 <p>
-                    Hi! I'm Marta, a Product Designer and Design Engineer
-                    passionate about making AI-powered and data products easy
-                    and enjoyable to use. I love finding ways to simplify
-                    complex data and interactions. Let's collaborate to create
-                    seamless and delightful user experiences!
+                    Hi! I'm Marta, a Digital Product Designer and UX/UI Design
+                    Engineer passionate about making AI-powered and data
+                    products easy and enjoyable to use. I love finding ways to
+                    simplify complex data and interactions. Let's collaborate to
+                    create seamless and delightful user experiences!
                 </p>
             </div>
             <div className="project-cards">
@@ -221,7 +221,7 @@ function About() {
             <div className="about">
                 <div>
                     <p>
-                        I am a passionate Web and Product Designer, focused on
+                        I am a passionate Digital Product Designer, focused on
                         creating visually engaging, innovative, and
                         user-centered digital experiences. With a strong
                         foundation in arts, web development, and UI/UX design, I

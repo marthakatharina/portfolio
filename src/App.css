@@ -370,4 +370,7 @@ footer p {
     h2 {
         font-size: 22px;
     }
+    .project-meta {
+        font-size: 13px;
+    }
 }

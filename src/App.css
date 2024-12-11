@@ -168,9 +168,7 @@ img {
 
 .menu li {
     list-style: none;
-    /* font-family: "Big Caslon", Georgia, Cambria, "Times New Roman", Times, serif; */
     font-size: 4em;
-    font-weight: 500;
 }
 .menu-button {
     color: #111111;

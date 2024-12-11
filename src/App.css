@@ -32,7 +32,7 @@ main {
 }
 
 .dark {
-    background-color: #202020;
+    background-color: #201f22;
     color: #f3f3f3;
 }
 
@@ -73,10 +73,10 @@ main {
     height: 14px;
 }
 .theme-switcher--container button:nth-child(2) {
-    background-color: #202020;
+    background-color: #201f22;
 }
 .theme-switcher--container button:nth-child(2):disabled {
-    background-color: #202020;
+    background-color: #201f22;
     width: 14px;
     height: 14px;
 }

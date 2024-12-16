@@ -168,7 +168,8 @@ img {
 
 .menu li {
     list-style: none;
-    font-size: 4em;
+    font-size: 3.6em;
+    color: #c8c8c8;
 }
 .menu-button {
     color: #111111;
@@ -193,9 +194,11 @@ img {
 }
 
 .logo {
-    width: 200px;
+    /* width: 200px; */
     padding: 2em;
     color: #c8c8c8;
+    font-size: 13px;
+    font-weight: 300;
 }
 h1,
 h2 {
@@ -360,7 +363,7 @@ footer p {
     }
     .logo {
         padding: 0 0 2em 0;
-        width: 115px;
+        /* width: 115px; */
     }
     h1 {
         font-size: 28px;

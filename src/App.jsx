@@ -91,7 +91,7 @@ export default function App() {
                         >
                             <div className="menu-container">
                                 <div className="logo">
-                                    Marta Wlusek - Portfolio
+                                    MARTA WLUSEK | PORTFOLIO
                                 </div>
                                 <nav className="menu">
                                     <ul>

@@ -364,6 +364,7 @@ footer p {
     .logo {
         padding: 0 0 2em 0;
         /* width: 115px; */
+        text-align: center;
     }
     h1 {
         font-size: 28px;

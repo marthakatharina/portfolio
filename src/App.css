@@ -175,7 +175,7 @@ img {
 .menu li {
     list-style: none;
     font-size: 3.6em;
-    color: #c8c8c8;
+    /* color: #c8c8c8; */
 }
 .menu-button {
     color: #111111;

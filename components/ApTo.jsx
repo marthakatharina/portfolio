@@ -70,7 +70,7 @@ export default function ApTo() {
             <img
                 src="/images/APTO-user_flow.png"
                 alt="APTO app user flow"
-                style={{ maxWidth: "100%" }}
+                style={{ maxWidth: "100%", marginTop: "1rem" }}
             />
             <h3>Client/Designer Goals:</h3>
             <ol>
@@ -93,7 +93,7 @@ export default function ApTo() {
             <img
                 src="/images/APTO-design.png"
                 alt="APTO app design system"
-                style={{ maxWidth: "100%" }}
+                style={{ maxWidth: "100%", marginTop: "1rem" }}
             />
             <h2>Prototype</h2>
             <img

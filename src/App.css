@@ -52,7 +52,7 @@ main {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     vertical-align: middle;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 .theme-switcher--container {

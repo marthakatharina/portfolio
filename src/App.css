@@ -27,8 +27,7 @@ main {
 } */
 
 .light {
-    /* background-color: #f8f8f3; */
-    background-color: #ffffff;
+    background-color: #f8f8f4;
     color: #111111;
 }
 
@@ -67,12 +66,10 @@ main {
     z-index: 1000;
 }
 .theme-switcher--container button:nth-child(1) {
-    /* background-color: #f8f8f3; */
-    background-color: #ffffff;
+    background-color: #f8f8f4;
 }
 .theme-switcher--container button:nth-child(1):disabled {
-    /* background-color: #f8f8f3; */
-    background-color: #ffffff;
+    background-color: #f8f8f4;
     width: 14px;
     height: 14px;
 }

@@ -117,9 +117,11 @@ export default function AITandem() {
                 Understanding both the user and the AI agent as personas is
                 crucial for effective interaction and user experience.
             </p>
-            <p>
+
+            <h3>
                 <b>User Persona: </b>Joanna
-            </p>
+            </h3>
+
             <p>
                 <b>Background: </b>A recent migrant to Sweden with previous
                 experience in marketing, but with limited Swedish language
@@ -141,9 +143,11 @@ export default function AITandem() {
                 when using Swedish.
             </p>
             <br />
-            <p>
+
+            <h3>
                 <b>AI Agent Persona: </b>AI Tandem
-            </p>
+            </h3>
+
             <p>
                 <b>Character: </b>Patient, supportive, encouraging, and
                 non-judgmental.

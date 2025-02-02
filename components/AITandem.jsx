@@ -488,7 +488,7 @@ export default function AITandem() {
                 progress and feedback history. This helps her understand areas
                 for improvement and reinforces her learning journey.
             </p>
-            <h2>Evaluation</h2>
+            <h2>Summative Evaluation</h2>
             <p>
                 Evaluating the AI Tandem prototype will involve qualitative
                 methods and user feedback. Key evaluation metrics will focus on:

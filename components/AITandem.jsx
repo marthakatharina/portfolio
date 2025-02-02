@@ -72,9 +72,9 @@ export default function AITandem() {
             </p>
             <h2>User Research</h2>
             <p>
-                Initial user research involved open-ended interviews focusing on
-                how potential users learn foreign languages and the challenges
-                they face. Key findings include:
+                Initial user research involved open-ended unstructured
+                interviews focusing on how potential users learn foreign
+                languages and the challenges they face. Key findings include:
             </p>
             <ul>
                 <li>

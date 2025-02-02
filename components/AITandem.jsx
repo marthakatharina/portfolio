@@ -38,7 +38,7 @@ export default function AITandem() {
                     <strong>here</strong>
                 </a>
             </p>
-            <h2>Ideation</h2>
+            <h2>Problem Definition</h2>
             <p>
                 This project aims to develop AI Tandem, a voice-based
                 conversational AI agent designed to help users improve their
@@ -96,7 +96,7 @@ export default function AITandem() {
                     translations in the user's native language.
                 </li>
             </ul>
-            <h2>Users and Requirements</h2>
+            <h2>Needs and Requirements</h2>
             <p>
                 To better understand the target audience, a Persona was created
                 for Joanna, a new arrival to Sweden looking to improve her
@@ -176,7 +176,7 @@ export default function AITandem() {
                 alt="AI Tandem service persona"
                 style={{ maxWidth: "100%" }}
             />
-            <h3>Adaptivity & Personalization in Joanna's Customer Journey</h3>
+            <h2>Adaptivity & Personalization in User Journey</h2>
             <p>
                 Here's a breakdown of how adaptivity and personalization would
                 be integrated into each stage of Joanna's customer journey map:
@@ -261,7 +261,7 @@ export default function AITandem() {
                 personalized, empathetic feel and demonstrate clear progress,
                 motivating continued use.
             </p>
-            <h2>Design</h2>
+            <h2>Features</h2>
             <p>
                 The project design prioritizes an adaptive, conversation-driven
                 approach to language learning.
@@ -327,7 +327,7 @@ export default function AITandem() {
                 alt="User Flow"
                 style={{ maxWidth: "100%" }}
             />
-            <h3>Designing Onboarding</h3>
+            <h2>Designing Onboarding</h2>
             <p>
                 The onboarding process is critical for establishing a tailored
                 learning service and experience. Here's how it functions:
@@ -363,7 +363,7 @@ export default function AITandem() {
                 hobbies, current events, professional topics) to guide AI
                 Tandem's conversation starters and content suggestions.
             </p>
-            <h3>Designing Feedback Loop</h3>
+            <h2>Designing Feedback Loop</h2>
             <p>
                 The core of AI Tandem's design lies in its continuous,
                 personalized feedback loop:

@@ -265,7 +265,7 @@ export default function AITandem() {
                 personalized, empathetic feel and demonstrate clear progress,
                 motivating continued use.
             </p>
-            <h2>Features</h2>
+            <h2>Design Requirements</h2>
             <p>
                 The project design prioritizes an adaptive, conversation-driven
                 approach to language learning.

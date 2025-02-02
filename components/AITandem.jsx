@@ -96,7 +96,7 @@ export default function AITandem() {
                     translations in the user's native language.
                 </li>
             </ul>
-            <h2>Needs and Requirements</h2>
+            <h2>User Needs</h2>
             <p>
                 To better understand the target audience, a Persona was created
                 for Joanna, a new arrival to Sweden looking to improve her
@@ -119,7 +119,7 @@ export default function AITandem() {
             </p>
 
             <h3>
-                <b>User Persona: </b>Joanna
+                <em>User Persona: </em>Joanna
             </h3>
 
             <p>
@@ -145,7 +145,7 @@ export default function AITandem() {
             <br />
 
             <h3>
-                <b>AI Agent Persona: </b>AI Tandem
+                <em>AI Agent Persona: </em>AI Tandem
             </h3>
 
             <p>

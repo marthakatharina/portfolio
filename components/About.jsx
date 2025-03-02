@@ -10,7 +10,7 @@ export default function About() {
                     <p>
                         I am a passionate Digital Product Designer, focused on
                         creating visually engaging, innovative, and
-                        user-centered digital experiences. With a strong
+                        human-centered digital experiences. With a strong
                         foundation in arts, web development, and UI/UX design, I
                         bring creativity and problem-solving to every project,
                         delivering solutions that are both aesthetically

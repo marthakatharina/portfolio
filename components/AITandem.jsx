@@ -7,7 +7,7 @@ export const AiTandemProjectData = {
     date: "2023/2024",
     slug: "ai-tandem",
     title: {
-        rendered: "AI Tandem — Foreign Language Conversational Voice Assistant",
+        rendered: "AI Tandem — Foreign Language Learning AI Agent",
     },
     _links: {
         featuredmedia: [{ href: "/images/AI Tandem - featured.png" }],

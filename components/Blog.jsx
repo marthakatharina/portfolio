@@ -34,7 +34,7 @@ export default function Blog() {
     return (
         <div className="article--container">
             <div className="article--heading">
-                <h1>Medium Articles</h1>
+                <h1>Articles</h1>
                 <p>I write about UX design for AI</p>
             </div>
             {loading ? (

@@ -104,7 +104,7 @@ export default function App() {
                                                     setIsHeaderHidden(true)
                                                 }
                                             >
-                                                About
+                                                About me
                                             </Link>
                                         </li>
                                         <li>
@@ -114,7 +114,7 @@ export default function App() {
                                                     setIsHeaderHidden(true)
                                                 }
                                             >
-                                                Blog
+                                                Articles
                                             </Link>
                                         </li>
                                     </ul>

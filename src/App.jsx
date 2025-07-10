@@ -43,21 +43,25 @@ export default function App() {
                         <ScrollToTop />
                         {isHeaderHidden && (
                             <div className="open-button-container">
-                                <span
+                                <button
                                     id="open-button"
                                     className="menu-button"
                                     onClick={handleHeaderToggle}
                                 >
                                     <img
+                                        style={{
+                                            verticalAlign: "middle",
+                                            background: "white",
+                                        }}
                                         src="/images/icons/menu-svgrepo-com.svg"
                                         alt="menu"
                                     />
-                                </span>
+                                </button>
                             </div>
                         )}
                         {!isHeaderHidden && (
                             <div className="close-button-container">
-                                <span
+                                <button
                                     id="close-button"
                                     className="menu-button"
                                     onClick={() => setIsHeaderHidden(true)}
@@ -65,8 +69,9 @@ export default function App() {
                                     <img
                                         src="/images/icons/close-svgrepo-com.svg"
                                         alt="close menu"
+                                        style={{ verticalAlign: "middle" }}
                                     />
-                                </span>
+                                </button>
                             </div>
                         )}
 

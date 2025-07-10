@@ -36,11 +36,10 @@ main {
     color: #f3f3f3;
 }
 
-.surprise {
-    /* background-color: #ebe6f2; */
+/* .surprise {
     background-color: #e5e3e8;
     color: #111111;
-}
+} */
 
 .theme-switcher {
     width: 18px;
@@ -362,7 +361,7 @@ footer p {
         align-self: start;
     }
     .menu li {
-        font-size: 3em;
+        font-size: 2.6em;
     }
     .logo {
         padding: 0 0 2em 0;
@@ -377,5 +376,10 @@ footer p {
     }
     .project-meta {
         font-size: 13px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 996px) {
+    .menu-container .menu li {
+        font-size: 3em;
     }
 }

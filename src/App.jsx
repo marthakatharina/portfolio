@@ -38,7 +38,6 @@ export default function App() {
                 <ThemeSwitcher />
                 <Main onPointerMove={setCoordinates} id="main-container">
                     {/* <Dot coordinates={coordinates} /> */}
-
                     <BrowserRouter>
                         <ScrollToTop />
                         {isHeaderHidden && (

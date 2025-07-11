@@ -1,0 +1,62 @@
+.theme-switcher {
+    width: 18px;
+    height: 18px;
+    /* border-radius: 50%;
+    border: 1px solid #111111; */
+    text-indent: -9999px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.theme-switcher--container {
+    height: 40px;
+    text-align: right;
+    background-color: #ffffff;
+    border-bottom: 1px solid #111111;
+    padding-right: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.theme-toggle-button {
+    background-color: transparent;
+    border: none;
+}
+
+.sun-and-moon {
+    vertical-align: middle;
+    transition: all 0.4s ease-in-out;
+}
+
+.sun-core {
+    transition: fill 0.4s ease-in-out;
+    fill: currentColor;
+}
+
+.sun-and-moon.light-mode .sun-core {
+    fill: black;
+}
+
+.sun-beams {
+    transition: opacity 0.4s ease-in-out, stroke 0.4s ease-in-out;
+    stroke: currentColor;
+    opacity: 1;
+}
+
+.sun-and-moon.light-mode .sun-beams {
+    opacity: 0;
+    stroke: transparent;
+}
+
+/* Optional: animate moon mask if you want the crescent effect to slide */
+.moon-mask-circle {
+    transition: all 0.4s ease-in-out;
+    transform: translateX(0);
+}
+
+.sun-and-moon.light-mode .moon-mask-circle {
+    transform: translateX(-6px); /* slide the moon mask to simulate crescent */
+}

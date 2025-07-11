@@ -1,0 +1,60 @@
+.page-container img {
+    cursor: zoom-in;
+    transition: transform 0.2s ease;
+}
+
+.image-viewer {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202021;
+    backdrop-filter: blur(6px);
+    animation: fadeIn 0.3s ease;
+}
+
+.image-viewer-overlay {
+    position: absolute;
+    inset: 0;
+    cursor: zoom-out;
+}
+
+.image-viewer-img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* 👇 Close button */
+.image-viewer-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    line-height: 0.6;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 50%;
+    transition: background 0.2s ease;
+}
+
+.image-viewer-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

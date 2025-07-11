@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import ImageLightbox from "./ImageLightbox";
 import ApTo from "./ApTo";
 import AITandem from "./AITandem";
 
@@ -17,8 +18,10 @@ export default function ProjectPage() {
     const contentComponent = contentMap[slug];
 
     return (
-        <div className="page-container">
-            {contentComponent ? contentComponent : <h1>Page not found</h1>}
-        </div>
+        <ImageLightbox>
+            <div className="page-container">
+                {contentComponent ? contentComponent : <h1>Page not found</h1>}
+            </div>
+        </ImageLightbox>
     );
 }

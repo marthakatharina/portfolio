@@ -6,10 +6,10 @@ import "./ThemeSwitcher.css";
 
 export default function ThemeSwitcher() {
     const { theme, setTheme } = useContext(Context);
-    const isDark = theme === "dark";
+    const isLight = theme === "light";
 
     const toggleTheme = () => {
-        setTheme(isDark ? "light" : "dark");
+        setTheme(isLight ? "dark" : "light");
     };
 
     return (
@@ -17,11 +17,11 @@ export default function ThemeSwitcher() {
             <button
                 className="theme-toggle-button"
                 onClick={toggleTheme}
-                aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
+                aria-label={`Switch to ${isLight ? "dark" : "light"} mode`}
             >
                 <svg
                     className={`sun-and-moon ${
-                        isDark ? "dark-mode" : "light-mode"
+                        isLight ? "dark-mode" : "light-mode"
                     }`}
                     aria-hidden="true"
                     width="24"

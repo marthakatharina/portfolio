@@ -6,7 +6,7 @@ export const AptoProjectData = {
     id: 2,
     date: "2022",
     slug: "apto-app",
-    title: { rendered: "APTO — App Design" },
+    title: { rendered: "APTO — Visits Planner" },
     _links: {
         featuredmedia: [{ href: "/images/APTO-featured.png" }],
     },
@@ -17,7 +17,7 @@ export default function ApTo() {
         <div>
             <h1>{AptoProjectData.title.rendered}</h1>
             <p className="project-meta">
-                Marta Wlusek | UX/UI Design | APTO ({AptoProjectData.date})
+                Marta Wlusek | UX/UI Design | {AptoProjectData.date}
             </p>
             <img
                 src={AptoProjectData._links.featuredmedia[0].href}

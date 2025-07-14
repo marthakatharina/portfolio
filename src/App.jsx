@@ -150,7 +150,7 @@ export default function App() {
                         <ul>
                             <li>
                                 <a href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/">
-                                    Curriculum Vitae
+                                    CV
                                 </a>
                             </li>
                             <li>

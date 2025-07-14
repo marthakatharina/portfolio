@@ -117,14 +117,9 @@ export default function App() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link
-                                                to="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/"
-                                                onClick={() =>
-                                                    setIsHeaderHidden(true)
-                                                }
-                                            >
+                                            <a href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/">
                                                 CV
-                                            </Link>
+                                            </a>
                                         </li>
                                     </ul>
                                 </nav>

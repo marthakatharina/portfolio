@@ -110,18 +110,18 @@ img {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .menu {
-    justify-self: center;
     align-self: center;
+    justify-self: center;
+    text-align: center;
 }
 
 .menu li {
     list-style: none;
-    font-size: 3.6em;
-    /* color: #c8c8c8; */
+    font-size: 3.2em;
 }
 .menu-button {
     color: #111111;

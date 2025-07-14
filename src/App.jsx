@@ -116,6 +116,16 @@ export default function App() {
                                                 Articles
                                             </Link>
                                         </li>
+                                        <li>
+                                            <Link
+                                                to="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/"
+                                                onClick={() =>
+                                                    setIsHeaderHidden(true)
+                                                }
+                                            >
+                                                CV
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>

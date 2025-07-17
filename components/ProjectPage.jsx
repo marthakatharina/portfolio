@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import "./ProjectPage.css";
 import ImageLightbox from "./ImageLightbox";
 import ApTo from "./ApTo";
 import AITandem from "./AITandem";

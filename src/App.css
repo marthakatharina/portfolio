@@ -177,73 +177,6 @@ h2 {
     text-align: center;
 }
 
-.page-container h3,
-.page-container h4,
-.page-container h5,
-.page-container h6,
-.page-container p {
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-.page-container ul,
-.page-container ol {
-    margin-block-start: 0.4em;
-    margin-block-end: 1em;
-    padding-inline-start: 1em;
-}
-
-.content {
-    flex-grow: 1;
-    padding: 1em;
-    height: 100%;
-    /* overflow-y: scroll; */
-}
-
-.about-heading {
-    text-align: center;
-    margin-bottom: 1em;
-}
-.about {
-    display: flex;
-    gap: 40px;
-}
-.about--img img {
-    border-radius: 14px;
-}
-
-.project-cards {
-    padding-bottom: 4em;
-    margin: auto;
-}
-
-.container {
-    width: 100%;
-    max-width: 700px;
-    justify-content: center;
-    padding: 2em 1em;
-    margin: auto;
-}
-.page-container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 1em 6em 1em;
-}
-.page-container h2 {
-    margin-top: 30px;
-}
-.page-container h3 {
-    margin-top: 20px;
-}
-.persona {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    padding: 20px 0;
-}
-.persona img {
-    min-width: 120px;
-    max-width: 120px;
-}
 footer {
     border-top: 1px solid #111111;
     padding: 1em;
@@ -274,12 +207,6 @@ footer p {
     .project-cards {
         max-width: 100%;
         display: block;
-    }
-    .container {
-        padding: 2em 0;
-    }
-    .page-container {
-        padding: 0 0 6em 0;
     }
     .about {
         flex-direction: column;
@@ -328,9 +255,6 @@ footer p {
     }
     h2 {
         font-size: 22px;
-    }
-    .project-meta {
-        font-size: 13px;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 996px) {

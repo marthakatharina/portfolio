@@ -33,7 +33,7 @@
 
 .sun-core {
     transition: fill 0.4s ease-in-out;
-    fill: currentColor;
+    fill: black;
 }
 
 .sun-and-moon.light-mode .sun-core {

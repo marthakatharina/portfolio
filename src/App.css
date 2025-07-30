@@ -32,7 +32,7 @@ main {
 }
 
 .dark {
-    background-color: #202021;
+    background-color: #252526;
     color: #f3f3f3;
 }
 
@@ -50,7 +50,7 @@ main {
     bottom: 30%;
     left: 0;
     right: 30%;
-    background-color: #202021;
+    background-color: #252526;
     color: #ffffff;
     z-index: 11000;
     visibility: visible;

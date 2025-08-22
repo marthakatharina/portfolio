@@ -527,6 +527,14 @@ export default function AITandem() {
                     <strong>click here</strong>
                 </a>
             </p>
+            <iframe
+                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                width="auto"
+                height="450"
+                src="https://embed.figma.com/proto/Y4TWnrDYqo4e7gyopQjmuZ/AI-Tandem-App?node-id=70-1343&starting-point-node-id=70%3A1337&embed-host=share"
+                allowFullScreen
+                title="AI Tandem App Prototype"
+            />
         </>
     );
 }

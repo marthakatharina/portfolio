@@ -91,14 +91,13 @@ article {
 .article--title {
     padding-bottom: 0.8rem;
 }
+.articleImage--link {
+    line-height: 0;
+}
 .articleImage--link:hover::after {
     content: unset;
     position: unset;
     transform: scaleX(0);
     border-radius: none;
     height: 0;
-    line-height: 0;
-}
-.articleImage--link::after {
-    transform: scaleX(0);
 }

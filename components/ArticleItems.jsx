@@ -59,11 +59,18 @@ export default function ArticleItems({ article, index }) {
 
     return (
         <div className="article--card" key={index}>
-            <img
-                className="article--img"
-                src={thumbnailSrc}
-                alt={article.title}
-            />
+            <a
+                href={article.link}
+                target="_blank"
+                className="articleImage--link"
+                rel="noreferrer"
+            >
+                <img
+                    className="article--img"
+                    src={thumbnailSrc}
+                    alt={article.title}
+                />
+            </a>
 
             <div className="article--meta">
                 <p className="article--author">{article.author}</p>

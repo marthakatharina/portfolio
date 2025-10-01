@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+    gap: 2rem;
+}
+.italic {
+    font-weight: 500;
+    color: #af7aed;
+    font-style: italic;
+}
+.two-col {
+    width: 50%;
+}
+.no-bullets {
+    list-style: none;
+}
+.no-bullets li {
+    padding-bottom: 1rem;
+}
+
+.three-col {
+    width: 33%;
+}

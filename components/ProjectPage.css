@@ -46,15 +46,9 @@
 .page-container img {
     border-radius: 14px;
 }
-.persona {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    padding: 20px 0;
-}
-.persona img {
-    min-width: 120px;
-    max-width: 120px;
+
+.project-meta {
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 768px) {

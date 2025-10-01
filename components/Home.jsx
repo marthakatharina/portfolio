@@ -6,7 +6,7 @@ export default function Home({ projects }) {
     return (
         <>
             <div className="home-intro">
-                <p style={{ textAlign: "center" }}>
+                <p>
                     Hi 👋, and welcome to my Portfolio showcasing design
                     projects!
                 </p>
@@ -16,8 +16,11 @@ export default function Home({ projects }) {
                     <strong>UX/UI Design Engineer</strong> passionate about
                     making AI-powered and data products easy and enjoyable to
                     use. I love finding ways to simplify complex data and
-                    interactions. Let's collaborate to create seamless and
-                    delightful user experiences!
+                    interactions.
+                </p>
+                <p>
+                    Let's collaborate to create seamless and delightful user
+                    experiences!
                 </p>
             </div>
 

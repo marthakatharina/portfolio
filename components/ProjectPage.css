@@ -1,10 +1,16 @@
+.page-container h2 {
+    margin-top: 40px;
+}
+.page-container h3 {
+    margin-top: 20px;
+}
+
 .page-container h3,
 .page-container h4,
 .page-container h5,
 .page-container h6,
 .page-container p {
     padding-top: 8px;
-    padding-bottom: 8px;
 }
 .page-container ul,
 .page-container ol {
@@ -37,12 +43,7 @@
     margin: auto;
     padding: 0 1em 6em 1em;
 }
-.page-container h2 {
-    margin-top: 30px;
-}
-.page-container h3 {
-    margin-top: 20px;
-}
+
 .page-container img {
     border-radius: 14px;
 }

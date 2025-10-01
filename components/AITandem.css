@@ -2,21 +2,36 @@
     display: flex;
     gap: 2rem;
 }
+.two-col {
+    width: 50%;
+}
+.three-col {
+    width: 33%;
+}
+.no-bullets {
+    list-style: none;
+}
 .italic {
     font-weight: 500;
     color: #af7aed;
     font-style: italic;
 }
-.two-col {
-    width: 50%;
-}
-.no-bullets {
-    list-style: none;
-}
 .no-bullets li {
     padding-bottom: 1rem;
 }
 
-.three-col {
-    width: 33%;
+@media only screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        gap: 0;
+    }
+    .two-col {
+        width: 100%;
+    }
+    .three-col {
+        width: 100%;
+    }
+    iframe {
+        width: auto;
+    }
 }

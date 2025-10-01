@@ -27,7 +27,7 @@ export default function AITandem() {
                 alt="AI Tandem app"
                 style={{ maxWidth: "100%" }}
             />
-            <p>
+            <p style={{ color: "gray" }}>
                 No time for reading the whole Case Study? Download the project
                 presentation in Google Slides{" "}
                 <a
@@ -293,9 +293,12 @@ export default function AITandem() {
             <h2>Design Requirements</h2>
             <p>
                 The project design prioritizes an adaptive, conversation-driven
-                approach to language learning.
+                approach to language learning. The design process incorporated
+                user feedback from the initial research stage and considered
+                guidelines for human-AI interaction (Amershi et al., 2019) and
+                design principles from Wärnestål (2022).
             </p>
-            <p>AI Tandem features include:</p>
+            <br></br>
             <ul className="flex">
                 <li className="three-col">
                     <b>Synchronous Voice and Video Communication</b> - simulates
@@ -311,16 +314,10 @@ export default function AITandem() {
                     vocabulary expansion.
                 </li>
             </ul>
-            <p>
-                The design process incorporated user feedback from the initial
-                research stage and considered guidelines for human-AI
-                interaction (Amershi et al., 2019) and design principles from
-                Wärnestål (2022).
-            </p>
-            <p>Selected guidelines emphasise:</p>
             <ul className="flex">
                 <li className="three-col">
-                    <b>Clarity</b> - defining what AI Tandem can and cannot do.
+                    <b>Transparency</b> - defining what AI Tandem can and cannot
+                    do.
                 </li>
                 <li className="three-col">
                     <b>Memory</b> - remembering recent interactions for
@@ -332,7 +329,6 @@ export default function AITandem() {
                     tone.
                 </li>
             </ul>
-            <p>Key design requirements include:</p>
             <ul className="flex">
                 <li className="three-col">
                     <b>Ease of Use and Engagement</b> - AI Tandem must be
@@ -346,12 +342,12 @@ export default function AITandem() {
                     accomplishment.
                 </li>
                 <li className="three-col">
-                    <b>Transparency and Reliability</b> - the service should
-                    communicate clearly about its functions, limitations, and
-                    reasoning, while ensuring stable and consistent performance
-                    to foster user trust.
+                    <b>Trustworthiness</b> - the service should ensure personal
+                    data protection and stable and consistent performance
+                    without any dark patterns to foster user trust.
                 </li>
             </ul>
+            <br></br>
             <p>
                 The design of AI Tandem emphasizes seamless user onboarding and
                 a personalized, adaptive feedback loop to facilitate effective
@@ -368,18 +364,18 @@ export default function AITandem() {
                 learning service and experience. Here's how it functions:
             </p>
             <p>
-                <b>AI Tandem Introduction:</b> A brief introduction to how AI
+                1️⃣ <b>AI Tandem Introduction:</b> A brief introduction to how AI
                 Tandem functions clarifies its capabilities and limitations,
                 setting realistic expectations for the user.
             </p>
             <p>
-                <b>Initial Questionnaire:</b> Joanna begins with answering a few
-                basic questions to determine her age group, native language(s),
-                language learning background, and desired languages along with
-                their current levels. This step is crucial for learnability of
-                AI Tandem, ensuring the AI's models are trained and algorithms
-                adjusted, so that the user can receive a tailored, adaptable and
-                valuable language learning experience.
+                2️⃣ <b>Initial Questionnaire:</b> Joanna begins with answering a
+                few basic questions to determine her age group, native
+                language(s), language learning background, and desired languages
+                along with their current levels. This step is crucial for
+                learnability of AI Tandem, ensuring the AI's models are trained
+                and algorithms adjusted, so that the user can receive a
+                tailored, adaptable and valuable language learning experience.
             </p>
             <img
                 src="/images/AI Tandem - Onboarding.png"
@@ -388,14 +384,14 @@ export default function AITandem() {
             />
             <p>Additional onboarding considerations:</p>
             <p>
-                <b>Goal Setting:</b> Joanna outlines her specific goals for
+                3️⃣ <b>Goal Setting:</b> Joanna outlines her specific goals for
                 using AI Tandem (e.g., conversational fluency for daily life,
                 preparation for job interviews, focusing on specific skills like
                 grammar or pronunciation).
             </p>
             <p>
-                <b>Interest Profile:</b> Joanna selects areas of interest (e.g.,
-                hobbies, current events, professional topics) to guide AI
+                4️⃣ <b>Interest Profile:</b> Joanna selects areas of interest
+                (e.g., hobbies, current events, professional topics) to guide AI
                 Tandem's conversation starters and content suggestions.
             </p>
             <h2>Designing Feedback Loop</h2>

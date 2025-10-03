@@ -13,14 +13,12 @@ export default function Home({ projects }) {
                 <p>
                     I'm <strong>Marta Wlusek</strong>, a{" "}
                     <strong>Digital Product Designer</strong> and{" "}
-                    <strong>UX/UI Design Engineer</strong> passionate about
-                    making AI-powered and data products easy and enjoyable to
-                    use. I love finding ways to simplify complex data and
-                    interactions.
+                    <strong>UX/UI Design Engineer</strong>
                 </p>
                 <p>
-                    Let's collaborate to create seamless and delightful user
-                    experiences!
+                    I help companies and organizations design and develop GenAI
+                    and Machine Learning-based solutions to optimize
+                    productivity, accessibility, and engagement.
                 </p>
             </div>
 

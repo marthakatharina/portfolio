@@ -13,7 +13,7 @@ export default function Home({ projects }) {
                 <p>
                     I'm <strong>Marta Wlusek</strong>, a{" "}
                     <strong>Digital Product Designer</strong> and{" "}
-                    <strong>UX/UI Design Engineer</strong>
+                    <strong>UX/UI Design Engineer</strong>.
                 </p>
                 <p>
                     I help companies and organizations design and develop GenAI

@@ -4,6 +4,7 @@ import "./ProjectPage.css";
 import ImageLightbox from "./ImageLightbox";
 import ApTo from "./ApTo";
 import AITandem from "./AITandem";
+import EuropeanaAIAgent from "./EuropeanaAIAgent";
 
 export default function ProjectPage() {
     const { slug } = useParams();
@@ -12,6 +13,7 @@ export default function ProjectPage() {
     const contentMap = {
         "ai-tandem": <AITandem />,
         "apto-app": <ApTo />,
+        "europeana-ai-agent": <EuropeanaAIAgent />,
         // Add other mappings here as needed
     };
 

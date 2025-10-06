@@ -13,9 +13,14 @@ import Main from "../components/Main";
 // import Dot from "../components/Dot";
 import { AptoProjectData } from "/components/ApTo";
 import { AiTandemProjectData } from "/components/AITandem";
+import { EuropeanaAIAgentProjectData } from "/components/EuropeanaAIAgent";
 
 export default function App() {
-    const [projects] = useState([AiTandemProjectData, AptoProjectData]);
+    const [projects] = useState([
+        EuropeanaAIAgentProjectData,
+        AiTandemProjectData,
+        AptoProjectData,
+    ]);
     const [theme, setTheme] = useState("light");
     const [coordinates, setCoordinates] = useState({ x: 45, y: 30 });
     const [hideDot, setHideDot] = useState(false);

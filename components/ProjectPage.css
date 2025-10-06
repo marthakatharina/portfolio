@@ -52,6 +52,54 @@
     margin-bottom: 0;
 }
 
+figure {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.inline-bracket {
+    font-size: 14px;
+    color: gray;
+}
+
+.no-bullets {
+    list-style: none;
+}
+.italic {
+    font-weight: 500;
+    color: #af7aed;
+    font-style: italic;
+}
+.center {
+    width: 100%;
+    margin: 2rem auto;
+}
+.center li {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.no-bullets li {
+    padding-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    gap: 2rem;
+}
+.two-col {
+    width: 50%;
+}
+.three-col {
+    width: 33%;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         padding: 2em 0;
@@ -61,5 +109,15 @@
     }
     .project-meta {
         font-size: 13px;
+    }
+    .flex {
+        flex-direction: column;
+        gap: 0;
+    }
+    .two-col {
+        width: 100%;
+    }
+    .three-col {
+        width: 100%;
     }
 }

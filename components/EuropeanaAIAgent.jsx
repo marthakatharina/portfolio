@@ -63,7 +63,7 @@ export default function EuropeanaAIAgent() {
                 data principles: Findable, Accessible, Interoperable, Reusable
                 (FAIR)
             </p>
-            <p>AI Agent for Europeana can:</p>
+            <p>An AI Agent for Europeana can:</p>
             <ul className="no-bullets">
                 <li>
                     💡 Enhance intuitive and efficient discovery of cultural
@@ -71,7 +71,7 @@ export default function EuropeanaAIAgent() {
                 </li>
                 <li>
                     💡 Reduce search time, making resources more accessible{" "}
-                    <span>(Accessible)</span>
+                    <span className="inline-bracket">(Accessible)</span>
                 </li>
                 <li>
                     💡 Improve understanding and engagement with cultural assets

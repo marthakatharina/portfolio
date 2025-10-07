@@ -28,7 +28,7 @@
 .page-container {
     max-width: 1024px;
     margin: auto;
-    padding: 0 1em 6em 1em;
+    padding: 0 12px 6em 12px;
 }
 
 .page-container img {

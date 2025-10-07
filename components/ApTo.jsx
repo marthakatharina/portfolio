@@ -42,7 +42,9 @@ export default function ApTo() {
                 app.
             </p>
             <h3>Tagline:</h3>
-            <em>Like a travel planner, but also for locals</em>
+            <em className="italic">
+                Like a travel planner, but also for locals
+            </em>
             <h3>App roles:</h3>
             <ul>
                 <li>

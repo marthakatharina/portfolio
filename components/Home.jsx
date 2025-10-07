@@ -1,6 +1,7 @@
 // Home.jsx
 import React from "react";
 import ProjectCard from "/components/ProjectCard";
+import "./Home.css";
 
 export default function Home({ projects }) {
     return (

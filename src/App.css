@@ -181,7 +181,7 @@ h2 {
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 40px;
 }
 .about-heading {
     text-align: center;

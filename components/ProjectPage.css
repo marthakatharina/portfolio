@@ -25,20 +25,8 @@
     height: 100%;
 }
 
-.project-cards {
-    padding-bottom: 4em;
-    margin: auto;
-}
-
-.container {
-    width: 100%;
-    max-width: 900px;
-    justify-content: center;
-    padding: 2em 1em;
-    margin: auto;
-}
 .page-container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     padding: 0 1em 6em 1em;
 }
@@ -100,9 +88,6 @@ figcaption {
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        padding: 2em 0;
-    }
     .page-container {
         padding: 0 0 6em 0;
     }

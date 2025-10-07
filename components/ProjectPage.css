@@ -1,16 +1,15 @@
 .page-container h2 {
-    margin-top: 40px;
+    margin-top: 3rem;
 }
 .page-container h3 {
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
 
-.page-container h3,
 .page-container h4,
 .page-container h5,
 .page-container h6,
 .page-container p {
-    padding-top: 8px;
+    margin-top: 1rem;
 }
 .page-container ul,
 .page-container ol {
@@ -54,7 +53,7 @@
 
 figure {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 figcaption {

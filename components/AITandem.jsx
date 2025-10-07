@@ -284,12 +284,6 @@ export default function AITandem() {
                 alt="Customer Journey Map"
                 style={{ maxWidth: "100%" }}
             />
-            <p>
-                The success of AI Tandem depends on Joanna’s engagement and her
-                perception of value. The service needs to maintain a
-                personalized, empathetic feel and demonstrate clear progress,
-                motivating continued use.
-            </p>
             <h2>Design Requirements</h2>
             <p>
                 The project design prioritizes an adaptive, conversation-driven
@@ -539,6 +533,12 @@ export default function AITandem() {
                     the service regularly?
                 </li>
             </ul>
+            <p>
+                The success of AI Tandem depends on users engagement and their
+                perception of value. The service needs to maintain adaptive,
+                personalized, and empathetic feel and demonstrate clear
+                progress, motivating continued use.
+            </p>
             <p>
                 Feedback from potential users (as seen in the User Research
                 section) will continue to be integrated into future development

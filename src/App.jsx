@@ -9,8 +9,8 @@ import ThemeSwitcher from "/components/ThemeSwitcher";
 import ScrollToTop from "/components/ScrollToTop";
 // import { useContext } from "react";
 import "./App.css";
-import Main from "../components/Main";
-// import Dot from "../components/Dot";
+import Main from "/components/Main";
+import Dot from "/components/Dot";
 import { AptoProjectData } from "/components/ApTo";
 import { AiTandemProjectData } from "/components/AITandem";
 import { EuropeanaAIAgentProjectData } from "/components/EuropeanaAIAgent";
@@ -42,7 +42,7 @@ export default function App() {
             <Context.Provider value={contextValues}>
                 <ThemeSwitcher />
                 <Main onPointerMove={setCoordinates} id="main-container">
-                    {/* <Dot coordinates={coordinates} /> */}
+                    <Dot coordinates={coordinates} />
                     <BrowserRouter>
                         <ScrollToTop />
                         {isHeaderHidden && (
@@ -144,9 +144,6 @@ export default function App() {
                                     element={<ProjectPage />}
                                 />
                             </Routes>
-                            {/* <AptoProjectData
-                                onProjectData={handleProjectData}
-                            /> */}
                         </div>
                     </BrowserRouter>
                 </Main>

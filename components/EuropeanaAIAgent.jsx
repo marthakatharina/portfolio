@@ -74,7 +74,7 @@ export default function EuropeanaAIAgent() {
                     <span className="inline-bracket">(Accessible)</span>
                 </li>
                 <li>
-                    💡 Improve understanding and engagement with cultural assets
+                    💡 Improve understanding and engagement with cultural assets{" "}
                     <span className="inline-bracket">(Reusable)</span>
                 </li>
                 <li>
@@ -82,7 +82,7 @@ export default function EuropeanaAIAgent() {
                     <span className="inline-bracket">(Interoperable)</span>
                 </li>
                 <li>
-                    💡 Promote ethical and responsible AI in public applications
+                    💡 Promote ethical and responsible AI in public applications{" "}
                     <span className="inline-bracket">
                         (Bonus: aligns with EU AI Act and relevant ISO
                         standards)

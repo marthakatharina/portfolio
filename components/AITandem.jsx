@@ -561,8 +561,9 @@ export default function AITandem() {
                 </a>
             </p>
             <iframe
+                className="figma-embed"
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-                width="1000"
+                width="100%"
                 height="700"
                 src="https://embed.figma.com/proto/Y4TWnrDYqo4e7gyopQjmuZ/AI-Tandem-App?node-id=70-1343&starting-point-node-id=70%3A1337&embed-host=share"
                 allowFullScreen

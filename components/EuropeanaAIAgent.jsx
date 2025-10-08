@@ -55,7 +55,8 @@ export default function EuropeanaAIAgent() {
                 Users exploring digital cultural assets often encounter
                 irrelevant and cluttered search results, as well as a lack of
                 contextual information, when navigating classical search
-                interfaces, such as those of Europeana.
+                interfaces, such as those of Europeana - especially with
+                sementic search queries.
             </p>
             <h3>Hypothesis:</h3>
             <p>
@@ -95,19 +96,21 @@ export default function EuropeanaAIAgent() {
                 survey was distributed via Europeana’s mailing lists.
                 Quantitative data were analyzed using Python.​ ​
             </p>
-            <h4>
-                Identified <span className="italic">Painpoints</span> in order
-                of importance:
-            </h4>
-            <div className="center">
-                <ol className="no-bullets">
-                    <li>① Spending too much time to find relevant items</li>
-                    <li>② Irrelevant search results​</li>
-                    <li>③ Too many search results​</li>
-                    <li>④ Too broad search results​</li>
-                    <li>⑤ Difficulty refining searches</li>
-                    <li>⑥ Lack of context about objects</li>
-                </ol>
+            <div className="flex">
+                <h4 className="two-col">
+                    Identified <span className="italic">Painpoints</span> in
+                    order of importance:
+                </h4>
+                <div className="two-col">
+                    <ol className="no-bullets" style={{ marginTop: "1rem" }}>
+                        <li>① Spending too much time to find relevant items</li>
+                        <li>② Irrelevant search results​</li>
+                        <li>③ Too many search results​</li>
+                        <li>④ Too broad search results​</li>
+                        <li>⑤ Difficulty refining searches</li>
+                        <li>⑥ Lack of context about objects</li>
+                    </ol>
+                </div>
             </div>
             <figure>
                 <img
@@ -198,6 +201,22 @@ export default function EuropeanaAIAgent() {
             </div>
 
             <h2>Prototype</h2>
+            <p>
+                Here is a demo of the first itearation of the MVP prototype
+                created in Figma, explaining usability testing tasks performed
+                by users.
+            </p>
+            <iframe
+                className="EuropeanaDemo"
+                width="100%"
+                height="610"
+                src="https://www.youtube.com/embed/IJo6cFcxd8I?si=FjeDoX9br9WRdMir"
+                title="Europeana AI Agent - Usability Testing Demo"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            />
             <h2>Usability testing</h2>
             <h2>Future implementation & Research</h2>
         </>

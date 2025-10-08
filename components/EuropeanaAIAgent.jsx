@@ -133,6 +133,70 @@ export default function EuropeanaAIAgent() {
             />
 
             <h2>Idea Development</h2>
+            <p>The research insights informed the following design ideas:</p>
+            <ul className="no-bullets">
+                <li>
+                    💡 An AI agent as a complementary tool to the classic search
+                    interface.
+                </li>
+                <li>
+                    💡 Filters that can be combined directly in the chat input.
+                </li>
+                <li>💡 Dynamic prompt suggestions.</li>
+                <li>
+                    💡 Context view that explains the historical background,
+                    geographical references or thematic connections of objects.
+                </li>
+            </ul>
+            <p>
+                Based on the analysis of user journey mapping and use case
+                scenarios, the following{" "}
+                <span className="italic">activity model</span> was developed,
+                which guided the definition of MVP functionality.
+            </p>
+            <div className="table-container">
+                <div className="table-row">
+                    <div className="table-cell-left">
+                        <p className="activity">Search</p>
+                    </div>
+                    <div className="table-cell-right">
+                        <p>
+                            Prompt with text or image, or per suggestion prompt
+                        </p>
+                    </div>
+                </div>
+
+                <div className="table-row">
+                    <div className="table-cell-left">
+                        <p className="activity">Refine</p>
+                    </div>
+                    <div className="table-cell-right">
+                        <p>
+                            Filter options and dynamic prompts direct in chat
+                            input
+                        </p>
+                    </div>
+                </div>
+
+                <div className="table-row">
+                    <div className="table-cell-left">
+                        <p className="activity">Evaluate</p>
+                    </div>
+                    <div className="table-cell-right">
+                        <p>"Explain Context" and "Verify Facts" buttons</p>
+                    </div>
+                </div>
+
+                <div className="table-row">
+                    <div class="table-cell-left">
+                        <p className="activity">Save</p>
+                    </div>
+                    <div class="table-cell-right">
+                        <p>Save media and bookmark answers, export and share</p>
+                    </div>
+                </div>
+            </div>
+
             <h2>Prototype</h2>
             <h2>Usability testing</h2>
             <h2>Future implementation & Research</h2>

@@ -40,9 +40,9 @@ export default function App() {
     return (
         <>
             <Context.Provider value={contextValues}>
-                <ThemeSwitcher />
+                <Dot coordinates={coordinates} />
                 <Main onPointerMove={setCoordinates} id="main-container">
-                    <Dot coordinates={coordinates} />
+                    <ThemeSwitcher />
                     <BrowserRouter>
                         <ScrollToTop />
                         {isHeaderHidden && (

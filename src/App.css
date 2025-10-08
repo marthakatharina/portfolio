@@ -12,19 +12,24 @@ main {
     overflow: hidden;
 }
 
-/* .dot {
+.dot {
     width: 20px;
     height: 20px;
-    background-color: #ead200;
-    border-radius: 50%;
     position: fixed;
     top: -10px;
     left: -10px;
-    transition: transform 0.5s ease-out;
-    -webkit-transition: transform 0.5s ease-out;
-    -o-transition: transform 0.5s ease-out;
-    z-index: 999;
-} */
+    transition: transform 0.25s ease-out;
+    -webkit-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    z-index: 12001; /* place above #header (which uses 11000) */
+    pointer-events: none; /* allow clicks through the dot */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot svg {
+    display: block;
+}
 
 .light {
     background-color: #f8f8f4;

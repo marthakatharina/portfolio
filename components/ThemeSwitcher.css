@@ -14,11 +14,11 @@
 .theme-switcher--container {
     height: 40px;
     text-align: right;
-    background-color: #ffffff;
-    border-bottom: 1px solid #111111;
-    padding-right: 1em;
+    padding-right: 0.9em;
+    padding-top: 0.5em;
     position: sticky;
     top: 0;
+    left: 100%;
     z-index: 1000;
 }
 .theme-toggle-button {
@@ -37,7 +37,7 @@
 }
 
 .sun-and-moon.light-mode .sun-core {
-    fill: black;
+    fill: white;
 }
 
 .sun-beams {

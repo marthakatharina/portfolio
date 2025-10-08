@@ -195,7 +195,10 @@ export default function EuropeanaAIAgent() {
                         <p className="activity">Save</p>
                     </div>
                     <div class="table-cell-right">
-                        <p>Save media and bookmark answers, export and share</p>
+                        <p>
+                            Save media and bookmark answers, download, export,
+                            and share
+                        </p>
                     </div>
                 </div>
             </div>
@@ -209,7 +212,7 @@ export default function EuropeanaAIAgent() {
             <iframe
                 className="EuropeanaDemo"
                 width="100%"
-                height="610"
+                height="615"
                 src="https://www.youtube.com/embed/IJo6cFcxd8I?si=FjeDoX9br9WRdMir"
                 title="Europeana AI Agent - Usability Testing Demo"
                 frameborder="0"
@@ -218,7 +221,95 @@ export default function EuropeanaAIAgent() {
                 allowfullscreen
             />
             <h2>Usability testing</h2>
+            <p>
+                Qualitative feedback was collected using two methods: think
+                aloud, conducted with 2 users (including one pilot tester), and
+                online asynchronous usability testing, in which 2 users provided
+                their responses and feedback after completing the tasks on their
+                own schedule.{" "}
+            </p>
+            <h4>
+                Problems were observed with "Explain Context" & "Verify Facts"
+                buttons in the <span className="italic">first iteration</span>{" "}
+                of the design:
+            </h4>
+            <ul className="no-bullets">
+                <li>
+                    ⚠️ Some users struggled to locate and interpret the
+                    functions.
+                </li>
+                <li>
+                    ⚠️ "Verify Facts" in particular caused confusion and was not
+                    easily findable.
+                </li>
+                <li>
+                    ⚠️ Both A/B tested icons for "Verify Facts" did not match
+                    their mental models.
+                </li>
+                <li>
+                    ⚠️ All users had different expectations regarding the
+                    implementation of the fact-checking function and the choice
+                    of icon to represent it.
+                </li>
+            </ul>
+            <h4>
+                The insights were used to refine and improve these
+                functionalities in the{" "}
+                <span className="italic">second iteration</span> of the design:
+            </h4>
+
+            <div className="table-container">
+                <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <img
+                        src={"/images/EuropeanaFirstIteration-1.png"}
+                        alt="Europeana Objects"
+                        style={{ maxWidth: "100%" }}
+                    />
+                </div>
+
+                <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <img
+                        src={"/images/EuropeanaSecondIteration-1.png"}
+                        alt="Europeana Objects"
+                        style={{ maxWidth: "100%" }}
+                    />
+                </div>
+            </div>
+            <div className="table-container" style={{ marginTop: "4rem" }}>
+                <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <img
+                        src={"/images/EuropeanaFirstIteration-2.png"}
+                        alt="Europeana Objects"
+                        style={{ maxWidth: "100%" }}
+                    />
+                </div>
+
+                <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <img
+                        src={"/images/EuropeanaSecondIteration-2.png"}
+                        alt="Europeana Objects"
+                        style={{ maxWidth: "100%" }}
+                    />
+                </div>
+            </div>
+
             <h2>Future implementation & Research</h2>
+            <p>
+                The next step, which is already underway, is the development of
+                a working prototype using OpenAI tools and the available
+                Europeana APIs with data and metadata, modelled using Europeana
+                Data Model (EDM).
+            </p>
+            <p>
+                The objective of the prototype, that will be measured, is for at
+                least 70% of users to find relevant objects within 5 minutes
+                using the chat interface and rate their results as helpful.
+            </p>
+            <p>
+                In addition, guidelines on AI systems will be applied as
+                usability heuristics to ensure that the Europeana AI Assistant
+                is designed with a human-centred approach.​ ​
+            </p>
         </>
     );
 }

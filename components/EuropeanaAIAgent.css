@@ -1,12 +1,12 @@
 .table-container {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .table-row {
     display: flex;
     flex-wrap: wrap;
-    border: 3px solid #f9ce46;
+    border: 1px solid currentColor;
     background-color: #f5f5dc;
     position: relative;
     margin-top: 2rem;
@@ -23,7 +23,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-top: 20px solid #f9ce46;
+    border-top: 20px solid currentColor;
 }
 
 .table-row:last-child {
@@ -32,9 +32,9 @@
 
 .table-cell-left {
     width: 35%;
-    padding: 40px;
+    padding: 20px 40px;
     background-color: white;
-    border-right: 3px solid #f9ce46;
+    border-right: 1px solid currentColor;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@
 
 .table-cell-right {
     width: 65%;
-    padding: 40px;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
 }

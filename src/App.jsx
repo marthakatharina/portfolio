@@ -22,7 +22,7 @@ export default function App() {
         AptoProjectData,
     ]);
     const [theme, setTheme] = useState("light");
-    const [coordinates, setCoordinates] = useState({ x: 45, y: 30 });
+    const [coordinates, setCoordinates] = useState({ x: 20, y: 20 });
     const [hideDot, setHideDot] = useState(false);
     const [isHeaderHidden, setIsHeaderHidden] = useState(true);
 

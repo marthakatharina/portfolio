@@ -1,17 +1,31 @@
+.home-intro {
+    font-size: 1.2rem;
+    max-width: 860px;
+    margin: auto;
+    padding: 2em 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 860px;
+    justify-content: center;
+    padding: 2em 0;
+    margin: auto;
+}
+
 .project-cards {
     padding-bottom: 4em;
     margin: auto;
 }
 
-.container {
-    width: 100%;
-    max-width: 900px;
-    justify-content: center;
-    padding: 2em 1em;
-    margin: auto;
-}
-
 @media only screen and (max-width: 768px) {
+    .home-intro {
+        font-size: 1rem;
+    }
+    .project-cards {
+        max-width: 100%;
+        display: block;
+    }
     .container {
         padding: 2em 0;
     }

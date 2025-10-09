@@ -211,6 +211,7 @@ export default function EuropeanaAIAgent() {
             </p>
             <iframe
                 className="EuropeanaDemo"
+                style={{ borderRadius: "14px" }}
                 width="100%"
                 height="615"
                 src="https://www.youtube.com/embed/IJo6cFcxd8I?si=FjeDoX9br9WRdMir"

@@ -125,7 +125,7 @@ export default function EuropeanaAIAgent() {
                 </figcaption>
             </figure>
 
-            <h4>
+            {/****  <h4>
                 The most common <span className="italic">opinions</span> about
                 AI Agents:
             </h4>
@@ -133,7 +133,7 @@ export default function EuropeanaAIAgent() {
                 src={"/images/EuropeanaDataAnalysis-2.png"}
                 alt="Data analysis"
                 style={{ maxWidth: "100%" }}
-            />
+            /> ****/}
 
             <h2>Idea Development</h2>
             <p>The research insights informed the following design ideas:</p>

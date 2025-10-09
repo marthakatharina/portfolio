@@ -298,6 +298,17 @@ export default function EuropeanaAIAgent() {
                 </div>
             </div>
 
+            <p>
+                To test it yourself in Figma{" "}
+                <a
+                    href="https://www.figma.com/proto/xQFdYs8QLYHnUlWSRLiqWz/AI-Search-Agent?node-id=336-786&t=7NQ0GE5gXnCasH41-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=336%3A786&show-proto-sidebar=1&hide-ui=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <strong>click here</strong>
+                </a>
+            </p>
+
             <h2>Future implementation & Research</h2>
             <p>
                 The next step, which is already underway, is the development of

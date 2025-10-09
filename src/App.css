@@ -216,6 +216,10 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
+    .dot,
+    .dot svg {
+        display: none;
+    }
     .about {
         display: flex;
         flex-direction: column;

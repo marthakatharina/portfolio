@@ -262,7 +262,7 @@ export default function EuropeanaAIAgent() {
                 <div className="table-row" style={{ borderRadius: "14px" }}>
                     <img
                         src={"/images/EuropeanaFirstIteration-1.png"}
-                        alt="Europeana Objects"
+                        alt="First iteration of Europeana AI Agent"
                         style={{ maxWidth: "100%" }}
                     />
                 </div>
@@ -270,16 +270,21 @@ export default function EuropeanaAIAgent() {
                 <div className="table-row" style={{ borderRadius: "14px" }}>
                     <img
                         src={"/images/EuropeanaSecondIteration-1.png"}
-                        alt="Europeana Objects"
+                        alt="Second iteration of Europeana AI Agent"
                         style={{ maxWidth: "100%" }}
                     />
                 </div>
             </div>
-            <div className="table-container" style={{ marginTop: "4rem" }}>
+            <p style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+                The "Verify Facts" button was replaced with a toggle button
+                allowing the user to switch between a faster and concise
+                response and a slower but fact-verified response.{" "}
+            </p>
+            <div className="table-container">
                 <div className="table-row" style={{ borderRadius: "14px" }}>
                     <img
                         src={"/images/EuropeanaFirstIteration-2.png"}
-                        alt="Europeana Objects"
+                        alt="First iteration of Europeana AI Agent"
                         style={{ maxWidth: "100%" }}
                     />
                 </div>
@@ -287,7 +292,7 @@ export default function EuropeanaAIAgent() {
                 <div className="table-row" style={{ borderRadius: "14px" }}>
                     <img
                         src={"/images/EuropeanaSecondIteration-2.png"}
-                        alt="Europeana Objects"
+                        alt="Second iteration of Europeana AI Agent"
                         style={{ maxWidth: "100%" }}
                     />
                 </div>

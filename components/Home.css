@@ -15,13 +15,13 @@
     max-width: 70ch;
     font-size: 1rem;
 }
-.home-intro strong {
-    font-weight: 800;
-}
 
 /* Lead paragraph slightly stronger and larger */
 .home-intro p:first-of-type {
     font-size: 2rem;
+}
+.home-intro strong {
+    font-weight: 700;
 }
 
 .container {

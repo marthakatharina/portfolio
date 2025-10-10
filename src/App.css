@@ -126,11 +126,9 @@ p {
 }
 
 .menu-container {
-    /* padding: 3em; */
     height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* align-items: flex-start; */
 }
 
 .menu {
@@ -173,7 +171,6 @@ p {
 }
 h1,
 h2 {
-    /* font-family: Big Caslon, Georgia, Cambria, "Times New Roman", Times, serif; */
     padding-top: 8px;
     padding-bottom: 8px;
     line-height: 1.5;
@@ -266,6 +263,9 @@ footer p {
     }
     h2 {
         font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1.1em;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 996px) {

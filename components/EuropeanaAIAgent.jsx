@@ -19,7 +19,7 @@ export default function EuropeanaAIAgent() {
         <>
             <h1>{EuropeanaAIAgentProjectData.title.rendered}</h1>
             <p className="project-meta">
-                Marta Wlusek | Product Design |{" "}
+                <a href="/">Marta Wlusek</a> | Product Design |{" "}
                 {EuropeanaAIAgentProjectData.date}
             </p>
             <img

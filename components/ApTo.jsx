@@ -17,7 +17,8 @@ export default function ApTo() {
         <div>
             <h1>{AptoProjectData.title.rendered}</h1>
             <p className="project-meta">
-                Marta Wlusek | UX/UI Design | {AptoProjectData.date}
+                <a href="/">Marta Wlusek</a> | UX/UI Design |{" "}
+                {AptoProjectData.date}
             </p>
             <img
                 src={AptoProjectData._links.featuredmedia[0].href}

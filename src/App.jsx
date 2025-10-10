@@ -91,10 +91,25 @@ export default function App() {
                                     <ul>
                                         <li>
                                             <Link
-                                                to="/"
-                                                onClick={() =>
-                                                    setIsHeaderHidden(true)
-                                                }
+                                                to={"/#projects"}
+                                                onClick={() => {
+                                                    setIsHeaderHidden(true);
+                                                    // Always attempt to scroll to the projects anchor
+                                                    // even when already on the page.
+                                                    setTimeout(() => {
+                                                        const el =
+                                                            document.getElementById(
+                                                                "projects"
+                                                            );
+                                                        if (el) {
+                                                            el.scrollIntoView({
+                                                                behavior:
+                                                                    "smooth",
+                                                                block: "start",
+                                                            });
+                                                        }
+                                                    }, 50);
+                                                }}
                                             >
                                                 Projects
                                             </Link>

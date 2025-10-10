@@ -8,11 +8,7 @@ export default function Home({ projects }) {
         <>
             <div className="home-intro">
                 <p>
-                    Hi 👋, and welcome to my Portfolio showcasing design
-                    projects!
-                </p>
-                <p>
-                    I'm <strong>Marta Wlusek</strong>, a{" "}
+                    Hi 👋, I'm <strong>Marta Wlusek</strong>, a{" "}
                     <strong>Digital Product Designer</strong> and{" "}
                     <strong>UX/UI Design Engineer</strong>.
                 </p>
@@ -23,7 +19,9 @@ export default function Home({ projects }) {
                 </p>
             </div>
 
-            <h1 style={{ textAlign: "center" }}>Projects</h1>
+            <h1 id="projects" style={{ textAlign: "center" }}>
+                Projects
+            </h1>
             <div className="project-cards">
                 {projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />

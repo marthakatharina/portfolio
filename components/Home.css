@@ -41,6 +41,9 @@
     .home-intro {
         font-size: 1rem;
     }
+    .home-intro p:first-of-type {
+        font-size: 1rem;
+    }
     .project-cards {
         max-width: 100%;
         display: block;

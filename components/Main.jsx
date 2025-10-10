@@ -23,7 +23,7 @@ export default function Main({ children, onPointerMove }) {
         const interactiveFound = hasAncestorMatching(target, (n) => {
             const tag = n.tagName;
             if (tag === "A" || tag === "BUTTON" || tag === "LINK") return true;
-            if (tag === "IMG") return true;
+            if (tag === "IMG" || tag === "IFRAME") return true;
             try {
                 const cs = window.getComputedStyle(n);
                 if (cs && cs.cursor && cs.cursor.includes("zoom-in"))

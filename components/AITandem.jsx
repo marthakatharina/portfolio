@@ -88,12 +88,12 @@ export default function AITandem() {
                         foreign language on a regular basis.
                     </li>
                     <li>
-                        ❌ <b>Grammar and pronunciation support: </b>Receiving
-                        constructive feedback on these critical components can
-                        be infrequent or inconsistent.
+                        <b>❌ Grammar and pronunciation support: </b>
+                        Receiving constructive feedback on these critical
+                        components can be infrequent or inconsistent.
                     </li>
                     <li>
-                        ❌ <b>Lack of adaptivity and personalization: </b>Many
+                        <b>❌ Lack of adaptivity and personalization: </b>Many
                         learners feel a need for a more flexible approach that
                         adapts to their current skill level and provides a
                         tailored learning experience.
@@ -361,12 +361,12 @@ export default function AITandem() {
                 learning service and experience. Here's how it functions:
             </p>
             <p>
-                1️⃣ <b>AI Tandem Introduction:</b> A brief introduction to how AI
+                <b>1️⃣ AI Tandem Introduction:</b> A brief introduction to how AI
                 Tandem functions clarifies its capabilities and limitations,
                 setting realistic expectations for the user.
             </p>
             <p>
-                2️⃣ <b>Initial Questionnaire:</b> Joanna begins with answering a
+                <b>2️⃣ Initial Questionnaire:</b> Joanna begins with answering a
                 few basic questions to determine her age group, native
                 language(s), language learning background, and desired languages
                 along with their current levels. This step is crucial for
@@ -381,13 +381,13 @@ export default function AITandem() {
             />
             <p>Additional onboarding considerations:</p>
             <p>
-                3️⃣ <b>Goal Setting:</b> Joanna outlines her specific goals for
+                <b>3️⃣ Goal Setting:</b> Joanna outlines her specific goals for
                 using AI Tandem (e.g., conversational fluency for daily life,
                 preparation for job interviews, focusing on specific skills like
                 grammar or pronunciation).
             </p>
             <p>
-                4️⃣ <b>Interest Profile:</b> Joanna selects areas of interest
+                <b>4️⃣ Interest Profile:</b> Joanna selects areas of interest
                 (e.g., hobbies, current events, professional topics) to guide AI
                 Tandem's conversation starters and content suggestions.
             </p>
@@ -450,21 +450,21 @@ export default function AITandem() {
             </p>
             <div className="flex">
                 <h4 className="two-col">
-                    The <span className="italic">Feedback</span> dialogue UI
+                    The <span className="italic">feedback</span> dialogue UI
                     element offers the following advantages:
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>
-                        ✅ <b>Keeps human in the loop</b>, helping improve and
+                        <b>✅ Keeps human in the loop</b>, helping improve and
                         refine AI models.
                     </li>
                     <li>
-                        ✅ <b>Captures feedback immediately</b> after the
+                        <b>✅ Captures feedback immediately</b> after the
                         session while the experience is fresh in the user's
                         mind.
                     </li>
                     <li>
-                        ✅ <b>Allows for quick, focused feedback</b> without
+                        <b>✅ Allows for quick, focused feedback</b> without
                         significantly extending the session time or disrupting
                         the conversational flow.
                     </li>
@@ -492,51 +492,59 @@ export default function AITandem() {
                     memorability.
                 </p>
             </div>
-            <h3>Additional design considerations:</h3>
-            <p>
-                <b>Interface:</b> The user interface should be intuitive and
-                distraction-free, focusing on the voice or video conversation
-                aspect. Visual elements augment learning but don't overwhelm the
-                user.
-            </p>
-            <p>
-                <b>Gamification:</b> Subtle gamification elements, like points
-                or badges, can boost motivation for adolescent users who respond
-                positively to them.
-            </p>
-            <p>
-                <b>Error Tolerance:</b> AI Tandem needs to strike a balance
-                between correction and allowing natural-sounding speech. A
-                system that is too corrective could create frustration and break
-                conversational flow. Striking a balance between correcting too
-                little (letting mistakes become habits) and correcting too much
-                (disrupting conversational flow and confidence) is a key
-                challenge in designing the feedback loop.
-            </p>
-            <p>
-                <b>Transparency:</b> Joanna should be able to review her
-                progress and feedback history. This helps her understand areas
-                for improvement and reinforces her learning journey.
-            </p>
+            <div className="flex">
+                <h4 className="two-col">
+                    Additional <span className="italic">user experience</span>{" "}
+                    considerations:
+                </h4>
+                <ul className="no-bullets two-col">
+                    <li>
+                        <b>💡 Interface:</b> The user interface should be
+                        intuitive and distraction-free, focusing on the voice or
+                        video conversation aspect.
+                    </li>
+                    <li>
+                        <b>💡 Gamification:</b> Subtle gamification elements,
+                        like points or badges, can boost motivation for
+                        adolescents and young adults.
+                    </li>
+                    <li>
+                        <b>💡 Error Tolerance:</b> AI Tandem needs to strike a
+                        balance between correction and allowing natural-sounding
+                        speech. A system that is too corrective could create
+                        frustration and break conversational flow.
+                    </li>
+                    <li>
+                        <b>💡 Transparency:</b> Joanna should be able to review
+                        her progress and feedback history.
+                    </li>
+                </ul>
+            </div>
             <h2>Summative Evaluation</h2>
             <p>
                 Evaluating the AI Tandem prototype will involve qualitative
-                methods and user feedback. Key evaluation metrics will focus on:
+                methods and user feedback.
             </p>
-            <ul>
-                <li>
-                    <b>Effectiveness:</b> Does the service help users improve
-                    their language skills?
-                </li>
-                <li>
-                    <b>Usability:</b> Is the interface easy to use, and does it
-                    guide users effectively?
-                </li>
-                <li>
-                    <b>Engagement:</b> Do users find AI Tandem engaging and use
-                    the service regularly?
-                </li>
-            </ul>
+            <div className="flex">
+                <h4 className="two-col">
+                    Key evaluation <span className="italic">metrics</span> will
+                    focus on:
+                </h4>
+                <ul className="no-bullets two-col">
+                    <li>
+                        <b>✔ Effectiveness:</b> Does the service help users
+                        improve their language skills?
+                    </li>
+                    <li>
+                        <b>✔ Usability:</b> Is the interface easy to use, and
+                        does it guide users effectively?
+                    </li>
+                    <li>
+                        <b>✔ Engagement:</b> Do users find AI Tandem engaging
+                        and use the service regularly?
+                    </li>
+                </ul>
+            </div>
             <p>
                 The success of AI Tandem depends on users engagement and their
                 perception of value. The service needs to maintain adaptive,

@@ -22,7 +22,7 @@ export default function Dot({ coordinates }) {
                 focusable="false"
             >
                 <path
-                    fill="#af7aed"
+                    fill="#ffce00"
                     d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.79 1.402 8.174L12 18.897 4.664 23.174l1.402-8.174L.132 9.21l8.2-1.192z"
                 />
             </svg>

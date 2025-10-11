@@ -6,7 +6,7 @@ export const AptoProjectData = {
     id: 2,
     date: "2022",
     slug: "apto-app",
-    title: { rendered: "APTO — Search and Save Favourite Places" },
+    title: { rendered: "APTO — Search with Recommender System" },
     _links: {
         featuredmedia: [{ href: "/images/APTO-featured.png" }],
     },
@@ -25,22 +25,21 @@ export default function ApTo() {
                 alt={AptoProjectData.title.rendered}
                 style={{ maxWidth: "100%" }}
             />
-            <h2>
-                App with a Recommender System and data from Google Maps APIs
-            </h2>
+            <h2>App with data from Google Maps APIs</h2>
             <p>
                 An app for keen out-goers who want to search for and discover
                 interesting places to visit in a specified city or area and then
                 save their searches and favourite places to an intuitive,
-                minimal, and easy-to-use app.
+                minimal, and easy-to-use app. It also provides personalized
+                recommendations based on user preferences and past behavior.
             </p>
             <p>
                 The users can save their findings to an uncomplicated app with
                 an intuitive interface to plan their visits in advance or refer
                 to already visited places. They can narrow their search results
                 to the highest-rated and most reviewed businesses and preview
-                them on a map, see star ratings, and read top reviews in the
-                app.
+                them on a map, see star ratings, and read top reviews in the app
+                or view more in Google Maps.
             </p>
             <div className="flex">
                 <div className="two-col">

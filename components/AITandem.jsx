@@ -20,7 +20,7 @@ export default function AITandem() {
         <>
             <h1>{AiTandemProjectData.title.rendered}</h1>
             <p className="project-meta">
-                <a href="/">Marta Wlusek</a> | Product Design |
+                <a href="/">Marta Wlusek</a> | Product Design |{" "}
                 {AiTandemProjectData.date}
             </p>
             <img

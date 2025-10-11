@@ -71,39 +71,34 @@ export default function EuropeanaAIAgent() {
                     An <span className="italic">AI Agent</span> for Europeana
                     can:
                 </h4>
-                <div className="two-col">
-                    <ul className="no-bullets">
-                        <li>
-                            💡 Enhance intuitive and efficient discovery of
-                            cultural heritage{" "}
-                            <span className="inline-bracket">(Findable)</span>
-                        </li>
-                        <li>
-                            💡 Reduce search time, making resources more
-                            accessible{" "}
-                            <span className="inline-bracket">(Accessible)</span>
-                        </li>
-                        <li>
-                            💡 Improve understanding and engagement with
-                            cultural assets{" "}
-                            <span className="inline-bracket">(Reusable)</span>
-                        </li>
-                        <li>
-                            💡 Boost usage of digital heritage platforms{" "}
-                            <span className="inline-bracket">
-                                (Interoperable)
-                            </span>
-                        </li>
-                        <li>
-                            💡 Promote ethical and responsible AI in public
-                            applications{" "}
-                            <span className="inline-bracket">
-                                (Bonus: aligns with EU AI Act and relevant ISO
-                                standards)
-                            </span>
-                        </li>
-                    </ul>
-                </div>
+                <ul className="no-bullets two-col">
+                    <li>
+                        💡 Enhance intuitive and efficient discovery of cultural
+                        heritage{" "}
+                        <span className="inline-bracket">(Findable)</span>
+                    </li>
+                    <li>
+                        💡 Reduce search time, making resources more accessible{" "}
+                        <span className="inline-bracket">(Accessible)</span>
+                    </li>
+                    <li>
+                        💡 Improve understanding and engagement with cultural
+                        assets{" "}
+                        <span className="inline-bracket">(Reusable)</span>
+                    </li>
+                    <li>
+                        💡 Boost usage of digital heritage platforms{" "}
+                        <span className="inline-bracket">(Interoperable)</span>
+                    </li>
+                    <li>
+                        💡 Promote ethical and responsible AI in public
+                        applications{" "}
+                        <span className="inline-bracket">
+                            (Bonus: aligns with EU AI Act and relevant ISO
+                            standards)
+                        </span>
+                    </li>
+                </ul>
             </div>
             <h3>User Research:</h3>
             <p>
@@ -141,16 +136,6 @@ export default function EuropeanaAIAgent() {
                     too much time to find information on Europeana.eu
                 </figcaption>
             </figure>
-
-            {/****  <h4>
-                The most common <span className="italic">opinions</span> about
-                AI Agents:
-            </h4>
-            <img
-                src={"/images/EuropeanaDataAnalysis-2.png"}
-                alt="Data analysis"
-                style={{ maxWidth: "100%" }}
-            /> ****/}
 
             <h2>Idea Development</h2>
             <div className="flex">

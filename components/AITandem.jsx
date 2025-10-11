@@ -83,7 +83,7 @@ export default function AITandem() {
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>
-                        ❌ <b>Lack of practice opportunities: </b>Many learners
+                        <b>❌ Lack of practice opportunities: </b>Many learners
                         lack real-world environments to practice speaking a
                         foreign language on a regular basis.
                     </li>

@@ -75,29 +75,31 @@ export default function AITandem() {
             <p>
                 Initial user research involved open-ended unstructured
                 interviews focusing on how potential users learn foreign
-                languages and the challenges they face. Key findings include:
+                languages and the challenges they face.
             </p>
-            <ul className="no-bullets">
-                <li>
-                    ❌ <b>Lack of practice opportunities: </b>Many learners lack
-                    real-world environments to practice speaking a foreign
-                    language on a regular basis.
-                </li>
-                <li>
-                    ❌ <b>Grammar and pronunciation support: </b>Receiving
-                    constructive feedback on these critical components can be
-                    infrequent or inconsistent.
-                </li>
-                <li>
-                    ❌ <b>Lack of adaptivity and personalization: </b>Many
-                    learners feel a need for a more flexible approach that
-                    adapts to their current skill level and provides a tailored
-                    learning experience. For example, some interviewees
-                    emphasized the need for adaptable settings and potentially
-                    supplementing with explanations and translations in the
-                    user's native language.
-                </li>
-            </ul>
+            <div className="flex">
+                <h4 className="two-col">
+                    Key <span className="italic">insights</span> include:
+                </h4>
+                <ul className="no-bullets two-col">
+                    <li>
+                        ❌ <b>Lack of practice opportunities: </b>Many learners
+                        lack real-world environments to practice speaking a
+                        foreign language on a regular basis.
+                    </li>
+                    <li>
+                        ❌ <b>Grammar and pronunciation support: </b>Receiving
+                        constructive feedback on these critical components can
+                        be infrequent or inconsistent.
+                    </li>
+                    <li>
+                        ❌ <b>Lack of adaptivity and personalization: </b>Many
+                        learners feel a need for a more flexible approach that
+                        adapts to their current skill level and provides a
+                        tailored learning experience.
+                    </li>
+                </ul>
+            </div>
             <h2>User Needs</h2>
             <p>
                 To better understand the target audience, a Persona was created
@@ -446,27 +448,28 @@ export default function AITandem() {
                 conversation speed and complexity were appropriate. This data
                 directly informs the AI’s adaptive adjustments.
             </p>
-            <p>
-                The Feedback Dialogue UI element offers the following
-                advantages:
-            </p>
-            <ul className="no-bullets">
-                <li>
-                    ✅ <b>Keeps human in the loop</b>, helping improve and
-                    refine AI models.
-                </li>
-                <li>
-                    ✅ <b>Captures feedback immediately</b> after the session
-                    while the experience is fresh in the user's mind.
-                </li>
-                <li>
-                    ✅ <b>Allows for quick, focused feedback</b> without
-                    significantly extending the session time or disrupting the
-                    conversational flow. Additionally, the user should have the
-                    freedom of choice whether to skip the feedback or adjust
-                    information in settings.
-                </li>
-            </ul>
+            <div className="flex">
+                <h4 className="two-col">
+                    The <span className="italic">Feedback</span> dialogue UI
+                    element offers the following advantages:
+                </h4>
+                <ul className="no-bullets two-col">
+                    <li>
+                        ✅ <b>Keeps human in the loop</b>, helping improve and
+                        refine AI models.
+                    </li>
+                    <li>
+                        ✅ <b>Captures feedback immediately</b> after the
+                        session while the experience is fresh in the user's
+                        mind.
+                    </li>
+                    <li>
+                        ✅ <b>Allows for quick, focused feedback</b> without
+                        significantly extending the session time or disrupting
+                        the conversational flow.
+                    </li>
+                </ul>
+            </div>
             <h3>Adaptivity & Personalization Within the Feedback Loop</h3>
             <p>
                 The power of this feedback loop lies in its ability to adjust to

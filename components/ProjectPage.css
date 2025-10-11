@@ -8,16 +8,18 @@
 .page-container h4,
 .page-container h5,
 .page-container h6,
-.page-container p {
+.page-container p,
+.page-container ol,
+.page-container ul {
     margin-top: 1rem;
     margin-bottom: 8px;
 }
-.page-container ul,
+/* .page-container ul,
 .page-container ol {
     margin-block-start: 0.4em;
     margin-block-end: 1em;
     padding-inline-start: 1em;
-}
+} */
 
 .content {
     flex-grow: 1;
@@ -55,9 +57,6 @@ figcaption {
     color: gray;
 }
 
-.no-bullets {
-    list-style: none;
-}
 .italic {
     font-weight: 500;
     color: #af7aed;
@@ -71,7 +70,9 @@ figcaption {
     width: 50%;
     margin: 0 auto;
 }
-
+.no-bullets {
+    list-style: none;
+}
 .no-bullets li {
     padding-bottom: 1rem;
 }

@@ -42,31 +42,39 @@ export default function ApTo() {
                 them on a map, see star ratings, and read top reviews in the
                 app.
             </p>
-            <h3>Tagline:</h3>
-            <em className="italic">
-                Like a travel planner, but also for locals
-            </em>
-            <h3>App roles:</h3>
-            <ul>
-                <li>
-                    <b>Social:</b> People who want to discover new places to
-                    visit in their own town, who like to eat out, who like to
-                    travel.
-                </li>
-                <li>
-                    <b>Functional:</b> People who like to be organized, who like
-                    to take notes, who like to plan things and save time.
-                </li>
-                <li>
-                    <b>Political:</b> People who want to support local or new
-                    initiatives.
-                </li>
-                <li>
-                    <b>Personal Growth:</b> People who are adventurous and want
-                    to experience new things in life.
-                </li>
-            </ul>
-            <h3>Persona:</h3>
+            <div className="flex">
+                <div className="two-col">
+                    <h3>Tagline:</h3>
+                    <em className="italic">
+                        Like a travel planner, but also for locals
+                    </em>
+                </div>
+                <div className="two-col">
+                    <h3>App roles:</h3>
+                    <ul className="no-bullets">
+                        <li>
+                            <b>💡 Social:</b> People who want to discover new
+                            places to visit in their own town, who like to eat
+                            out, who like to travel.
+                        </li>
+                        <li>
+                            <b>💡 Functional:</b> People who like to be
+                            organized, who like to take notes, who like to plan
+                            things and save time.
+                        </li>
+                        <li>
+                            <b> 💡 Political:</b> People who want to support
+                            local or new initiatives.
+                        </li>
+                        <li>
+                            <b> 💡 Personal Growth:</b> People who are
+                            adventurous and want to experience new things in
+                            life.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Persona</h2>
             <p>
                 Jeni, 40 years old, single, primary art teacher, lives in
                 Berlin, knows her city very well but needs to constantly
@@ -75,14 +83,30 @@ export default function ApTo() {
             <img
                 src="/images/APTO-user_flow.png"
                 alt="APTO app user flow"
-                style={{ maxWidth: "100%", marginTop: "1rem" }}
+                style={{
+                    maxWidth: "100%",
+                    marginTop: "1rem",
+                    marginBottom: "1rem",
+                }}
             />
-            <h3>Client/Designer Goals:</h3>
-            <ol>
-                <li>Provide a useful app</li>
-                <li>Support local or new organizations and businesses</li>
-                <li>Connect to the businesses</li>
-            </ol>
+            <div className="flex">
+                <h4 className="two-col">User/Business Goals:</h4>
+                <ol className="two-col no-bullets">
+                    <li>
+                        <b>✅ Provide a useful app</b>
+                    </li>
+                    <li>
+                        <b>
+                            ✅ Support local or new organizations and businesses
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            ✅ Connect users to the businesses and organizations
+                        </b>
+                    </li>
+                </ol>
+            </div>
             <h2>Wireframes</h2>
             <img
                 src="/images/APTO-wireframes.png"

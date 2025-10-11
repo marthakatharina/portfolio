@@ -58,38 +58,53 @@ export default function EuropeanaAIAgent() {
                 interfaces, such as those of Europeana - especially with
                 sementic search queries.
             </p>
+
             <h3>Hypothesis:</h3>
             <p>
                 Generative, chat-based AI that adhers to the cultural heritage
                 data principles: Findable, Accessible, Interoperable, Reusable
                 (FAIR)
             </p>
-            <p>An AI Agent for Europeana can:</p>
-            <ul className="no-bullets">
-                <li>
-                    💡 Enhance intuitive and efficient discovery of cultural
-                    heritage <span className="inline-bracket">(Findable)</span>
-                </li>
-                <li>
-                    💡 Reduce search time, making resources more accessible{" "}
-                    <span className="inline-bracket">(Accessible)</span>
-                </li>
-                <li>
-                    💡 Improve understanding and engagement with cultural assets{" "}
-                    <span className="inline-bracket">(Reusable)</span>
-                </li>
-                <li>
-                    💡 Boost usage of digital heritage platforms{" "}
-                    <span className="inline-bracket">(Interoperable)</span>
-                </li>
-                <li>
-                    💡 Promote ethical and responsible AI in public applications{" "}
-                    <span className="inline-bracket">
-                        (Bonus: aligns with EU AI Act and relevant ISO
-                        standards)
-                    </span>
-                </li>
-            </ul>
+
+            <div className="flex">
+                <h4 className="two-col">
+                    An <span className="italic">AI Agent</span> for Europeana
+                    can:
+                </h4>
+                <div className="two-col">
+                    <ul className="no-bullets">
+                        <li>
+                            💡 Enhance intuitive and efficient discovery of
+                            cultural heritage{" "}
+                            <span className="inline-bracket">(Findable)</span>
+                        </li>
+                        <li>
+                            💡 Reduce search time, making resources more
+                            accessible{" "}
+                            <span className="inline-bracket">(Accessible)</span>
+                        </li>
+                        <li>
+                            💡 Improve understanding and engagement with
+                            cultural assets{" "}
+                            <span className="inline-bracket">(Reusable)</span>
+                        </li>
+                        <li>
+                            💡 Boost usage of digital heritage platforms{" "}
+                            <span className="inline-bracket">
+                                (Interoperable)
+                            </span>
+                        </li>
+                        <li>
+                            💡 Promote ethical and responsible AI in public
+                            applications{" "}
+                            <span className="inline-bracket">
+                                (Bonus: aligns with EU AI Act and relevant ISO
+                                standards)
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <h3>User Research:</h3>
             <p>
                 I conducted formative research with Europeana.eu users. The
@@ -101,17 +116,19 @@ export default function EuropeanaAIAgent() {
                     Identified <span className="italic">Painpoints</span> in
                     order of importance:
                 </h4>
-                <div className="two-col">
-                    <ol className="no-bullets" style={{ marginTop: "1rem" }}>
-                        <li>① Spending too much time to find relevant items</li>
-                        <li>② Irrelevant search results​</li>
-                        <li>③ Too many search results​</li>
-                        <li>④ Too broad search results​</li>
-                        <li>⑤ Difficulty refining searches</li>
-                        <li>⑥ Lack of context about objects</li>
-                    </ol>
-                </div>
+                <ol
+                    className="no-bullets two-col"
+                    style={{ marginTop: "1rem" }}
+                >
+                    <li>① Spending too much time to find relevant items</li>
+                    <li>② Irrelevant search results​</li>
+                    <li>③ Too many search results​</li>
+                    <li>④ Too broad search results​</li>
+                    <li>⑤ Difficulty refining searches</li>
+                    <li>⑥ Lack of context about objects</li>
+                </ol>
             </div>
+
             <figure>
                 <img
                     src={"/images/EuropeanaDataAnalysis.png"}
@@ -136,21 +153,28 @@ export default function EuropeanaAIAgent() {
             /> ****/}
 
             <h2>Idea Development</h2>
-            <p>The research insights informed the following design ideas:</p>
-            <ul className="no-bullets">
-                <li>
-                    💡 An AI agent as a complementary tool to the classic search
-                    interface.
-                </li>
-                <li>
-                    💡 Filters that can be combined directly in the chat input.
-                </li>
-                <li>💡 Dynamic prompt suggestions.</li>
-                <li>
-                    💡 Context view that explains the historical background,
-                    geographical references or thematic connections of objects.
-                </li>
-            </ul>
+            <div className="flex">
+                <h4 className="two-col">
+                    The research <span className="italic">insights</span>{" "}
+                    informed the following design ideas:
+                </h4>
+                <ul className="no-bullets two-col">
+                    <li>
+                        💡 An AI agent as a complementary tool to the classic
+                        search interface.
+                    </li>
+                    <li>
+                        💡 Filters that can be combined directly in the chat
+                        input.
+                    </li>
+                    <li>💡 Dynamic prompt suggestions.</li>
+                    <li>
+                        💡 Context view that explains the historical background,
+                        geographical references or thematic connections of
+                        objects.
+                    </li>
+                </ul>
+            </div>
             <p>
                 Based on the analysis of user journey mapping and use case
                 scenarios, the following{" "}
@@ -229,35 +253,38 @@ export default function EuropeanaAIAgent() {
                 their responses and feedback after completing the tasks on their
                 own schedule.{" "}
             </p>
-            <h4>
-                Problems were observed with "Explain Context" & "Verify Facts"
-                buttons in the <span className="italic">first iteration</span>{" "}
-                of the design:
-            </h4>
-            <ul className="no-bullets">
-                <li>
-                    ⚠️ Some users struggled to locate and interpret the
-                    functions.
-                </li>
-                <li>
-                    ⚠️ "Verify Facts" in particular caused confusion and was not
-                    easily findable.
-                </li>
-                <li>
-                    ⚠️ Both A/B tested icons for "Verify Facts" did not match
-                    their mental models.
-                </li>
-                <li>
-                    ⚠️ All users had different expectations regarding the
-                    implementation of the fact-checking function and the choice
-                    of icon to represent it.
-                </li>
-            </ul>
-            <h4>
+            <div className="flex">
+                <h4 className="two-col">
+                    Problems were observed with "Explain Context" &
+                    "Verify Facts" buttons in the{" "}
+                    <span className="italic">first iteration</span> of the
+                    design:
+                </h4>
+                <ul className="no-bullets two-col">
+                    <li>
+                        ⚠️ Some users struggled to locate and interpret the
+                        functions.
+                    </li>
+                    <li>
+                        ⚠️ "Verify Facts" in particular caused confusion and was
+                        not easily findable.
+                    </li>
+                    <li>
+                        ⚠️ Both A/B tested icons for "Verify Facts" did not
+                        match their mental models.
+                    </li>
+                    <li>
+                        ⚠️ All users had different expectations regarding the
+                        implementation of the fact-checking function and the
+                        choice of icon to represent it.
+                    </li>
+                </ul>
+            </div>
+            <p>
                 The insights were used to refine and improve these
                 functionalities in the{" "}
-                <span className="italic">second iteration</span> of the design:
-            </h4>
+                <span className="italic">second iteration</span> of the design.
+            </p>
 
             <div className="table-container">
                 <div className="table-row" style={{ borderRadius: "14px" }}>

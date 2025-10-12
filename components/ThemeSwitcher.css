@@ -59,7 +59,7 @@
 
 @media only screen and (max-width: 768px) {
     .theme-switcher--container {
-        /* left: 90%; */
-        z-index: 10000;
+        top: 6px;
+        z-index: 1000;
     }
 }

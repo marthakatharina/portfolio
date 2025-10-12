@@ -340,7 +340,12 @@ footer p {
     #top-header .menu-container {
         padding: 1em;
     }
-    .menu-container .menu li {
+    /* .menu-container .menu li {
         font-size: 3em;
+    } */
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #top-header .menu-container {
+        padding: 1em;
     }
 }

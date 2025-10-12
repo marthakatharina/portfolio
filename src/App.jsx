@@ -25,6 +25,41 @@ export default function App() {
     const [coordinates, setCoordinates] = useState({ x: 20, y: 20 });
     const [hideDot, setHideDot] = useState(false);
     const [isHeaderHidden, setIsHeaderHidden] = useState(true);
+    const [isTopHeaderStuck, setIsTopHeaderStuck] = useState(false);
+
+    useEffect(() => {
+        let lastScrollY = window.scrollY;
+        let ticking = false;
+
+        const updateHeaderState = () => {
+            const scrollY = window.scrollY;
+            const scrollingUp = scrollY < lastScrollY;
+            const isAtTop = scrollY == 0;
+
+            if (isAtTop) {
+                setIsTopHeaderStuck(false);
+            } else if (scrollingUp) {
+                setIsTopHeaderStuck(true);
+            } else {
+                setIsTopHeaderStuck(false);
+            }
+
+            lastScrollY = scrollY;
+            ticking = false;
+        };
+
+        const onScroll = () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    updateHeaderState();
+                });
+                ticking = true;
+            }
+        };
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+        return () => window.removeEventListener("scroll", onScroll);
+    }, []);
 
     const contextValues = {
         theme,
@@ -80,7 +115,12 @@ export default function App() {
                         )}
 
                         {/* Desktop sticky top header (shown only on >=769px via CSS) */}
-                        <header id="top-header" className={`${theme}`}>
+                        <header
+                            id="top-header"
+                            className={`${theme} ${
+                                isTopHeaderStuck ? "stuck" : ""
+                            }`}
+                        >
                             <div className="menu-container">
                                 <div className="logo"></div>
                                 <nav className="menu">
@@ -196,7 +236,6 @@ export default function App() {
                                 />
                                 <Route path="/about" element={<About />} />
                                 <Route path="/blog" element={<Blog />} />
-                                {/* <Route path="/blog" element={<RSSFeed />} /> */}
                                 <Route
                                     path="/:slug"
                                     element={<ProjectPage />}

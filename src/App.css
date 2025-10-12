@@ -47,9 +47,6 @@ main {
 } */
 
 #header {
-    /* position: sticky;
-    top: 0; 
-    height: 100vh; */
     position: fixed;
     top: 0;
     bottom: 30%;
@@ -61,13 +58,15 @@ main {
     transition: transform 0.4s, right 0.3s ease-in;
 }
 .light #header,
-#header.light {
+#header.light,
+#top-header.light {
     background-color: #f8f8f4;
     color: #111111;
 }
 
 .dark #header,
-#header.dark {
+#header.dark,
+#top-header.dark {
     background-color: #252526;
     color: #f3f3f3;
 }
@@ -283,8 +282,8 @@ footer p {
         font-size: 1.1em;
     }
     .content {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 44px;
+        padding-right: 44px;
     }
     /* Hide the desktop top header on mobile so the sliding overlay header is used */
     #top-header {
@@ -309,9 +308,20 @@ footer p {
         left: 0;
         right: 0;
         width: 100%;
+        height: 60px;
         z-index: 11000;
-        background: transparent; /* theme classes set colors */
         display: block;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #top-header.stuck {
+        position: fixed;
+        transform: translateY(0);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.03);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+    #top-header.hidden {
+        transform: translateY(-100%);
     }
     #top-header .menu-container {
         max-width: 1024px;
@@ -339,6 +349,10 @@ footer p {
     }
     #top-header .menu-container {
         justify-content: space-around;
+    }
+    .content {
+        padding-left: 44px;
+        padding-right: 44px;
     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {

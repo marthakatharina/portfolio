@@ -79,6 +79,51 @@ export default function App() {
                             </div>
                         )}
 
+                        {/* Desktop sticky top header (shown only on >=769px via CSS) */}
+                        <header id="top-header" className={`${theme}`}>
+                            <div className="menu-container">
+                                <div className="logo"></div>
+                                <nav className="menu">
+                                    <ul>
+                                        <li>
+                                            <Link
+                                                to={"/#projects"}
+                                                onClick={() => {
+                                                    // Keep same scrolling behavior but do not toggle mobile menu
+                                                    setTimeout(() => {
+                                                        const el =
+                                                            document.getElementById(
+                                                                "projects"
+                                                            );
+                                                        if (el) {
+                                                            el.scrollIntoView({
+                                                                behavior:
+                                                                    "smooth",
+                                                                block: "start",
+                                                            });
+                                                        }
+                                                    }, 50);
+                                                }}
+                                            >
+                                                Projects
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/about">About me</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/blog">Articles</Link>
+                                        </li>
+                                        <li>
+                                            <a href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/">
+                                                CV
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </header>
+
                         <header
                             id="header"
                             className={`${

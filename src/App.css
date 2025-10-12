@@ -8,7 +8,7 @@ main {
     height: 100%;
     width: 100%;
     /* position: relative; */
-    display: flex;
+    /* display: flex; */
     overflow: hidden;
 }
 
@@ -120,7 +120,7 @@ img {
     width: auto;
 }
 h1 {
-    margin-top: 40px;
+    margin-top: 1em;
 }
 h1,
 .menu li {
@@ -143,14 +143,14 @@ p {
 
 .menu-container {
     height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .menu {
     align-self: center;
     justify-self: center;
-    text-align: center;
 }
 
 .menu li {
@@ -180,7 +180,7 @@ p {
 }
 
 .logo {
-    padding: 4em 0 0 4em;
+    padding: 0;
     color: #c8c8c8;
     font-size: 13px;
     font-weight: 300;
@@ -283,14 +283,62 @@ footer p {
         font-size: 1.1em;
     }
     .content {
-        padding-left: 2px;
+        padding-left: 40px;
         padding-right: 40px;
     }
+    /* Hide the desktop top header on mobile so the sliding overlay header is used */
+    #top-header {
+        display: none !important;
+    }
 }
-@media only screen and (min-width: 769px) and (max-width: 996px) {
+/* Desktop: hide sliding header and mobile controls, show top-header */
+@media only screen and (min-width: 769px) {
+    /* hide the mobile sliding header entirely */
+    #header {
+        display: none !important;
+    }
+    .open-button-container,
+    .close-button-container {
+        display: none !important;
+    }
+
+    /* top-header styles */
+    #top-header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 11000;
+        background: transparent; /* theme classes set colors */
+        display: block;
+    }
+    #top-header .menu-container {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #top-header .menu ul {
+        display: flex;
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #top-header .menu li {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     .about {
         display: flex;
         flex-direction: column;
+    }
+    #top-header .menu-container {
+        padding: 1em;
     }
     .menu-container .menu li {
         font-size: 3em;

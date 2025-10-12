@@ -55,11 +55,21 @@ main {
     bottom: 30%;
     left: 0;
     right: 30%;
-    background-color: #252526;
-    color: #ffffff;
+    z-index: 11000;
     z-index: 11000;
     visibility: visible;
     transition: transform 0.4s, right 0.3s ease-in;
+}
+.light #header,
+#header.light {
+    background-color: #f8f8f4;
+    color: #111111;
+}
+
+.dark #header,
+#header.dark {
+    background-color: #252526;
+    color: #f3f3f3;
 }
 #header.show-header {
     flex: 0 0 260px;

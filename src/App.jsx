@@ -81,9 +81,9 @@ export default function App() {
 
                         <header
                             id="header"
-                            className={
+                            className={`${
                                 isHeaderHidden ? "hide-header" : "show-header"
-                            }
+                            } ${theme}`}
                         >
                             <div className="menu-container">
                                 <div className="logo"></div>

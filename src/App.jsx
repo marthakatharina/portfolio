@@ -57,7 +57,10 @@ export default function App() {
             }
         };
 
-        window.addEventListener("scroll", onScroll, { passive: true });
+        window.addEventListener("scroll", onScroll, {
+            passive: true,
+            behavior: "smooth",
+        });
         return () => window.removeEventListener("scroll", onScroll);
     }, []);
 

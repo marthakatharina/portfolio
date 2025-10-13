@@ -26,6 +26,7 @@ export default function App() {
     const [hideDot, setHideDot] = useState(false);
     const [isHeaderHidden, setIsHeaderHidden] = useState(true);
     const [isTopHeaderStuck, setIsTopHeaderStuck] = useState(false);
+    const [isTopHeaderHidden, setIsTopHeaderHidden] = useState(false);
 
     useEffect(() => {
         let lastScrollY = window.scrollY;
@@ -33,15 +34,18 @@ export default function App() {
 
         const updateHeaderState = () => {
             const scrollY = window.scrollY;
-            const scrollingUp = scrollY < lastScrollY;
-            const isAtTop = scrollY == 0;
+            const isAtTop = scrollY === 0;
+            const scrollingDown = scrollY > lastScrollY;
+
+            setIsTopHeaderStuck(!isAtTop);
 
             if (isAtTop) {
-                setIsTopHeaderStuck(false);
-            } else if (scrollingUp) {
-                setIsTopHeaderStuck(true);
+                setIsTopHeaderHidden(false);
+            } else if (scrollingDown) {
+                setIsTopHeaderHidden(true);
             } else {
-                setIsTopHeaderStuck(false);
+                // Scrolling up
+                setIsTopHeaderHidden(false);
             }
 
             lastScrollY = scrollY;
@@ -50,17 +54,12 @@ export default function App() {
 
         const onScroll = () => {
             if (!ticking) {
-                window.requestAnimationFrame(() => {
-                    updateHeaderState();
-                });
+                window.requestAnimationFrame(updateHeaderState);
                 ticking = true;
             }
         };
 
-        window.addEventListener("scroll", onScroll, {
-            passive: true,
-            behavior: "smooth",
-        });
+        window.addEventListener("scroll", onScroll, { passive: true });
         return () => window.removeEventListener("scroll", onScroll);
     }, []);
 
@@ -122,7 +121,7 @@ export default function App() {
                             id="top-header"
                             className={`${theme} ${
                                 isTopHeaderStuck ? "stuck" : ""
-                            }`}
+                            } ${isTopHeaderHidden ? "hidden" : ""}`}
                         >
                             <div className="menu-container">
                                 <div className="logo"></div>

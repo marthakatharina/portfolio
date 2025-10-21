@@ -1,0 +1,11 @@
+# Long-term caching for static assets (served by Netlify or any static host that supports _headers)
+
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/icons/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+

@@ -41,7 +41,12 @@ export default function About() {
                     </p>
                 </div>
                 <div className="about--img">
-                    <img src="/images/me.jpg" alt="Marta" />
+                    <img
+                        src="/images/me.jpg"
+                        alt="Marta"
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
             </div>
         </div>

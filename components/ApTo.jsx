@@ -25,7 +25,7 @@ export default function ApTo() {
                 alt={AptoProjectData.title.rendered}
                 style={{ maxWidth: "100%" }}
             />
-            <h2>App with data from Google Maps APIs</h2>
+            <h2>App with Data from Google Maps APIs</h2>
             <p>
                 An app for keen out-goers who want to search for and discover
                 interesting places to visit in a specified city or area and then

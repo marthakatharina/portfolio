@@ -230,7 +230,7 @@ export default function EuropeanaAIAgent() {
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
             />
-            <h2>Usability testing</h2>
+            <h2>Usability Testing</h2>
             <p>
                 Qualitative feedback was collected using two methods: think
                 aloud, conducted with 2 users (including one pilot tester), and
@@ -322,7 +322,7 @@ export default function EuropeanaAIAgent() {
                 </a>
             </p>
 
-            <h2>Future implementation & Research</h2>
+            <h2>Future Implementation & Research</h2>
             <p>
                 The next step, which is already underway, is the development of
                 a working prototype using OpenAI tools and the available

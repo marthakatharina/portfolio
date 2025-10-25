@@ -9,11 +9,9 @@ export default function ProjectCard({ project }) {
                 {project?._links?.featuredmedia?.[0]?.href ? (
                     <Link to={`/${project.slug}`}>
                         <img
-                            src={project._links.featuredmedia[0].href}
+                            src={`${project._links.featuredmedia[0].href}?fm=webp`}
                             className="project-card--img"
                             alt={project.title.rendered}
-                            loading="lazy"
-                            decoding="async"
                         />
                     </Link>
                 ) : (

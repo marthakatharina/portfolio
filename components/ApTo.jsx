@@ -89,7 +89,9 @@ export default function ApTo() {
                 }}
             />
             <div className="flex">
-                <h4 className="two-col">User/Business Goals:</h4>
+                <h4 className="two-col">
+                    User/business <span className="italic">goals</span>:
+                </h4>
                 <ol className="two-col no-bullets">
                     <li>
                         <b>✅ Provide a useful app</b>

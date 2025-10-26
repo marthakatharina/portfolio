@@ -265,49 +265,55 @@ export default function EuropeanaAIAgent() {
                     </li>
                 </ul>
             </div>
-            <p>
-                The insights were used to refine and improve these
-                functionalities in the{" "}
-                <span className="italic">second iteration</span> of the design.
-            </p>
-
-            <div className="table-container">
-                <div className="table-row" style={{ borderRadius: "14px" }}>
-                    <img
-                        src={"/images/EuropeanaFirstIteration-1.png"}
-                        alt="First iteration of Europeana AI Agent"
-                        style={{ maxWidth: "100%" }}
-                    />
-                </div>
-
-                <div className="table-row" style={{ borderRadius: "14px" }}>
-                    <img
-                        src={"/images/EuropeanaSecondIteration-1.png"}
-                        alt="Second iteration of Europeana AI Agent"
-                        style={{ maxWidth: "100%" }}
-                    />
-                </div>
+            <div className="flex">
+                <h4 className="two-col">
+                    The insights were used to refine and improve these
+                    functionalities in the{" "}
+                    <span className="italic">second iteration</span> of the
+                    design.
+                </h4>
+                <p className="two-col">
+                    The "Verify Facts" button was replaced with a toggle button
+                    allowing the user to switch between a faster and concise
+                    response and a slower but fact-verified response.{" "}
+                </p>
             </div>
-            <p style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-                The "Verify Facts" button was replaced with a toggle button
-                allowing the user to switch between a faster and concise
-                response and a slower but fact-verified response.{" "}
-            </p>
-            <div className="table-container">
-                <div className="table-row" style={{ borderRadius: "14px" }}>
-                    <img
-                        src={"/images/EuropeanaFirstIteration-2.png"}
-                        alt="First iteration of Europeana AI Agent"
-                        style={{ maxWidth: "100%" }}
-                    />
+
+            <div className="table-grid">
+                <div className="table-container">
+                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                        <img
+                            src={"/images/EuropeanaFirstIteration-1.png"}
+                            alt="First iteration of Europeana AI Agent"
+                            style={{ maxWidth: "100%" }}
+                        />
+                    </div>
+
+                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                        <img
+                            src={"/images/EuropeanaSecondIteration-1.png"}
+                            alt="Second iteration of Europeana AI Agent"
+                            style={{ maxWidth: "100%" }}
+                        />
+                    </div>
                 </div>
 
-                <div className="table-row" style={{ borderRadius: "14px" }}>
-                    <img
-                        src={"/images/EuropeanaSecondIteration-2.png"}
-                        alt="Second iteration of Europeana AI Agent"
-                        style={{ maxWidth: "100%" }}
-                    />
+                <div className="table-container">
+                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                        <img
+                            src={"/images/EuropeanaFirstIteration-2.png"}
+                            alt="First iteration of Europeana AI Agent"
+                            style={{ maxWidth: "100%" }}
+                        />
+                    </div>
+
+                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                        <img
+                            src={"/images/EuropeanaSecondIteration-2.png"}
+                            alt="Second iteration of Europeana AI Agent"
+                            style={{ maxWidth: "100%" }}
+                        />
+                    </div>
                 </div>
             </div>
 

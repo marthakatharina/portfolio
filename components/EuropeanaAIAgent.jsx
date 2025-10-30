@@ -320,7 +320,7 @@ export default function EuropeanaAIAgent() {
             <p>
                 To test it yourself in Figma{" "}
                 <a
-                    href="https://www.figma.com/proto/xQFdYs8QLYHnUlWSRLiqWz/AI-Search-Agent?node-id=336-786&t=7NQ0GE5gXnCasH41-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=336%3A786&show-proto-sidebar=1&hide-ui=1"
+                    href="https://www.figma.com/proto/xQFdYs8QLYHnUlWSRLiqWz/AI-Search-Agent?page-id=1%3A2&node-id=15-541&viewport=86%2C312%2C0.12&t=DonWCPSqBEiAhKgm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=15%3A541&show-proto-sidebar=1"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

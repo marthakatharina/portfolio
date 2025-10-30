@@ -8,8 +8,8 @@ export default function About() {
             <div className="about">
                 <div>
                     <p>
-                        I am a passionate Digital Product Designer, focused on
-                        creating visually engaging, innovative, and
+                        I am a passionate Product Designer and Developer,
+                        focused on creating visually engaging, innovative, and
                         human-centered digital experiences. With a strong
                         foundation in arts, web development, and UI/UX design, I
                         bring creativity and problem-solving to every project,

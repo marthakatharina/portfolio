@@ -158,25 +158,33 @@ p {
 }
 .menu-button {
     color: #111111;
+    background-color: #ffffff;
+    border: 1px solid #111111;
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+    height: 40px;
+    width: 40px;
 }
-.open-button-container {
+.menu-button img {
+    height: 38px;
+    width: 38px;
+}
+/* .open-button-container {
     position: fixed;
     top: -10px;
     z-index: 99999;
-}
-#open-button {
-    font-size: 40px;
-    cursor: pointer;
-}
-.close-button-container {
-    position: fixed;
-    top: -10px;
-    z-index: 99999;
-}
+} */
+#open-button,
 #close-button {
     font-size: 40px;
     cursor: pointer;
 }
+/* .close-button-container {
+    position: fixed;
+    top: -10px;
+    z-index: 99999;
+} */
 
 .logo {
     padding: 0;

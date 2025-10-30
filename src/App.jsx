@@ -90,10 +90,6 @@ export default function App() {
                                     onClick={handleHeaderToggle}
                                 >
                                     <img
-                                        style={{
-                                            verticalAlign: "middle",
-                                            background: "white",
-                                        }}
                                         src="/images/icons/menu-svgrepo-com.svg"
                                         alt="menu"
                                     />
@@ -110,7 +106,6 @@ export default function App() {
                                     <img
                                         src="/images/icons/close-svgrepo-com.svg"
                                         alt="close menu"
-                                        style={{ verticalAlign: "middle" }}
                                     />
                                 </button>
                             </div>

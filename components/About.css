@@ -14,6 +14,7 @@
 }
 .about--img {
     align-self: center;
+    justify-self: center;
 }
 
 .about--img img {

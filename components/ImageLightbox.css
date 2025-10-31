@@ -1,4 +1,4 @@
-.page-container img {
+.page-lightbox-container img {
     cursor: zoom-in;
     transition: transform 0.2s ease;
 }

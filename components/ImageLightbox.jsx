@@ -74,7 +74,7 @@ export default function ImageLightbox({ children }) {
     return (
         <>
             <div
-                className="page-container"
+                className="page-lightbox-container"
                 ref={containerRef}
                 onClick={handleImageClick}
             >

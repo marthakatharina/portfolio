@@ -23,7 +23,11 @@ export default function ProjectPage() {
     return (
         <ImageLightbox>
             <div className="page-container">
-                {contentComponent ? contentComponent : <h1>Page not found</h1>}
+                {contentComponent ? (
+                    contentComponent
+                ) : (
+                    <h1 className="page-title">Page not found</h1>
+                )}
             </div>
         </ImageLightbox>
     );

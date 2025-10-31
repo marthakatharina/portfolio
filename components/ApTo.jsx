@@ -15,7 +15,7 @@ export const AptoProjectData = {
 export default function ApTo() {
     return (
         <div>
-            <h1>{AptoProjectData.title.rendered}</h1>
+            <h1 className="project-title">{AptoProjectData.title.rendered}</h1>
             <p className="project-meta">
                 <a href="/">Marta Wlusek</a> | UX/UI Design |{" "}
                 {AptoProjectData.date}

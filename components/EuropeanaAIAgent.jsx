@@ -17,7 +17,9 @@ export const EuropeanaAIAgentProjectData = {
 export default function EuropeanaAIAgent() {
     return (
         <>
-            <h1>{EuropeanaAIAgentProjectData.title.rendered}</h1>
+            <h1 className="project-title">
+                {EuropeanaAIAgentProjectData.title.rendered}
+            </h1>
             <p className="project-meta">
                 <a href="/">Marta Wlusek</a> | Product Design |{" "}
                 {EuropeanaAIAgentProjectData.date}

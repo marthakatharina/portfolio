@@ -18,7 +18,9 @@ export const AiTandemProjectData = {
 export default function AITandem() {
     return (
         <>
-            <h1>{AiTandemProjectData.title.rendered}</h1>
+            <h1 className="project-title">
+                {AiTandemProjectData.title.rendered}
+            </h1>
             <p className="project-meta">
                 <a href="/">Marta Wlusek</a> | Product Design |{" "}
                 {AiTandemProjectData.date}

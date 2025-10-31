@@ -224,7 +224,7 @@ export default function EuropeanaAIAgent() {
                 className="EuropeanaDemo"
                 style={{ borderRadius: "14px" }}
                 width="100%"
-                height="615"
+                height="642"
                 src="https://www.youtube.com/embed/IJo6cFcxd8I?si=FjeDoX9br9WRdMir"
                 title="Europeana AI Agent - Usability Testing Demo"
                 frameborder="0"

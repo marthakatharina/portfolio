@@ -21,6 +21,10 @@
 /* .project-card--excerpt {
 } */
 
+.project-card--link {
+    font-size: 16px;
+}
+
 /* .overlay {
     position: absolute;
     bottom: 0;

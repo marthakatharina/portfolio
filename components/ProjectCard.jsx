@@ -24,7 +24,12 @@ export default function ProjectCard({ project }) {
                     <h2 className="project-card--title">
                         {project.title.rendered}
                     </h2>
-                    <Link to={`/${project.slug}`}>View project →</Link>
+                    <Link
+                        className="project-card--link"
+                        to={`/${project.slug}`}
+                    >
+                        View project →
+                    </Link>
                 </div>
             </div>
         </div>

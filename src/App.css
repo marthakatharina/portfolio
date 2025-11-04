@@ -38,7 +38,7 @@ main {
 
 .dark {
     background-color: #252526;
-    color: #e9e9e9;
+    color: #eeeeee;
 }
 
 /* .surprise {
@@ -68,7 +68,7 @@ main {
 #header.dark,
 #top-header.dark {
     background-color: #252526;
-    color: #e9e9e9;
+    color: #eeeeee;
 }
 #header.show-header {
     flex: 0 0 260px;

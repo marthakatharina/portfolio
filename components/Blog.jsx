@@ -94,7 +94,7 @@ export default function Blog() {
             ) : (
                 <>
                     <p className="article-type__subtitle">
-                        Peer-reviewed publications
+                        My peer-reviewed publications
                     </p>
 
                     <ul className="scholarly-articles--list">

@@ -41,7 +41,7 @@
 .scholarly-article--link {
     text-decoration: underline;
 }
-.scholarly-articles--list {
+.scholarly-articles--list li {
     list-style-type: none;
     padding: 2em 0 1em 0;
 }

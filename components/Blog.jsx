@@ -111,6 +111,9 @@ export default function Blog() {
                             </a>{" "}
                             <em>Arts & Cultural Studies Review</em>, 2025.
                         </li>
+                        <li>
+                            <em>More coming soon...</em>
+                        </li>
                     </ul>
                 </>
             )}

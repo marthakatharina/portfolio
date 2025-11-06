@@ -176,7 +176,7 @@ export default function AITandem() {
                             vocabulary expansion.
                         </li>
                         <li>
-                            <b>Personlisation: </b>
+                            <b>Personalization: </b>
                             Engages in personalized, topic-driven conversations
                             that reflect the user's interests.
                         </li>

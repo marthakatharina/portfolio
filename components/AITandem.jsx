@@ -86,13 +86,14 @@ export default function AITandem() {
                 <ul className="no-bullets two-col">
                     <li>
                         <b>❌ Lack of practice opportunities: </b>Many learners
-                        lack real-world environments to practice speaking a
-                        foreign language on a regular basis.
+                        lack environments, networks, and opportunities to
+                        practise speaking a foreign language.
                     </li>
                     <li>
-                        <b>❌ Grammar and pronunciation support: </b>
+                        <b>❌ Lack of grammar and pronunciation support: </b>
                         Receiving constructive feedback on these critical
-                        components can be infrequent or inconsistent.
+                        components can be lacking, or infrequent and
+                        inconsistent.
                     </li>
                     <li>
                         <b>❌ Lack of adaptivity and personalization: </b>Many
@@ -108,10 +109,7 @@ export default function AITandem() {
                 for Joanna, a new arrival to Sweden looking to improve her
                 Swedish to pursue a marketing career. The Jobs-to-Be-Done (JTBD)
                 framework was used to identify Joanna’s goals, problems, and
-                needs. Overlaying these needs with the AI Tandem service
-                persona's behavioral traits reveals a potential for alignment
-                and the formation of a successful relationship to support
-                Joanna’s goals.
+                needs when learning a new language.
             </p>
             <img
                 src="/images/AI Tandem - Jobs to be Done.jpeg"
@@ -156,32 +154,34 @@ export default function AITandem() {
                     </h3>
 
                     <p>
-                        <b>Character: </b>Patient, supportive, encouraging, and
+                        <b>Behaviour: </b>Patient, supportive, encouraging, and
                         non-judgmental.
                     </p>
-                    <p>
-                        <b>Capabilities: </b>
-                    </p>
+
                     <ul>
                         <li>
-                            Adapts speech pace and vocabulary to the user's
-                            level.
+                            <b>Adaptivity: </b>Adapts speech pace and vocabulary
+                            to the user's level.
                         </li>
                         <li>
+                            <b>Trained for specific errors: </b>
                             Recognizes common grammar and pronunciation errors
                             specific to the language being learned and the
                             learner’s language background.
                         </li>
                         <li>
+                            <b>Targeted correction: </b>
                             Provides contextually relevant corrections and
                             suggests alternative words and phrasings for
                             vocabulary expansion.
                         </li>
                         <li>
+                            <b>Personlisation: </b>
                             Engages in personalized, topic-driven conversations
                             that reflect the user's interests.
                         </li>
                         <li>
+                            <b>Memory and progress tracking: </b>
                             Remembers previous interactions, personal
                             information shared by the user, and tracks learning
                             progress.
@@ -245,9 +245,7 @@ export default function AITandem() {
                     <p className="two-col">
                         <em className="italic">Personalization: </em>Based on
                         interests and previous conversations, AI Tandem suggests
-                        relevant topics. Joanna could potentially even provide
-                        news articles or other texts for conversational
-                        analysis.
+                        relevant topics.
                     </p>
                 </div>
                 <li>
@@ -255,9 +253,9 @@ export default function AITandem() {
                 </li>
                 <div className="flex">
                     <p className="two-col">
-                        <em className="italic">Adaptivity: </em>Data analytics
-                        track Joanna's improvement over time, decreasing the
-                        frequency of corrections for common mistakes and
+                        <em className="italic">Adaptivity: </em>Tracking of
+                        Joanna's improvement over time, with adjustments made to
+                        conversation difficulty based on demonstrated progress,
                         increasing the complexity of conversations.
                     </p>
                     <p className="two-col">
@@ -278,9 +276,9 @@ export default function AITandem() {
                     </p>
                     <p className="two-col">
                         <em className="italic">Personalization: </em>AI Tandem
-                        can introduce more complex, niche, or formal topics that
-                        align with Joanna’s interests, growing language needs
-                        and personal development.
+                        continuously introduces more complex, niche, or formal
+                        topics that align with Joanna’s interests, growing
+                        language needs and personal development goals.
                     </p>
                 </div>
             </ol>
@@ -291,11 +289,12 @@ export default function AITandem() {
             />
             <h2>Design Requirements</h2>
             <p>
-                The project design prioritizes an adaptive, conversation-driven
-                approach to language learning. The design process incorporated
-                user feedback from the initial research stage and considered
-                guidelines for human-AI interaction (Amershi et al., 2019) and
-                design principles from Wärnestål (2022).
+                The project design prioritizes an adaptive, voice-based and
+                conversation-driven approach to language learning. The design
+                process incorporated user feedback from the initial research
+                stage and considered guidelines for human-AI interaction
+                (Amershi et al., 2019) and design principles from Wärnestål
+                (2022).
             </p>
             <br></br>
             <ul className="flex">
@@ -372,9 +371,9 @@ export default function AITandem() {
                 few basic questions to determine her age group, native
                 language(s), language learning background, and desired languages
                 along with their current levels. This step is crucial for
-                learnability of AI Tandem, ensuring the AI's models are trained
-                and algorithms adjusted, so that the user can receive a
-                tailored, adaptable and valuable language learning experience.
+                learnability of AI Tandem, ensuring the AI models are trained
+                and algorithms adjusted, so that the user can receive a tailored
+                and adaptable language learning experience.
             </p>
             <img
                 src="/images/AI Tandem - Onboarding.png"
@@ -391,19 +390,18 @@ export default function AITandem() {
             <p>
                 <b>4️⃣ Interest Profile:</b> Joanna selects areas of interest
                 (e.g., hobbies, current events, professional topics) to guide AI
-                Tandem's conversation starters and content suggestions.
+                Tandem's conversation starters.
             </p>
             <h2>Designing Feedback Loop</h2>
             <p>
-                The core of AI Tandem's design lies in its continuous,
-                personalized feedback loop:
+                The core of AI Tandem's design lies in its continuous, adaptive
+                and personalized feedback loop:
             </p>
             <p>
                 ✔ <b>Real-time Adaptations:</b> During conversations, AI Tandem
                 analyzes Joanna's speech patterns, identifying common errors and
                 areas for improvement. In real time, it subtly adjusts
-                vocabulary complexity and sentence structures to provide
-                appropriate challenges.
+                vocabulary complexity to provide appropriate challenges.
             </p>
             <p>
                 ✔ <b>Targeted Corrections:</b> AI Tandem provides real-time
@@ -419,17 +417,15 @@ export default function AITandem() {
             <p>
                 ✔ <b>Progress Tracking:</b> AI Tandem monitors Joanna's
                 improvement over time, tracking reductions in errors, expansion
-                of vocabulary, and increased fluency. Visual representations of
-                this progress (charts, graphs) enhance motivation and
-                engagement.
+                of vocabulary, and increased fluency.
             </p>
             <p>
                 ✔ <b>User Feedback:</b> Joanna is asked to provide brief
                 feedback after some interactions, indicating whether she found
                 the conversation's pace and difficulty level appropriate and if
                 she understood the provided corrections. This feedback
-                continuously fine-tunes the AI's response to Joanna’s specific
-                needs.
+                continuously fine-tunes AI Tandem's response to Joanna’s
+                specific needs.
             </p>
             <figure>
                 <img
@@ -448,7 +444,7 @@ export default function AITandem() {
                 session. This dialogue can ask for feedback on pace and
                 difficulty, i.e., simple prompts for Joanna to rate whether the
                 conversation speed and complexity were appropriate. This data
-                directly informs the AI’s adaptive adjustments.
+                additionally informs AI Tandem's adaptive adjustments.
             </p>
             <div className="flex">
                 <h4 className="two-col">
@@ -457,8 +453,8 @@ export default function AITandem() {
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>
-                        <b>✅ Keeps human in the loop</b>, helping improve and
-                        refine AI models.
+                        <b>✅ Keeps human in the loop</b>, ensuring the AI
+                        remains responsive to Joanna's needs and preferences.
                     </li>
                     <li>
                         <b>✅ Captures feedback immediately</b> after the
@@ -466,9 +462,8 @@ export default function AITandem() {
                         mind.
                     </li>
                     <li>
-                        <b>✅ Allows for quick, focused feedback</b> without
-                        significantly extending the session time or disrupting
-                        the conversational flow.
+                        <b>✅ Allows for real time adaptivity</b>, helping
+                        improve and refine AI models.
                     </li>
                 </ul>
             </div>
@@ -482,16 +477,16 @@ export default function AITandem() {
                 <p className="two-col">
                     <b className="italic">Adaptivity:</b> If Joanna rapidly
                     masters concepts, AI Tandem increases difficulty. If she
-                    struggles with specific topics, it provides additional
-                    focused practice and support. The key is to find the optimal
-                    'challenge zone' to encourage growth without causing
-                    discouragement.
+                    struggles with specific grammar concepts or pronunciation,
+                    it provides additional focused practice and support. The key
+                    is to find the optimal 'challenge zone' to encourage growth
+                    without causing discouragement.
                 </p>
                 <p className="two-col">
                     <b className="italic">Personalization:</b> If Joanna is
                     interested in sports, explanations and examples can use
-                    sports-related vocabulary. This enhances both engagement and
-                    memorability.
+                    sports-related vocabulary. This enhances both emotional
+                    engagement and memorability.
                 </p>
             </div>
             <div className="flex">
@@ -538,12 +533,12 @@ export default function AITandem() {
                         improve their language skills?
                     </li>
                     <li>
-                        <b>✔ Usability:</b> Is the interface easy to use, and
-                        does it guide users effectively?
-                    </li>
-                    <li>
                         <b>✔ Engagement:</b> Do users find AI Tandem engaging
                         and use the service regularly?
+                    </li>
+                    <li>
+                        <b>✔ Perceived value:</b> Do users feel they are making
+                        progress in their language learning?
                     </li>
                 </ul>
             </div>
@@ -557,11 +552,13 @@ export default function AITandem() {
                 Feedback from potential users (as seen in the User Research
                 section) will continue to be integrated into future development
                 iterations. This feedback will guide changes as needed in order
-                to increase user satisfaction. Further research into how users
-                form an emotional connection with virtual companions as well as
-                the impact of visual cues in the learning process will
-                contribute to a more user-centered and effective language
-                learning service.
+                to increase user satisfaction.{" "}
+            </p>
+            <p>
+                Further research into how users form an emotional connection
+                with virtual companions as well as the impact of visual cues in
+                the learning process will contribute to a more user-centered and
+                effective language learning service.
             </p>
             <h2>Prototype</h2>
             <p>

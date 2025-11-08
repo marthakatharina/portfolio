@@ -32,7 +32,8 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 9999;
+    /* Keep below the cursor dot (12001) but above the rest of content */
+    z-index: 12000;
     overflow: hidden;
 }
 

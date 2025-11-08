@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
 import "./Blog.css";
 import ArticleItems from "/components/ArticleItems";
 import Loading from "/components/Loading";
@@ -8,6 +8,25 @@ export default function Blog() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [activeTab, setActiveTab] = useState("medium"); // 'medium' | 'scholarly'
+    const [didMount, setDidMount] = useState(false); // controls initial no-animation state
+    const tabsRef = useRef(null);
+    const mediumBtnRef = useRef(null);
+    const scholarlyBtnRef = useRef(null);
+
+    const updateIndicator = () => {
+        const container = tabsRef.current;
+        const target =
+            activeTab === "medium"
+                ? mediumBtnRef.current
+                : scholarlyBtnRef.current;
+        if (!container || !target) return;
+        const contRect = container.getBoundingClientRect();
+        const targetRect = target.getBoundingClientRect();
+        const left = targetRect.left - contRect.left;
+        const width = targetRect.width;
+        container.style.setProperty("--indicator-left", `${left}px`);
+        container.style.setProperty("--indicator-width", `${width}px`);
+    };
 
     const fetchArticles = async () => {
         try {
@@ -33,6 +52,20 @@ export default function Blog() {
         fetchArticles();
     }, []);
 
+    // After first paint, allow underline transitions
+    useEffect(() => {
+        setDidMount(true);
+    }, []);
+
+    useLayoutEffect(() => {
+        // Position underline before first paint and on tab changes
+        updateIndicator();
+        const onResize = () => updateIndicator();
+        window.addEventListener("resize", onResize);
+        return () => window.removeEventListener("resize", onResize);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [activeTab]);
+
     return (
         <div className="article--container">
             <div className="article--heading">
@@ -40,7 +73,12 @@ export default function Blog() {
             </div>
 
             {/* Tabs */}
-            <div className="tabs" role="tablist" aria-label="Articles tabs">
+            <div
+                className={`tabs ${!didMount ? "tabs--initial" : ""}`}
+                role="tablist"
+                aria-label="Articles tabs"
+                ref={tabsRef}
+            >
                 <button
                     type="button"
                     role="tab"
@@ -49,6 +87,7 @@ export default function Blog() {
                     className={`tab-button ${
                         activeTab === "medium" ? "active" : ""
                     }`}
+                    ref={mediumBtnRef}
                     onClick={() => setActiveTab("medium")}
                 >
                     Medium articles
@@ -61,6 +100,7 @@ export default function Blog() {
                     className={`tab-button ${
                         activeTab === "scholarly" ? "active" : ""
                     }`}
+                    ref={scholarlyBtnRef}
                     onClick={() => setActiveTab("scholarly")}
                 >
                     Scholarly articles

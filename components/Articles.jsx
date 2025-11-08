@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
-import "./Blog.css";
+import "./Articles.css";
 import ArticleItems from "/components/ArticleItems";
 import Loading from "/components/Loading";
 
-export default function Blog() {
+export default function Articles() {
     const [articles, setArticles] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);

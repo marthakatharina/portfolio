@@ -3,11 +3,10 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import ProjectPage from "/components/ProjectPage";
 import About from "/components/About";
 import Home from "/components/Home";
-import Blog from "/components/Blog";
+import Articles from "/components/Articles";
 import Context from "/components/Context";
 import ThemeSwitcher from "/components/ThemeSwitcher";
 import ScrollToTop from "/components/ScrollToTop";
-// import { useContext } from "react";
 import "./App.css";
 import Main from "/components/Main";
 import Dot from "/components/Dot";
@@ -149,7 +148,7 @@ export default function App() {
                                             <Link to="/about">About me</Link>
                                         </li>
                                         <li>
-                                            <Link to="/blog">Articles</Link>
+                                            <Link to="/articles">Articles</Link>
                                         </li>
                                         <li>
                                             <a
@@ -212,7 +211,7 @@ export default function App() {
                                         </li>
                                         <li>
                                             <Link
-                                                to="/blog"
+                                                to="/articles"
                                                 onClick={() =>
                                                     setIsHeaderHidden(true)
                                                 }
@@ -240,7 +239,10 @@ export default function App() {
                                     element={<Home projects={projects} />}
                                 />
                                 <Route path="/about" element={<About />} />
-                                <Route path="/blog" element={<Blog />} />
+                                <Route
+                                    path="/articles"
+                                    element={<Articles />}
+                                />
                                 <Route
                                     path="/:slug"
                                     element={<ProjectPage />}

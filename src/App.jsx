@@ -152,7 +152,11 @@ export default function App() {
                                             <Link to="/blog">Articles</Link>
                                         </li>
                                         <li>
-                                            <a href="/CV_MartaWlusek.pdf/">
+                                            <a
+                                                href="/CV_MartaWlusek.pdf/"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
                                                 CV
                                             </a>
                                         </li>

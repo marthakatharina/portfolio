@@ -92,7 +92,11 @@ export default function About() {
                     </p>
                     <p>
                         Feel free to review and download my CV
-                        <a href="/CV_MartaWlusek.pdf/">
+                        <a
+                            href="/CV_MartaWlusek.pdf/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <b> here</b>
                         </a>
                         .

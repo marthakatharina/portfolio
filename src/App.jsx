@@ -217,7 +217,11 @@ export default function App() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/">
+                                            <a
+                                                href="/CV_MartaWlusek.pdf/"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
                                                 CV
                                             </a>
                                         </li>

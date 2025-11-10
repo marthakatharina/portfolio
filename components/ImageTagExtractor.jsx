@@ -103,10 +103,10 @@ export default function ImageTagExtractor() {
             <p>
                 Emma, a digital curator, struggles with repetitive manual
                 tagging in Omeka. She spends hours assigning tags, often unsure
-                whether she’s used, for example, “market square” or “town
-                square” before. The AI tagging assistant is designed to support
-                Emma by suggesting consistent and relevant tags automatically,
-                saving time and reducing cognitive load.
+                whether she’s used, for example, “Apple” or “Apple logo” before.
+                The tagging system is designed to support Emma by suggesting
+                consistent and relevant tags automatically, saving time,
+                reducing cognitive load, and enhancing productivity.
             </p>
 
             <h2>System Requirements</h2>

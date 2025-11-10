@@ -7,18 +7,19 @@ export default function Home({ projects }) {
     return (
         <>
             <div className="home-intro">
-                <p className="intro-line">
+                <p id="intro-line">
                     <span className="greeting">
                         Hi <span className="wave">👋</span>,{" "}
                     </span>
+
                     <span className="typewriter" aria-hidden="false">
                         {" "}
                         I'm <strong>Marta Wlusek</strong>, a{" "}
-                        <strong>Digital Product Designer</strong> and{" "}
-                        <strong>UX/UI Design Engineer</strong>.
+                        <strong>Product Designer</strong> and{" "}
+                        <strong>Developer</strong>.
                     </span>
                 </p>
-                <p>
+                <p id="subintro-line">
                     I help companies and organizations design and develop GenAI,
                     Machine Learning, and data based solutions to optimize
                     productivity, accessibility, and engagement.

@@ -13,10 +13,12 @@ import Dot from "/components/Dot";
 import { AptoProjectData } from "/components/ApTo";
 import { AiTandemProjectData } from "/components/AITandem";
 import { EuropeanaAIAgentProjectData } from "/components/EuropeanaAIAgent";
+import { ImageTagExtractorProjectData } from "/components/ImageTagExtractor";
 
 export default function App() {
     const [projects] = useState([
         EuropeanaAIAgentProjectData,
+        ImageTagExtractorProjectData,
         AiTandemProjectData,
         AptoProjectData,
     ]);

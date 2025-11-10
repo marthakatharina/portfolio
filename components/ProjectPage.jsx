@@ -5,6 +5,7 @@ import ImageLightbox from "./ImageLightbox";
 import ApTo from "./ApTo";
 import AITandem from "./AITandem";
 import EuropeanaAIAgent from "./EuropeanaAIAgent";
+import ImageTagExtractor from "./ImageTagExtractor";
 
 export default function ProjectPage() {
     const { slug } = useParams();
@@ -14,6 +15,7 @@ export default function ProjectPage() {
         "ai-tandem": <AITandem />,
         "apto-app": <ApTo />,
         "europeana-ai-agent": <EuropeanaAIAgent />,
+        "image-tag-extractor": <ImageTagExtractor />,
         // Add other mappings here as needed
     };
 

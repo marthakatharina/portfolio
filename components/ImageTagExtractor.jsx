@@ -181,7 +181,7 @@ export default function ImageTagExtractor() {
                         style={{ maxWidth: "100%" }}
                     />
                     <figcaption>
-                        Figure 1: Uploading first image and receiving tag
+                        Figure 1: Uploading first image - receiving tag
                         suggestions.
                     </figcaption>
                 </figure>
@@ -193,7 +193,7 @@ export default function ImageTagExtractor() {
                         style={{ maxWidth: "100%" }}
                     />
                     <figcaption>
-                        Figure 2: Uploading second image workflow.
+                        Figure 2: Uploading subsequent image - workflow.
                     </figcaption>
                 </figure>
             </div>

@@ -77,8 +77,8 @@ export default function ImageTagExtractor() {
 
             <h2>User Research</h2>
             <p>
-                Four Omeka users participated in a formative questionnaire to
-                uncover their tagging challenges.
+                Four Omeka users participated in a formative research to uncover
+                their tagging challenges.
             </p>
             <div className="flex">
                 <h4 className="two-col">
@@ -94,10 +94,6 @@ export default function ImageTagExtractor() {
                     </li>
                 </ul>
             </div>
-            <p>
-                75% of users strongly agreed that an AI-powered tagging plugin
-                would improve their workflow.
-            </p>
 
             <h2>User Scenario</h2>
             <p>
@@ -199,7 +195,7 @@ export default function ImageTagExtractor() {
             </div>
 
             <p>
-                Test the prototype{" "}
+                You can try it yourself{" "}
                 <a
                     href="https://marthakatharina.github.io/Image-Metadata-Enrichment/"
                     target="_blank"

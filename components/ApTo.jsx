@@ -132,13 +132,13 @@ export default function ApTo() {
                 style={{ maxWidth: "100%" }}
             />
             <p>
-                To test it yourself in Figma{" "}
+                To test it yourself in Figma click{" "}
                 <a
                     href="https://www.figma.com/proto/nVQC4IiwZ9sfKd0DjRDUvY/DoWo?node-id=283%3A1056&scaling=scale-down&page-id=0%3A1&starting-point-node-id=645%3A741&hide-ui=1"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>click here</strong>
+                    <strong>here ↗</strong>
                 </a>
             </p>
         </div>

@@ -97,9 +97,8 @@ export default function About() {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <b> here</b>
+                            <b> here ↗</b>
                         </a>
-                        .
                     </p>
                 </div>
                 <div className="about--img">

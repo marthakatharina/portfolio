@@ -201,9 +201,8 @@ export default function ImageTagExtractor() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>here</strong>
+                    <strong>here ↗</strong>
                 </a>
-                .
             </p>
 
             <h2>Evaluation</h2>
@@ -237,7 +236,7 @@ export default function ImageTagExtractor() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>GitHub</strong>
+                    <strong>GitHub ↗</strong>
                 </a>
             </p>
         </>

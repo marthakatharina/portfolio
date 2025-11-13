@@ -38,7 +38,7 @@ export default function AITandem() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>here</strong>
+                    <strong>here ↗</strong>
                 </a>
             </p>
             <h2>Problem Definition</h2>
@@ -158,35 +158,32 @@ export default function AITandem() {
                         non-judgmental.
                     </p>
 
-                    <ul>
-                        <li>
-                            <b>Adaptivity: </b>Adapts speech pace and vocabulary
-                            to the user's level.
-                        </li>
-                        <li>
-                            <b>Trained for specific errors: </b>
-                            Recognizes common grammar and pronunciation errors
-                            specific to the language being learned and the
-                            learner’s language background.
-                        </li>
-                        <li>
-                            <b>Targeted correction: </b>
-                            Provides contextually relevant corrections and
-                            suggests alternative words and phrasings for
-                            vocabulary expansion.
-                        </li>
-                        <li>
-                            <b>Personalization: </b>
-                            Engages in personalized, topic-driven conversations
-                            that reflect the user's interests.
-                        </li>
-                        <li>
-                            <b>Memory and progress tracking: </b>
-                            Remembers previous interactions, personal
-                            information shared by the user, and tracks learning
-                            progress.
-                        </li>
-                    </ul>
+                    <p>
+                        <b>Adaptivity: </b>Adapts speech pace and vocabulary to
+                        the user's level.
+                    </p>
+                    <p>
+                        <b>Trained for specific errors: </b>
+                        Recognizes common grammar and pronunciation errors
+                        specific to the language being learned and the learner’s
+                        language background.
+                    </p>
+                    <p>
+                        <b>Targeted correction: </b>
+                        Provides contextually relevant corrections and suggests
+                        alternative words and phrasings for vocabulary
+                        expansion.
+                    </p>
+                    <p>
+                        <b>Personalization: </b>
+                        Engages in personalized, topic-driven conversations that
+                        reflect the user's interests.
+                    </p>
+                    <p>
+                        <b>Memory and progress tracking: </b>
+                        Remembers previous interactions, personal information
+                        shared by the user, and tracks learning progress.
+                    </p>
                 </div>
             </div>
             <img
@@ -358,8 +355,8 @@ export default function AITandem() {
             />
             <h2>Designing Onboarding</h2>
             <p>
-                The onboarding process is critical for establishing a tailored
-                learning service and experience. Here's how it functions:
+                The onboarding process is critical for establishing an adaptive
+                and personalized language learning service and experience.
             </p>
             <p>
                 <b>1️⃣ AI Tandem Introduction:</b> A brief introduction to how AI
@@ -562,13 +559,13 @@ export default function AITandem() {
             </p>
             <h2>Prototype</h2>
             <p>
-                To access the prototype and to see the design in Figma{" "}
+                To access the prototype and to test the design in Figma click{" "}
                 <a
                     href="https://www.figma.com/proto/Y4TWnrDYqo4e7gyopQjmuZ/AI-Tandem-App?type=design&node-id=70-1343&t=gAJkVBq4WlZNtp4i-0&scaling=scale-down&page-id=63%3A1336&starting-point-node-id=70%3A1337&hide-ui=1"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>click here</strong>
+                    <strong>here ↗</strong>
                 </a>
             </p>
             <iframe

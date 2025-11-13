@@ -320,13 +320,13 @@ export default function EuropeanaAIAgent() {
             </div>
 
             <p>
-                To test it yourself in Figma{" "}
+                To test it yourself in Figma click{" "}
                 <a
                     href="https://www.figma.com/proto/xQFdYs8QLYHnUlWSRLiqWz/AI-Search-Agent?page-id=1%3A2&node-id=15-541&viewport=86%2C312%2C0.12&t=DonWCPSqBEiAhKgm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=15%3A541&show-proto-sidebar=1"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>click here</strong>
+                    <strong>here ↗</strong>
                 </a>
             </p>
 

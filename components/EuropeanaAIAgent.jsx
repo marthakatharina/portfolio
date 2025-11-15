@@ -22,7 +22,7 @@ export default function EuropeanaAIAgent() {
             </h1>
             <p className="project-meta">
                 <a href="/">Marta Wlusek</a> | Product Designer, AI Agent
-                Developer| {EuropeanaAIAgentProjectData.date}
+                Developer | {EuropeanaAIAgentProjectData.date}
             </p>
             <img
                 src={EuropeanaAIAgentProjectData._links.featuredmedia[0].href}

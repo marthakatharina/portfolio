@@ -51,7 +51,7 @@
 }
 
 .image-viewer-arrow:hover {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgb(0 0 0 / 15%);
     transform: translateY(-50%) scale(1.03);
 }
 

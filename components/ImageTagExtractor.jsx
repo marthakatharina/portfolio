@@ -21,7 +21,7 @@ export default function ImageTagExtractor() {
                 {ImageTagExtractorProjectData.title.rendered}
             </h1>
             <p className="project-meta">
-                <a href="/">Marta Wlusek</a> | Product Design & Development |{" "}
+                <a href="/">Marta Wlusek</a> | Product Designer, UI Developer |{" "}
                 {ImageTagExtractorProjectData.date}
             </p>
             <img
@@ -34,32 +34,32 @@ export default function ImageTagExtractor() {
                 Omeka is an open-source content management system widely used in
                 Digital Humanities for curating, preserving, and sharing digital
                 editions. It allows curators to build interactive collections
-                and exhibitions enriched with standardized metadata and
-                user-generated tags.
+                and exhibitions enriched with standardized metadata and custom
+                tags.
             </p>
 
             <h2>Problem Definition</h2>
             <p>
-                Tagging and metadata management in Omeka are essential for
-                organising and retrieving digital heritage content, but the
-                manual process is time-consuming and inconsistent. Users often
-                forget previously used tags, create duplicates (e.g.,
-                “marketstall” vs. “market stall”), and struggle with maintaining
-                tagging consistency across large collections.
+                Metadata management in Omeka is essential for organising and
+                retrieving digital heritage content, but the manual process is
+                time-consuming and inconsistent. Editors often forget previously
+                used tags, create duplicates (e.g., “marketstall” vs. “market
+                stall”), and struggle with maintaining tagging consistency
+                across large collections.
             </p>
 
             <h3>Hypothesis:</h3>
             <p>
-                An AI/ML-powered tagging system for Omeka can automatically
-                extract and suggest relevant tags from uploaded images,
-                supporting cultural heritage professionals while keeping human
-                validation at the centre of the process.
+                An AI/ML-powered tagging system for Omeka, in the form of a
+                plugin, can automatically extract and suggest relevant tags from
+                uploaded images, supporting cultural heritage professionals
+                while keeping human validation at the centre of the process.
             </p>
 
             <div className="flex">
                 <h4 className="two-col">
-                    The <span className="italic">AI Tagging Plugin</span> aims
-                    to:
+                    The <span className="italic">AI/ML Tagging Plugin</span> for
+                    Omeka can:
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>💡 Automate image-based tag suggestions.</li>
@@ -211,10 +211,10 @@ export default function ImageTagExtractor() {
                 more detailed feedback (scores), and improved tag accuracy.
             </p>
             <p>
-                The prototype demonstrated potential for computational
-                enrichment in digital heritage. However, ml5.js struggled with
-                historical imagery, emphasizing the need for domain-specific
-                training data.{" "}
+                The prototype demonstrated potential for machine learning-driven
+                metadata enrichment in digital heritage. However, ml5.js
+                struggled with historical imagery, emphasizing the need for
+                domain-specific training data.{" "}
             </p>
             <p>
                 Human validation remains essential to prevent bias and ensure

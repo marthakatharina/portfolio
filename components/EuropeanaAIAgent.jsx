@@ -334,8 +334,7 @@ export default function EuropeanaAIAgent() {
             <p>
                 The next step, which is already underway, is the development of
                 a working prototype using OpenAI tools and the available
-                Europeana APIs with data and metadata, modelled using Europeana
-                Data Model (EDM).
+                Europeana APIs with data and metadata.
             </p>
             <p>
                 The objective of the prototype, that will be measured, is for at

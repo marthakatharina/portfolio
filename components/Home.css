@@ -29,7 +29,8 @@
     margin-bottom: 2rem;
 }
 .home-intro strong {
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: -2px;
 }
 
 /* Waving hand animation */

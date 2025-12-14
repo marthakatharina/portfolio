@@ -13,8 +13,8 @@ main {
 }
 
 .dot {
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
     position: fixed;
     top: -10px;
     left: -10px;
@@ -130,7 +130,7 @@ h1,
     font-variation-settings: "wdth" 100, "GRAD" 0;
 }
 h2 {
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;

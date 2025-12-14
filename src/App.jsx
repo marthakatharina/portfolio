@@ -283,20 +283,11 @@ export default function App() {
                                     GitHub
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href="https://cargocollective.com/martawlusek/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    My Art Projects
-                                </a>
-                            </li>
                         </ul>
                     </div>
                     <p>
-                        © Marta Wlusek 2025. Designed and developed with ♡
-                        React.js by Marta Wlusek.
+                        © Marta Wlusek 2025. Designed and developed with ♡ React
+                        by Marta Wlusek.
                     </p>
                 </footer>
             </Context.Provider>

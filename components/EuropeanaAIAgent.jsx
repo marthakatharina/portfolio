@@ -55,10 +55,10 @@ export default function EuropeanaAIAgent() {
             <h2>Problem Definition</h2>
             <p>
                 Users exploring digital cultural assets often encounter
-                irrelevant and cluttered search results, as well as a lack of
+                irrelevant and overwhelming search results, as well as a lack of
                 contextual information, when navigating classical search
                 interfaces, such as those of Europeana - especially with
-                sementic search queries.
+                semantic search queries.
             </p>
 
             <h3>Hypothesis:</h3>

@@ -7,7 +7,7 @@ export const EuropeanaAIAgentProjectData = {
     date: "2025",
     slug: "europeana-ai-agent",
     title: {
-        rendered: "Europeana AI Assistant — AI Agent",
+        rendered: "Europeana AI Search Assistant — AI Agent",
     },
     _links: {
         featuredmedia: [{ href: "/images/EuropeanaAIAgent - featured.png" }],

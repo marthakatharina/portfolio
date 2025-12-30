@@ -78,7 +78,8 @@ export default function ImageTagExtractor() {
             </p>
             <div className="flex">
                 <h4 className="two-col">
-                    Top 4 tagging <span className="italic">pain points</span>:
+                    Top 4 tagging <span className="italic">pain points </span>
+                    itentified:
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>① Manual tagging is time-consuming.</li>

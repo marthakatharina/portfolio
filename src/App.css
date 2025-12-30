@@ -332,7 +332,7 @@ footer p {
         padding: 0;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
     #top-header .menu ul {
         display: flex;

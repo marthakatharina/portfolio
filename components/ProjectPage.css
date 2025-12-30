@@ -32,12 +32,6 @@
     padding-inline-start: 1em;
 } */
 
-.content {
-    flex-grow: 1;
-    padding: 1em;
-    height: 100%;
-}
-
 .page-container {
     max-width: 1024px;
     margin: auto;

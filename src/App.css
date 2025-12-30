@@ -85,6 +85,12 @@ main {
     transform: translateX(-260px);
 }
 
+.content {
+    flex-grow: 1;
+    padding: 2em;
+    height: 100%;
+}
+
 a {
     position: relative;
     color: currentColor;

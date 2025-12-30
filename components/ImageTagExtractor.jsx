@@ -37,7 +37,6 @@ export default function ImageTagExtractor() {
                 and exhibitions enriched with standardized metadata and custom
                 tags.
             </p>
-
             <h2>Problem Definition</h2>
             <p>
                 Metadata management in Omeka is essential for organising and
@@ -47,7 +46,6 @@ export default function ImageTagExtractor() {
                 stall”), and struggle with maintaining tagging consistency
                 across large collections.
             </p>
-
             <h3>Hypothesis:</h3>
             <p>
                 An AI/ML-powered tagging system for Omeka, in the form of a
@@ -55,7 +53,6 @@ export default function ImageTagExtractor() {
                 uploaded images, supporting cultural heritage professionals
                 while keeping human validation at the centre of the process.
             </p>
-
             <div className="flex">
                 <h4 className="two-col">
                     The <span className="italic">AI/ML Tagging Plugin</span> for
@@ -74,7 +71,6 @@ export default function ImageTagExtractor() {
                     </li>
                 </ul>
             </div>
-
             <h2>User Research</h2>
             <p>
                 Four Omeka users participated in a formative research to uncover
@@ -94,7 +90,6 @@ export default function ImageTagExtractor() {
                     </li>
                 </ul>
             </div>
-
             <h2>User Scenario</h2>
             <p>
                 Emma, a digital curator, struggles with repetitive manual
@@ -104,7 +99,6 @@ export default function ImageTagExtractor() {
                 consistent and relevant tags automatically, saving time,
                 reducing cognitive load, and enhancing productivity.
             </p>
-
             <h2>System Requirements</h2>
             <div className="flex">
                 <h4 className="two-col">
@@ -152,7 +146,6 @@ export default function ImageTagExtractor() {
                     <li>❌ Full automation without human validation.</li>
                 </ul>
             </div>
-
             <h2>Prototype</h2>
             <p>
                 The prototype, built with HTML, CSS, and JavaScript, integrates
@@ -168,7 +161,6 @@ export default function ImageTagExtractor() {
                 uploaded images. It includes an intuitive interface for
                 selecting, editing, and saving tags.
             </p>
-
             <div className="flex">
                 <figure className="two-col">
                     <img
@@ -193,7 +185,6 @@ export default function ImageTagExtractor() {
                     </figcaption>
                 </figure>
             </div>
-
             <p>
                 You can try it yourself{" "}
                 <a
@@ -204,7 +195,6 @@ export default function ImageTagExtractor() {
                     <strong>here ↗</strong>
                 </a>
             </p>
-
             <h2>Evaluation</h2>
             <p>
                 Users found the system fast and enjoyable but noted a need for
@@ -224,11 +214,12 @@ export default function ImageTagExtractor() {
                 The ML-powered tagging system for Omeka shows strong potential
                 to enhance metadata creation and consistency. Future iterations
                 will focus on improving ML accuracy with custom-trained models
-                and deeper Omeka integration. The project demonstrates how
-                human-centered design and AI can together advance digital
-                cultural heritage curation.
+                and deeper Omeka integration.
+            </p>{" "}
+            <p>
+                The project demonstrates how human-centered design and AI can
+                together advance digital cultural heritage curation.
             </p>
-
             <p>
                 View source code on{" "}
                 <a

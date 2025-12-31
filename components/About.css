@@ -1,7 +1,7 @@
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 20px;
 }
 .about-heading {
     font-family: "Roboto Serif", serif;
@@ -12,6 +12,11 @@
     text-align: center;
     margin-bottom: 1em;
 }
+.about--text {
+    border-right: 0.6px solid currentColor;
+    padding-right: 20px;
+}
+
 .about--img {
     align-self: center;
     justify-self: center;
@@ -58,5 +63,11 @@
     .about {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .about--text {
+        border-right: none;
+        padding-right: 0;
+        border-top: 0.6px solid currentColor;
+        padding-top: 10px;
     }
 }

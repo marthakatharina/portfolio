@@ -72,7 +72,7 @@ export default function About() {
             )}
             <h1 className="about-heading">About me</h1>
             <div className="about">
-                <div>
+                <div className="about--text">
                     <p>
                         I am a passionate Product Designer and Developer,
                         focused on creating visually engaging, innovative, and

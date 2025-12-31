@@ -14,9 +14,9 @@ export default function Home({ projects }) {
 
                     <span className="typewriter" aria-hidden="false">
                         {" "}
-                        I'm <strong>Marta Wlusek</strong>, a{" "}
-                        <strong>Product Designer</strong> and{" "}
-                        <strong>Developer</strong>.
+                        I'm Marta Wlusek, a{" "}
+                        Product Designer and{" "}
+                        Developer.
                     </span>
                 </p>
                 <p id="subintro-line">

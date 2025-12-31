@@ -1,10 +1,11 @@
 .home-intro {
     max-width: 1400px;
-    margin: 4rem auto;
+    margin: 4rem 20px;
     /* padding: 1rem 0; */
     /* text-align: center; */
     display: flex;
-    border-bottom: 1px solid currentColor;
+    justify-self: center;
+    border-bottom: 0.6px solid currentColor;
     /* background: rgba(96, 36, 165, 0.1);
     border-radius: 10px;
     line-height: 1.65;
@@ -29,13 +30,15 @@
     /* text-align: center; */
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-right: 1px solid currentColor;
-    padding: 1.2rem;
-}
-.home-intro strong {
+    border-right: 0.6px solid currentColor;
+    padding: 1.6em;
     font-weight: 600;
     letter-spacing: 0px;
 }
+/* .home-intro strong {
+    font-weight: 600;
+    letter-spacing: 0px;
+} */
 
 /* Waving hand animation */
 .greeting .wave {
@@ -45,7 +48,7 @@
 }
 #subintro-line {
     font-size: 1.25rem;
-    padding: 1.2rem;
+    padding: 1.6em;
     /* max-width: 860px; */
     /* text-align: center; */
     /* margin-top: 2rem;
@@ -91,13 +94,19 @@
 
 @media only screen and (max-width: 768px) {
     .home-intro {
+        display: block;
         margin: 3rem auto;
     }
+
     #intro-line {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        border-right: none;
+        border-bottom: 0.6px solid currentColor;
+        padding: 0.8em;
     }
     #subintro-line {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        padding: 0.8em;
     }
 
     #projects {

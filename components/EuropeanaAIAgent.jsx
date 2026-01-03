@@ -63,9 +63,9 @@ export default function EuropeanaAIAgent() {
 
             <h3>Hypothesis:</h3>
             <p>
-                Generative, chat-based AI that adhers to the cultural heritage
-                data principles: Findable, Accessible, Interoperable, Reusable
-                (FAIR)
+                Generative, chat-based AI agent that queries data from Europeana
+                and adheres to the cultural heritage data principles: Findable,
+                Accessible, Interoperable, Reusable (FAIR)
             </p>
 
             <div className="flex">

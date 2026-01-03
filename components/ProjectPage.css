@@ -88,6 +88,8 @@ figcaption {
     display: flex;
     gap: 2rem;
     margin: 1rem 0;
+    border-top: 0.6px solid currentColor;
+    border-bottom: 0.6px solid currentColor;
 }
 .two-col {
     width: 50%;

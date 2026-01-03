@@ -150,7 +150,9 @@ export default function App() {
                                             <Link to="/about">About me</Link>
                                         </li>
                                         <li>
-                                            <Link to="/articles">Articles</Link>
+                                            <Link to="/articles">
+                                                Publications
+                                            </Link>
                                         </li>
                                         <li>
                                             <a
@@ -218,7 +220,7 @@ export default function App() {
                                                     setIsHeaderHidden(true)
                                                 }
                                             >
-                                                Articles
+                                                Publications
                                             </Link>
                                         </li>
                                         <li>

@@ -69,7 +69,7 @@ export default function Articles() {
     return (
         <div className="article--container">
             <div className="article--heading">
-                <h1>Articles</h1>
+                <h1>Publications</h1>
             </div>
 
             {/* Tabs */}

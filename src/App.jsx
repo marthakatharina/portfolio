@@ -286,7 +286,7 @@ export default function App() {
                         </ul>
                     </div>
                     <p>
-                        © Marta Wlusek 2025. Designed and developed with ♡ React
+                        © Marta Wlusek 2026. Designed and developed with ♡ React
                         by Marta Wlusek.
                     </p>
                 </footer>

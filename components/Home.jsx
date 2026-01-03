@@ -9,7 +9,7 @@ export default function Home({ projects }) {
             <div className="home-intro">
                 <p id="intro-line">
                     <span className="greeting">
-                        Hi <span className="wave">👋</span>,{" "}
+                        Hi<span className="wave">👋</span>,{" "}
                     </span>
 
                     <span className="intro-name">

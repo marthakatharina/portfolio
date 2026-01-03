@@ -211,6 +211,9 @@ h1 {
 h2 {
     font-size: 1.9em;
 }
+h4 {
+    font-weight: 600;
+}
 
 footer {
     border-top: 1px solid #111111;

@@ -21,8 +21,8 @@ export default function ImageTagExtractor() {
                 {ImageTagExtractorProjectData.title.rendered}
             </h1>
             <p className="project-meta">
-                <a href="/">Marta Wlusek</a> | Product Designer, UI Developer |{" "}
-                {ImageTagExtractorProjectData.date}
+                <a href="/">Marta Wlusek</a> | Product Designer, UX Researcher,
+                UI Developer | {ImageTagExtractorProjectData.date}
             </p>
             <img
                 src={ImageTagExtractorProjectData._links.featuredmedia[0].href}

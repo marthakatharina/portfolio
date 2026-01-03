@@ -12,10 +12,8 @@ export default function Home({ projects }) {
                         Hi <span className="wave">👋</span>,{" "}
                     </span>
 
-                    <span className="typewriter" aria-hidden="false">
-                        {" "}
-                        I'm Marta Wlusek, a{" "}
-                        Product Designer and{" "}
+                    <span className="intro-name">
+                        I'm Marta Wlusek, a UX Researcher, Product Designer and
                         Developer.
                     </span>
                 </p>

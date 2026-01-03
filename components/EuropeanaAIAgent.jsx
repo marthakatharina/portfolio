@@ -281,9 +281,9 @@ export default function EuropeanaAIAgent() {
                 </p>
             </div>
 
-            <div className="table-grid">
+            <div className="table-grid screenshot-column">
                 <div className="table-container">
-                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <div className="table-row">
                         <img
                             src={"/images/EuropeanaFirstIteration-1.png"}
                             alt="First iteration of Europeana AI Agent"
@@ -291,7 +291,7 @@ export default function EuropeanaAIAgent() {
                         />
                     </div>
 
-                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <div className="table-row">
                         <img
                             src={"/images/EuropeanaSecondIteration-1.png"}
                             alt="Second iteration of Europeana AI Agent"
@@ -301,7 +301,7 @@ export default function EuropeanaAIAgent() {
                 </div>
 
                 <div className="table-container">
-                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <div className="table-row">
                         <img
                             src={"/images/EuropeanaFirstIteration-2.png"}
                             alt="First iteration of Europeana AI Agent"
@@ -309,7 +309,7 @@ export default function EuropeanaAIAgent() {
                         />
                     </div>
 
-                    <div className="table-row" style={{ borderRadius: "14px" }}>
+                    <div className="table-row">
                         <img
                             src={"/images/EuropeanaSecondIteration-2.png"}
                             alt="Second iteration of Europeana AI Agent"

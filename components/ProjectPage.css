@@ -105,6 +105,9 @@ figcaption {
     .project-meta {
         font-size: 13px;
     }
+    .page-container img {
+        border-radius: 8px;
+    }
     .flex {
         flex-direction: column;
         gap: 0;

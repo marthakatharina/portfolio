@@ -21,6 +21,10 @@
     margin-bottom: 2rem;
 }
 
+.screenshot-column .table-row {
+    border-radius: 14px;
+}
+
 .table-row:not(:last-child)::after {
     content: "";
     position: absolute;
@@ -72,6 +76,9 @@
 @media only screen and (max-width: 768px) {
     .table-grid {
         display: block;
+    }
+    .screenshot-column .table-row {
+        border-radius: 8px;
     }
     .table-cell-left {
         padding: 20px;

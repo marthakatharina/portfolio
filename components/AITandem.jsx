@@ -123,67 +123,72 @@ export default function AITandem() {
             </p>
             <div className="flex">
                 <div className="two-col">
-                    <h3>
+                    <h4>
                         User Persona: <em className="italic">Joanna</em>
-                    </h3>
-
-                    <p>
-                        <b>Background: </b>A recent migrant to Sweden with
-                        previous experience in marketing, but with limited
-                        Swedish language skills.
-                    </p>
-                    <p>
-                        <b>Goals: </b>Improve Swedish for career development,
-                        gain conversational fluency, and overcome anxiety
-                        associated with speaking a non-fluent language.
-                    </p>
-                    <p>
-                        <b>Pain points: </b>Lack of Swedish-speaking networks,
-                        difficulty finding consistent practice opportunities,
-                        and fear of making mistakes when speaking.
-                    </p>
-                    <p>
-                        <b>Motivations: </b>Career advancement, a desire to
-                        integrate socially, and the wish to build confidence and
-                        feel more at ease when using Swedish.
-                    </p>
+                    </h4>
+                    <ul>
+                        <li>
+                            <b>Background: </b>A recent migrant to Sweden with
+                            previous experience in marketing, but with limited
+                            Swedish language skills.
+                        </li>
+                        <li>
+                            <b>Goals: </b>Improve Swedish for career
+                            development, gain conversational fluency, and
+                            overcome anxiety associated with speaking a
+                            non-fluent language.
+                        </li>
+                        <li>
+                            <b>Pain points: </b>Lack of Swedish-speaking
+                            networks, difficulty finding consistent practice
+                            opportunities, and fear of making mistakes when
+                            speaking.
+                        </li>
+                        <li>
+                            <b>Motivations: </b>Career advancement, a desire to
+                            integrate socially, and the wish to build confidence
+                            and feel more at ease when using Swedish.
+                        </li>
+                    </ul>
                 </div>
                 <div className="two-col">
-                    <h3>
+                    <h4>
                         AI Agent Persona: <em className="italic">AI Tandem</em>
-                    </h3>
+                    </h4>
+                    <ul>
+                        <li>
+                            <b>Behaviour: </b>Patient, supportive, encouraging,
+                            and non-judgmental.
+                        </li>
 
-                    <p>
-                        <b>Behaviour: </b>Patient, supportive, encouraging, and
-                        non-judgmental.
-                    </p>
-
-                    <p>
-                        <b>Adaptivity: </b>Adapts speech pace and vocabulary to
-                        the user's level.
-                    </p>
-                    <p>
-                        <b>Trained for specific errors: </b>
-                        Recognizes common grammar and pronunciation errors
-                        specific to the language being learned and the learner’s
-                        language background.
-                    </p>
-                    <p>
-                        <b>Targeted correction: </b>
-                        Provides contextually relevant corrections and suggests
-                        alternative words and phrasings for vocabulary
-                        expansion.
-                    </p>
-                    <p>
-                        <b>Personalization: </b>
-                        Engages in personalized, topic-driven conversations that
-                        reflect the user's interests.
-                    </p>
-                    <p>
-                        <b>Memory and progress tracking: </b>
-                        Remembers previous interactions, personal information
-                        shared by the user, and tracks learning progress.
-                    </p>
+                        <li>
+                            <b>Adaptivity: </b>Adapts speech pace and vocabulary
+                            to the user's level.
+                        </li>
+                        <li>
+                            <b>Trained for specific errors: </b>
+                            Recognizes common grammar and pronunciation errors
+                            specific to the language being learned and the
+                            learner’s language background.
+                        </li>
+                        <li>
+                            <b>Targeted correction: </b>
+                            Provides contextually relevant corrections and
+                            suggests alternative words and phrasings for
+                            vocabulary expansion.
+                        </li>
+                        <li>
+                            <b>Personalization: </b>
+                            Engages in personalized, topic-driven conversations
+                            that reflect the user's interests.
+                        </li>
+                        <li>
+                            <b>Memory and progress tracking: </b>
+                            Remembers previous interactions, personal
+                            information shared by the user, and tracks learning
+                            progress.
+                        </li>
+                    </ul>
                 </div>
             </div>
             <img

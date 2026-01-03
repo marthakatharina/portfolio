@@ -43,13 +43,13 @@ export default function ApTo() {
             </p>
             <div className="flex">
                 <div className="two-col">
-                    <h3>Tagline:</h3>
+                    <h4>Tagline:</h4>
                     <em className="italic">
                         Like a travel planner, but also for locals
                     </em>
                 </div>
                 <div className="two-col">
-                    <h3>App roles:</h3>
+                    <h4>App roles:</h4>
                     <ul className="no-bullets">
                         <li>
                             <b>💡 Social:</b> People who want to discover new

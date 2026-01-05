@@ -74,22 +74,25 @@ export default function About() {
             <div className="about">
                 <div className="about--text">
                     <p>
-                        I am a passionate Product Designer and Developer,
-                        focused on creating visually engaging, innovative, and
-                        human-centered digital experiences. With a strong
-                        foundation in arts, web development, and UI/UX design, I
-                        bring creativity and problem-solving to every project,
-                        delivering solutions that are both aesthetically
-                        appealing and functional.
+                        I am an end-to-end Product Designer, focused on creating
+                        visually engaging, innovative, and human-centered
+                        digital experiences. With a strong foundation in UX
+                        research, web development, and product design, I bring
+                        creativity and problem-solving to every project,
+                        delivering solutions that are both user-centered and
+                        functional.
                     </p>
                     <p>
                         Committed to continuous learning, I have recently
-                        completed a master’s-level program in Human-Centered
-                        Design for AI. This dedication to professional growth
-                        enables me to stay on top of industry trends and
-                        consistently enhance my skills, ensuring that the
-                        designs I create are both innovative and aligned with
-                        evolving user needs and business goals.
+                        completed a master’s-level program in{" "}
+                        <span className="italic">
+                            Human-Centered Design for AI
+                        </span>
+                        . This dedication to professional growth enables me to
+                        stay on top of industry trends and consistently enhance
+                        my skills, ensuring that the designs I create are both
+                        innovative and aligned with evolving user needs and
+                        business goals.
                     </p>
                     <p>
                         Beyond my fondness for design, I have a deep passion for

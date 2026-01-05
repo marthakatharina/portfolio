@@ -156,7 +156,7 @@ export default function ImageTagExtractor() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>ml5.js</strong>
+                    <strong className="italic">ml5.js ↗</strong>
                 </a>{" "}
                 image classifier (MobileNet model) to extract visual tags from
                 uploaded images. It includes an intuitive interface for

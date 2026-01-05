@@ -18,9 +18,9 @@ export default function Home({ projects }) {
                     </span>
                 </p>
                 <p id="subintro-line">
-                    I help companies and organizations design and develop GenAI,
-                    Machine Learning, and data based solutions to optimize
-                    productivity, accessibility, and engagement.
+                    I help companies and organizations research, design, and
+                    develop GenAI, Machine Learning, and data-based solutions to
+                    optimize productivity, accessibility, and engagement.
                 </p>
             </div>
 

@@ -48,7 +48,7 @@ export default function EuropeanaAIAgent() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Europeana.eu
+                        <span className="italic">Europeana.eu ↗</span>
                     </a>
                 </figcaption>
             </figure>
@@ -63,9 +63,9 @@ export default function EuropeanaAIAgent() {
 
             <h3>Hypothesis:</h3>
             <p>
-                Generative, chat-based AI agent that queries data from Europeana
-                and adheres to the cultural heritage data principles: Findable,
-                Accessible, Interoperable, Reusable (FAIR)
+                Generative, chat-based AI agent that queries data from
+                Europeana's APIs and adheres to the cultural heritage data
+                principles: Findable, Accessible, Interoperable, Reusable (FAIR)
             </p>
 
             <div className="flex">

@@ -138,7 +138,7 @@ export default function ApTo() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>here ↗</strong>
+                    <strong className="italic">here ↗</strong>
                 </a>
             </p>
         </div>

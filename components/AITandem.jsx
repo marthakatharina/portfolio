@@ -38,7 +38,7 @@ export default function AITandem() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>here ↗</strong>
+                    <strong className="italic">here ↗</strong>
                 </a>
             </p>
             <h2>Problem Definition</h2>
@@ -570,7 +570,7 @@ export default function AITandem() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong>here ↗</strong>
+                    <strong className="italic">here ↗</strong>
                 </a>
             </p>
             <iframe

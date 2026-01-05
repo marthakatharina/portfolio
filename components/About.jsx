@@ -108,7 +108,7 @@ export default function About() {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <b> here ↗</b>
+                            <strong className="italic"> here ↗</strong>
                         </a>
                     </p>
                 </div>

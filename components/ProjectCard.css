@@ -8,6 +8,8 @@
 
 .project-card--img {
     max-width: 100%;
+    width: 860px;
+    height: auto;
     object-fit: cover;
     overflow: hidden;
     display: block;

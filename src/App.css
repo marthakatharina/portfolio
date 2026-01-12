@@ -41,10 +41,11 @@ main {
     color: #eeeeee;
 }
 
-/* .surprise {
-    background-color: #e5e3e8;
-    color: #111111;
-} */
+b,
+strong {
+    font-family: "Century Gothic Bold", "Inter", sans-serif;
+    font-weight: 700;
+}
 
 #header {
     position: fixed;

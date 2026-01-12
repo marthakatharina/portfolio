@@ -114,7 +114,7 @@ export default function ApTo() {
                 alt="APTO app wireframes"
                 style={{ maxWidth: "100%" }}
             />
-            <h2>Design System</h2>
+            <h2>Design Specifications</h2>
             <img
                 src="/images/APTO-specifications.png"
                 alt="APTO app specifications"

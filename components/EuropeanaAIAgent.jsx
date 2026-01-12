@@ -102,7 +102,7 @@ export default function EuropeanaAIAgent() {
                     </li>
                 </ul>
             </div>
-            <h3>User Research:</h3>
+            <h2>User Research</h2>
             <p>
                 I conducted formative research with Europeana.eu users. The
                 survey was distributed via Europeana’s mailing lists.

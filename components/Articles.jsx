@@ -110,7 +110,7 @@ export default function Articles() {
             {activeTab === "medium" ? (
                 <>
                     <p className="article-type__subtitle">
-                        I write about UX design for AI
+                        <strong>I write about UX design for AI</strong>
                     </p>
                     {loading ? (
                         <Loading />
@@ -134,7 +134,7 @@ export default function Articles() {
             ) : (
                 <>
                     <p className="article-type__subtitle">
-                        My peer-reviewed publications
+                        <strong>My peer-reviewed publications</strong>
                     </p>
 
                     <ul className="scholarly-articles--list">

@@ -1,8 +1,6 @@
 .home-intro {
     max-width: 1400px;
     margin: 4rem 20px;
-    /* padding: 1rem 0; */
-    /* text-align: center; */
     display: flex;
     justify-self: center;
     border-bottom: 0.6px solid currentColor;
@@ -36,10 +34,10 @@
 }
 
 .greeting .wave {
+    display: none;
     /* display: inline-block;
     transform-origin: 70% 70%;
     animation: wave 1.2s ease-in-out 0s 3; */
-    display: none;
 }
 
 #subintro-line {

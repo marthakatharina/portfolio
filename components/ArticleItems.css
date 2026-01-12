@@ -91,6 +91,7 @@ article {
     padding: 0 10px 0 10px;
 }
 .article--title {
+    font-family: "Century Gothic Bold", "Inter", sans-serif;
     padding-bottom: 0.8rem;
 }
 .articleImage--link {

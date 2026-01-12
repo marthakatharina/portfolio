@@ -41,8 +41,9 @@
 }
 
 #subintro-line {
-    width: 55%;
+    font-family: "Century Gothic", "Inter", sans-serif;
     font-size: 1.2rem;
+    width: 55%;
     padding: 1.8rem;
 }
 

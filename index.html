@@ -21,10 +21,12 @@
             @font-face {
                 font-family: "Century Gothic";
                 src: url(/fonts/centurygothic.ttf);
+                font-display: swap;
             }
             @font-face {
                 font-family: "Century Gothic Bold";
                 src: url(/fonts/centurygothic_bold.ttf);
+                font-display: swap;
             }
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -65,7 +67,22 @@
         <title>Marta Wlusek | Portfolio</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico?v=2" />
 
-        <!-- Preload critical images for faster loading -->
+        <!-- Preload critical images and fontsfor faster loading -->
+        <link
+            rel="preload"
+            href="/fonts/centurygothic.ttf"
+            as="font"
+            type="font/ttf"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/centurygothic_bold.ttf"
+            as="font"
+            type="font/ttf"
+            crossorigin
+        />
+
         <link
             rel="preload"
             as="image"

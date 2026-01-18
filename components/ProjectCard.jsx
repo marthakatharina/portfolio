@@ -12,8 +12,6 @@ export default function ProjectCard({ project }) {
                             src={project._links.featuredmedia[0].href}
                             className="project-card--img"
                             alt={project.title.rendered}
-                            loading="lazy"
-                            decoding="async"
                         />
                     </Link>
                 ) : (

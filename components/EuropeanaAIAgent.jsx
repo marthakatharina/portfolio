@@ -216,22 +216,11 @@ export default function EuropeanaAIAgent() {
 
             <h2>Prototype</h2>
             <p>
-                Here is a demo of the first itearation of the MVP prototype
-                created in Figma, explaining usability testing tasks performed
-                by users.
+                A Prototype was designed in Figma with minimum viable features
+                to quickly test the hypothesis and gather user feedback on the
+                first iteration.
             </p>
-            <iframe
-                className="EuropeanaDemo"
-                style={{ borderRadius: "14px" }}
-                width="100%"
-                height="642"
-                src="https://www.youtube.com/embed/IJo6cFcxd8I?si=FjeDoX9br9WRdMir"
-                title="Europeana AI Agent - Usability Testing Demo"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-            />
+
             <h2>Usability Testing</h2>
             <p>
                 Qualitative feedback was collected using two methods: think

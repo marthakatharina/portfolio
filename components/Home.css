@@ -15,6 +15,48 @@
     scroll-margin-top: 60px;
 }
 
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+
+.filter-btn {
+    padding: 0.6rem 1rem;
+    font-family: "Century Gothic", "Inter", sans-serif;
+    padding: 0.6rem 1rem;
+    min-width: 130px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: currentColor;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.light .filter-btn:hover {
+    background: #111111;
+    color: #f8f8f4;
+}
+
+.dark .filter-btn:hover {
+    background: #eeeeee;
+    color: #252526;
+}
+
+.light .filter-btn.active {
+    background-color: #111111;
+    color: #f8f8f4;
+}
+
+.dark .filter-btn.active {
+    background-color: #eeeeee;
+    color: #252526;
+}
+
 .home-intro p {
     margin: auto;
 }

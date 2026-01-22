@@ -10,6 +10,7 @@ export const AptoProjectData = {
     _links: {
         featuredmedia: [{ href: "/images/APTO-featured.png" }],
     },
+    category: "Figma",
 };
 
 export default function ApTo() {

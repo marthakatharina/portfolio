@@ -1,9 +1,16 @@
 // Home.jsx
-import React from "react";
+import React, { useState } from "react";
 import ProjectCard from "/components/ProjectCard";
 import "./Home.css";
 
 export default function Home({ projects }) {
+    const [filter, setFilter] = useState("All");
+
+    const filteredProjects =
+        filter === "All"
+            ? projects
+            : projects.filter((project) => project.category === filter);
+
     return (
         <>
             <div className="home-intro">
@@ -27,8 +34,22 @@ export default function Home({ projects }) {
             <h1 id="projects" style={{ textAlign: "center" }}>
                 Projects
             </h1>
+            <div className="filter-buttons">
+                <button
+                    className={`filter-btn ${filter === "All" ? "active" : ""}`}
+                    onClick={() => setFilter("All")}
+                >
+                    All
+                </button>
+                <button
+                    className={`filter-btn ${filter === "Deployed" ? "active" : ""}`}
+                    onClick={() => setFilter("Deployed")}
+                >
+                    Deployed
+                </button>
+            </div>
             <div className="project-cards">
-                {projects.map((project) => (
+                {filteredProjects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
             </div>

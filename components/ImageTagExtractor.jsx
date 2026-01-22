@@ -12,6 +12,7 @@ export const ImageTagExtractorProjectData = {
     _links: {
         featuredmedia: [{ href: "/images/ImageTagExtractor - featured.png" }],
     },
+    category: "Deployed",
 };
 
 export default function ImageTagExtractor() {

@@ -149,8 +149,10 @@ export default function ImageTagExtractor() {
             </div>
             <h2>Prototype</h2>
             <p>
-                The prototype, built with HTML, CSS, and JavaScript, integrates
-                the{" "}
+                The prototype, built with{" "}
+                <strong className="italic">HTML</strong>,{" "}
+                <strong className="italic">CSS</strong>, and{" "}
+                <strong className="italic">JavaScript</strong>, integrates the{" "}
                 <a
                     href="https://ml5js.org/"
                     target="_blank"

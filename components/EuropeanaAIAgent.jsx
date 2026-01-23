@@ -10,7 +10,7 @@ export const EuropeanaAIAgentProjectData = {
         rendered: "Europeana AI Search Assistant — AI Agent",
     },
     _links: {
-        featuredmedia: [{ href: "/images/EuropeanaAIAgent - featured.png" }],
+        featuredmedia: [{ href: "/images/EuropeanaAIAgent-featured.png" }],
     },
     category: "Figma",
 };

@@ -7,10 +7,10 @@ export const ImageTagExtractorProjectData = {
     date: "2025",
     slug: "image-tag-extractor",
     title: {
-        rendered: "Image Tag Extractor for Omeka — ML Plugin",
+        rendered: "AI/ML-powered tagging system — Omeka Plugin",
     },
     _links: {
-        featuredmedia: [{ href: "/images/ImageTagExtractor - featured.png" }],
+        featuredmedia: [{ href: "/images/ImageTagExtractor-featured.png" }],
     },
     category: "Deployed",
 };

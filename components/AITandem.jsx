@@ -4,7 +4,7 @@ import "./AITandem.css";
 
 // Project data constant
 export const AiTandemProjectData = {
-    id: 3,
+    id: 2,
     date: "2023/2024",
     slug: "ai-tandem",
     title: {
@@ -31,7 +31,7 @@ export default function AITandem() {
                 alt="AI Tandem app"
                 style={{ maxWidth: "100%" }}
             />
-            <p style={{ fontSize: "14px", color: "gray" }}>
+            <p style={{ fontSize: "16px", color: "gray" }}>
                 No time for reading the whole Case Study? Download the project
                 presentation in Google Slides{" "}
                 <a

@@ -3,11 +3,11 @@ import "./ImageTagExtractor.css";
 
 // Project data constant
 export const ImageTagExtractorProjectData = {
-    id: 4,
+    id: 3,
     date: "2025",
     slug: "image-tag-extractor",
     title: {
-        rendered: "AI/ML-powered tagging system — Omeka Plugin",
+        rendered: "AI/ML-powered Tagging System — Omeka Plugin",
     },
     _links: {
         featuredmedia: [{ href: "/images/ImageTagExtractor-featured.png" }],

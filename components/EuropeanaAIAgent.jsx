@@ -3,7 +3,7 @@ import "./EuropeanaAIAgent.css";
 
 // Project data constant
 export const EuropeanaAIAgentProjectData = {
-    id: 1,
+    id: 4,
     date: "2025",
     slug: "europeana-ai-agent",
     title: {

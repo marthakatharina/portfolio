@@ -14,9 +14,11 @@ import { AptoProjectData } from "/components/ApTo";
 import { AiTandemProjectData } from "/components/AITandem";
 import { EuropeanaAIAgentProjectData } from "/components/EuropeanaAIAgent";
 import { ImageTagExtractorProjectData } from "/components/ImageTagExtractor";
+import { NotelistaProjectData } from "/components/Notelista";
 
 export default function App() {
     const [projects] = useState([
+        NotelistaProjectData,
         EuropeanaAIAgentProjectData,
         ImageTagExtractorProjectData,
         AiTandemProjectData,
@@ -131,7 +133,7 @@ export default function App() {
                                                     setTimeout(() => {
                                                         const el =
                                                             document.getElementById(
-                                                                "projects"
+                                                                "projects",
                                                             );
                                                         if (el) {
                                                             el.scrollIntoView({
@@ -188,7 +190,7 @@ export default function App() {
                                                     setTimeout(() => {
                                                         const el =
                                                             document.getElementById(
-                                                                "projects"
+                                                                "projects",
                                                             );
                                                         if (el) {
                                                             el.scrollIntoView({

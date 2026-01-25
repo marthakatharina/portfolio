@@ -61,7 +61,7 @@ export default function Notelista() {
                 simplicity of a sticky note with the power of modern web
                 technology.
             </p>
-            <h2>The app's value proposition</h2>
+            <h2>The App's Value Proposition</h2>
             <p>
                 The app's "digital sticky note" concept resonates with users who
                 want organization without overwhelming complexity - no account
@@ -102,9 +102,10 @@ export default function Notelista() {
             </div>
             <h2>Impact</h2>
             <p>
-                The design philosophy centers on radical simplicity,
-                accessibility, and privacy of the sticky note. Users understand
-                the interface instantly with zero learning curve.
+                The design philosophy centers on convenient simplicity,
+                accessibility, and privacy of the sticky note - users understand
+                the interface instantly with zero learning curve, increasing
+                adoption.
             </p>
             <div className="flex">
                 <h4 className="two-col">
@@ -116,12 +117,12 @@ export default function Notelista() {
                 <ul className="no-bullets two-col">
                     <li>
                         ✅ <b>Digital Sustainability:</b> Replaces paper sticky
-                        notes with unlimited reusable digital notes.
+                        notes with reusable digital notes.
                     </li>
                     <li>
                         ✅ <b>Universal Accessibility:</b> Offers simple access
-                        across all devices and the browser with no downloads or
-                        sign-ups.
+                        across all browsers and devices with no app-store
+                        downloads and sign-ups.
                     </li>
                     <li>
                         ✅ <b>Privacy-First Architecture:</b> Data never leaves
@@ -137,12 +138,12 @@ export default function Notelista() {
                 gradient animations, interactive feature cards, and
                 conversion-optimized messaging. The landing page communicates
                 the value proposition through clear benefit statements, driving
-                user adoption with strategic CTAs and browser-based installation
+                conversion with strategic CTAs and browser-based installation
                 prompts.
             </p>
 
             <p>
-                View the website and app in the browser at{" "}
+                Experience the website and app in the browser at{" "}
                 <a
                     href="https://notelista.com"
                     target="_blank"

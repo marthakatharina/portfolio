@@ -141,7 +141,11 @@ export default function Notelista() {
                 conversion with strategic CTAs and browser-based installation
                 prompts.
             </p>
-
+            <img
+                src="/images/Notelista-website.png"
+                alt="Notelista marketing website"
+                style={{ maxWidth: "100%" }}
+            />
             <p>
                 Experience the website and app in the browser at{" "}
                 <a

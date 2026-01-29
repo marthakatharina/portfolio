@@ -14,16 +14,22 @@ export default function Home({ projects }) {
     return (
         <>
             <div className="home-intro">
-                <p id="intro-line">
-                    <span className="greeting">
+                <div id="intro-line">
+                    {/* <span className="greeting">
                         Hi<span className="wave">👋</span>,{" "}
-                    </span>
+                    </span> */}
 
-                    <span className="intro-name">
-                        I'm Marta Wlusek, a UX Researcher, Product Designer and
-                        Developer.
-                    </span>
-                </p>
+                    <div className="intro-name">
+                        <p>I'm Marta Wlusek</p>{" "}
+                        <span className="role-container">
+                            <span className="role italic">
+                                • Product Designer
+                            </span>
+                            <span className="role italic">• Web Developer</span>
+                            <span className="role italic">• UX Researcher</span>
+                        </span>
+                    </div>
+                </div>
                 <p id="subintro-line">
                     I help companies and organizations research, design, and
                     develop AI-based solutions to automate workflows and enhance

@@ -46,7 +46,7 @@ export default function Notelista() {
                 notelista.com is a{" "}
                 <strong className="italic">Progressive Web App</strong> I
                 designed and developed end-to-end as a{" "}
-                <strong className="italic">0-1</strong> product designer. The
+                <strong className="italic">0-1 product designer</strong>. The
                 project encompasses the complete product lifecycle - from
                 initial idea and UX/UI design through web development and
                 go-to-market strategy with a dedicated marketing website.

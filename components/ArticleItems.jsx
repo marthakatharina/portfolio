@@ -89,7 +89,7 @@ export default function ArticleItems({ article, index }) {
                         className="article--link"
                         rel="noreferrer"
                     >
-                        Read more ↗
+                        <strong className="italic">Read more ↗</strong>
                     </a>
                 </div>
             </div>

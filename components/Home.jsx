@@ -23,10 +23,10 @@ export default function Home({ projects }) {
                         <p>I'm Marta Wlusek</p>{" "}
                         <span className="role-container">
                             <span className="role italic">
-                                • Product Designer
+                                → Product Designer
                             </span>
-                            <span className="role italic">• Web Developer</span>
-                            <span className="role italic">• UX Researcher</span>
+                            <span className="role italic">→ Web Developer</span>
+                            <span className="role italic">→ UX Researcher</span>
                         </span>
                     </div>
                 </div>

@@ -85,9 +85,15 @@ export default function About() {
                     <p>
                         Committed to continuous learning, I have recently
                         completed a master’s-level program in{" "}
-                        <span className="italic">
-                            Human-Centered Design for AI
-                        </span>
+                        <a
+                            href="https://maistr.se/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <strong className="italic">
+                                Human-Centered Design for AI ↗{" "}
+                            </strong>
+                        </a>{" "}
                         . This dedication to professional growth enables me to
                         stay on top of industry trends and consistently enhance
                         my skills, ensuring that the designs I create are both

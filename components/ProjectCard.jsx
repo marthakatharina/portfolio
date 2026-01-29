@@ -26,7 +26,7 @@ export default function ProjectCard({ project }) {
                         className="project-card--link"
                         to={`/${project.slug}`}
                     >
-                        View project →
+                        <strong className="italic">View project →</strong>
                     </Link>
                 </div>
             </div>

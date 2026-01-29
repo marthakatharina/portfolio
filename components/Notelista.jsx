@@ -43,8 +43,14 @@ export default function Notelista() {
             </p>
             <h2>What is notelista?</h2>
             <p>
-                notelista.com is a{" "}
-                <strong className="italic">Progressive Web App</strong> I
+                <a
+                    href="https://notelista.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <strong className="italic">notelista ↗ </strong>
+                </a>{" "}
+                is a <strong className="italic">Progressive Web App</strong> I
                 designed and developed end-to-end as a{" "}
                 <strong className="italic">0-1 product designer</strong>. The
                 project encompasses the complete product lifecycle - from
@@ -52,9 +58,16 @@ export default function Notelista() {
                 go-to-market strategy with a dedicated marketing website.
             </p>
             <p>
-                notelista.com reimagines task management by stripping away
-                complexity. It's a responsive PWA, developed with lightweight
-                technologies, such as <strong className="italic">HTML</strong>,{" "}
+                <a
+                    href="https://notelista.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <strong className="italic">notelista ↗ </strong>
+                </a>{" "}
+                reimagines task management by stripping away complexity. It's a
+                responsive PWA, developed with lightweight technologies, such as{" "}
+                <strong className="italic">HTML</strong>,{" "}
                 <strong className="italic">CSS</strong>, and{" "}
                 <strong className="italic">JavaScript</strong> that work
                 seamlessly across all devices and browsers, offering the

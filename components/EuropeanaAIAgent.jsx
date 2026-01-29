@@ -323,8 +323,23 @@ export default function EuropeanaAIAgent() {
             <h2>Future Implementation & Research</h2>
             <p>
                 The next step, which is already underway, is the development of
-                a working prototype using OpenAI tools and the available
-                Europeana APIs with data and metadata.
+                a working prototype using{" "}
+                <a
+                    href="https://platform.openai.com/docs/guides/function-calling?api-mode=chat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <strong className="italic">OpenAI ↗</strong>
+                </a>{" "}
+                tools and the available{" "}
+                <a
+                    href="https://apis.europeana.eu/en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <strong className="italic">Europeana APIs ↗</strong>
+                </a>{" "}
+                with data and metadata.
             </p>
             <p>
                 The objective of the prototype, that will be measured, is for at

@@ -122,15 +122,20 @@
 
 .container {
     width: 100%;
-    max-width: 860px;
+    max-width: 640px;
     justify-content: center;
-    padding: 2em 0;
-    margin: auto;
 }
 
 .project-cards {
+    padding-top: 2em;
     padding-bottom: 4em;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 4em;
+    grid-row-gap: 4em;
+    width: fit-content;
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -161,6 +166,20 @@
         font-size: 0.9rem;
         padding: 0.8rem;
     }
+
+    .project-cards {
+        max-width: 100%;
+        display: block;
+        padding-top: 0;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 860px;
+        justify-content: center;
+        padding: 2em 0;
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -189,6 +208,7 @@
     .project-cards {
         max-width: 100%;
         display: block;
+        padding-top: 0;
     }
     .container {
         padding: 2em 0;

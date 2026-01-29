@@ -50,24 +50,14 @@ export default function Notelista() {
                 >
                     <strong className="italic">notelista ↗ </strong>
                 </a>{" "}
-                is a <strong className="italic">Progressive Web App</strong> I
-                designed and developed end-to-end as a{" "}
-                <strong className="italic">0-1 product designer</strong>. The
+                is a Progressive Web App I designed and developed as a{" "}
+                <strong className="italic">0-1 Product Designer</strong>. The
                 project encompasses the complete product lifecycle - from
                 initial idea and UX/UI design through web development and
-                go-to-market strategy with a dedicated marketing website.
-            </p>
-            <p>
-                <a
-                    href="https://notelista.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <strong className="italic">notelista ↗ </strong>
-                </a>{" "}
-                reimagines task management by stripping away complexity. It's a
-                responsive PWA, developed with lightweight technologies, such as{" "}
-                <strong className="italic">HTML</strong>,{" "}
+                go-to-market strategy with a dedicated marketing website. The
+                app reimagines task management by stripping away complexity.
+                It's a responsive PWA, developed with lightweight technologies,
+                such as <strong className="italic">HTML</strong>,{" "}
                 <strong className="italic">CSS</strong>, and{" "}
                 <strong className="italic">JavaScript</strong> that work
                 seamlessly across all devices and browsers, offering the

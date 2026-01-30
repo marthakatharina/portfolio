@@ -89,7 +89,6 @@
 
 .home-intro {
     display: block;
-    /* margin: 3rem auto; */
     max-width: 1400px;
     margin: 4rem 20px;
     justify-self: center;
@@ -185,6 +184,13 @@
         font-size: 0.9rem;
         padding: 0.8rem;
     } */
+
+    #intro-line {
+        font-size: 3.2rem;
+    }
+    #subintro-line {
+        font-size: 1.4rem;
+    }
 
     .project-cards {
         max-width: 100%;

@@ -7,7 +7,7 @@ export const NotelistaProjectData = {
     date: "2026",
     slug: "notelista",
     title: {
-        rendered: "notelista.com - Productivity Web App",
+        rendered: "notelista.com - Productivity Web App & Website",
     },
     _links: {
         featuredmedia: [{ href: "/images/Notelista-featured.png" }],

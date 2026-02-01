@@ -92,7 +92,7 @@
     max-width: 1400px;
     margin: 4rem 20px;
     justify-self: center;
-    border-bottom: 0.6px solid currentColor;
+    /* border-bottom: 0.6px solid currentColor; */
 }
 
 #intro-line {
@@ -222,7 +222,7 @@
     }
     #subintro-line {
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding: 0.8rem;
     }
 

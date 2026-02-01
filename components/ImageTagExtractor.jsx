@@ -30,6 +30,17 @@ export default function ImageTagExtractor() {
                 alt="Image Tag Extractor"
                 style={{ maxWidth: "100%" }}
             />
+            <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
+                To open deployed system in the browser click{" "}
+                <a
+                    href="https://marthakatharina.github.io/Image-Metadata-Enrichment/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {" "}
+                    <strong className="italic">here ↗</strong>
+                </a>
+            </p>
             <h2>What is Omeka?</h2>
             <p>
                 Omeka is an open-source content management system widely used in

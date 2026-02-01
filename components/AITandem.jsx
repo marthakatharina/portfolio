@@ -31,7 +31,7 @@ export default function AITandem() {
                 alt="AI Tandem app"
                 style={{ maxWidth: "100%" }}
             />
-            <p style={{ fontSize: "16px", color: "gray" }}>
+            <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
                 No time for reading the whole Case Study? Download the project
                 presentation in Google Slides{" "}
                 <a

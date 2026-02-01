@@ -55,7 +55,9 @@ strong {
     z-index: 11000;
     z-index: 11000;
     visibility: visible;
-    transition: transform 0.4s, right 0.3s ease-in;
+    transition:
+        transform 0.4s,
+        right 0.3s ease-in;
 }
 .light #header,
 #header.light,
@@ -133,14 +135,18 @@ h1,
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "GRAD" 0;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
 }
 h2 {
     font-family: "Roboto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "GRAD" 0;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
 }
 p {
     margin-bottom: 1rem;
@@ -183,7 +189,7 @@ p {
 } */
 #open-button,
 #close-button {
-    font-size: 40px;
+    /* font-size: 40px; */
     cursor: pointer;
 }
 /* .close-button-container {
@@ -209,7 +215,7 @@ h1 {
     font-size: 2.6em;
 }
 h2 {
-    font-size: 1.9em;
+    font-size: 2em;
 }
 h4 {
     font-weight: 600;
@@ -309,7 +315,9 @@ footer p {
         height: 60px;
         z-index: 11000;
         display: block;
-        transition: transform 0.35s ease, box-shadow 0.35s ease,
+        transition:
+            transform 0.35s ease,
+            box-shadow 0.35s ease,
             backdrop-filter 0.35s ease;
         will-change: transform, box-shadow, backdrop-filter;
     }
@@ -322,7 +330,9 @@ footer p {
         height: 60px;
         z-index: 11000;
         transform: translateY(0);
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.03);
+        box-shadow:
+            0 1px 3px rgba(0, 0, 0, 0.04),
+            0 2px 6px rgba(0, 0, 0, 0.03);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
     }

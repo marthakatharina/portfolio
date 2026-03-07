@@ -31,7 +31,7 @@ export default function Notelista() {
                 style={{ maxWidth: "100%" }}
             />
             <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
-                Link to shipped notelista.com landing page and app{" "}
+                Link to the shipped notelista.com landing page and app{" "}
                 <a
                     href="https://notelista.com/"
                     target="_blank"

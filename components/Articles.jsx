@@ -140,6 +140,25 @@ export default function Articles() {
 
                     <ul className="scholarly-articles--list">
                         <li>
+                            📚 Wlusek, M. (2026).{" "}
+                            <a
+                                className="scholarly-article--link"
+                                href="https://diva-portal.org/smash/record.jsf?dswid=3870&pid=diva2%3A2040670"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Designing Human-Centered Generative AI
+                                Conversational Agents For Digital Cultural
+                                Heritage: A Case Study On Europeana.
+                            </a>{" "}
+                            <em>
+                                {" "}
+                                Retrieved from
+                                https://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-145226
+                            </em>
+                        </li>
+
+                        <li>
                             📚 Włusek, M. (2025).{" "}
                             <a
                                 className="scholarly-article--link"
@@ -152,6 +171,7 @@ export default function Articles() {
                             </a>{" "}
                             <em>Arts & Cultural Studies Review</em>, 2025.
                         </li>
+
                         <li style={{ paddingBottom: "100vh" }}>
                             <em>More coming soon...</em>
                         </li>

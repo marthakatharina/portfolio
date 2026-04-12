@@ -74,29 +74,29 @@ export default function About() {
             <div className="about">
                 <div className="about--text">
                     <p>
-                        I am an end-to-end Product Designer, focused on creating
-                        visually engaging, innovative, and human-centered
-                        digital experiences. With a strong foundation in UX
-                        research, web development, and product design, I bring
-                        creativity and problem-solving to every project,
-                        delivering solutions that are both user-centered and
-                        functional.
+                        I am an end-to-end Product Specialist, focused on
+                        creating visually engaging, innovative, and
+                        human-centered digital experiences. With a strong
+                        foundation in UX research, web development, and product
+                        design, I bring strategy and problem-solving to every
+                        project, delivering solutions that are both
+                        user-centered and functional.
                     </p>
                     <p>
                         Committed to continuous learning, I have recently
-                        completed a master’s-level program in{" "}
+                        completed a master programme in{" "}
                         <a
-                            href="https://maistr.se/"
+                            href="https://lnu.se/en/programme/digital-humanities-master-programme/distance-international-autumn/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <strong className="italic">
-                                Human-Centered Design for AI ↗{" "}
+                                Digital Humanities ↗{" "}
                             </strong>
                         </a>{" "}
                         . This dedication to professional growth enables me to
                         stay on top of industry trends and consistently enhance
-                        my skills, ensuring that the designs I create are both
+                        my skills, ensuring that the products I create are both
                         innovative and aligned with evolving user needs and
                         business goals.
                     </p>

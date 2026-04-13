@@ -74,13 +74,12 @@ export default function About() {
             <div className="about">
                 <div className="about--text">
                     <p>
-                        I am an end-to-end Product Specialist, focused on
-                        creating visually engaging, innovative, and
-                        human-centered digital experiences. With a strong
-                        foundation in UX research, web development, and product
-                        design, I bring strategy and problem-solving to every
-                        project, delivering solutions that are both
-                        user-centered and functional.
+                        I am an end-to-end Digital Product Specialist, focused
+                        on creating innovative, and human-centered digital
+                        experiences. With a strong foundation in UX research,
+                        web development, and product design, I bring strategy
+                        and problem-solving to every project, delivering
+                        solutions that are both user-centered and functional.
                     </p>
                     <p>
                         Committed to continuous learning, I have recently
@@ -101,11 +100,12 @@ export default function About() {
                         business goals.
                     </p>
                     <p>
-                        Beyond my fondness for design, I have a deep passion for
-                        traveling, which not only inspires my creativity and
-                        broadens my perspective but also helps me understand and
-                        appreciate unique cultures. Ultimately, I owe my love
-                        for authentic Indian and Japanese cuisine to my travels.
+                        Beyond my fondness for digital products, I have a deep
+                        passion for traveling, which not only inspires my
+                        creativity and broadens my perspective but also helps me
+                        understand and appreciate unique cultures. Ultimately, I
+                        owe my love for authentic Indian and Japanese cuisine to
+                        my travels.
                     </p>
                     <p>
                         Feel free to review and download my CV

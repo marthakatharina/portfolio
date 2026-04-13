@@ -100,12 +100,11 @@ export default function About() {
                         business goals.
                     </p>
                     <p>
-                        Beyond my fondness for digital products, I have a deep
-                        passion for traveling, which not only inspires my
-                        creativity and broadens my perspective but also helps me
-                        understand and appreciate unique cultures. Ultimately, I
-                        owe my love for authentic Indian and Japanese cuisine to
-                        my travels.
+                        Beyond my fondness for technology, I have a deep passion
+                        for traveling, which not only inspires my creativity and
+                        broadens my perspective but also helps me understand and
+                        appreciate unique cultures. Ultimately, I owe my love
+                        for authentic Indian and Japanese cuisine to my travels.
                     </p>
                     <p>
                         Feel free to review and download my CV

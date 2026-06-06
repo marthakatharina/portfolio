@@ -25,7 +25,7 @@ export default function Home({ projects }) {
                             <span className="role italic">
                                 → Product Designer
                             </span>
-                            <span className="role italic">→ Web Developer</span>
+                            <span className="role italic">→ Product Manager</span>
                             <span className="role italic">→ UX Researcher</span>
                         </span>
                     </div>

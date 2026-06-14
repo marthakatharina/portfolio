@@ -16,6 +16,17 @@ import { EuropeanaAIAgentProjectData } from "/components/EuropeanaAIAgent";
 import { ImageTagExtractorProjectData } from "/components/ImageTagExtractor";
 import { NotelistaProjectData } from "/components/Notelista";
 
+const THEME_STORAGE_KEY = "theme";
+
+const getInitialTheme = () => {
+    if (typeof window === "undefined") {
+        return "light";
+    }
+
+    const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
+    return savedTheme === "dark" ? "dark" : "light";
+};
+
 export default function App() {
     const [projects] = useState([
         NotelistaProjectData,
@@ -24,12 +35,16 @@ export default function App() {
         AiTandemProjectData,
         AptoProjectData,
     ]);
-    const [theme, setTheme] = useState("light");
+    const [theme, setTheme] = useState(getInitialTheme);
     const [coordinates, setCoordinates] = useState({ x: 20, y: 20 });
     const [hideDot, setHideDot] = useState(false);
     const [isHeaderHidden, setIsHeaderHidden] = useState(true);
     const [isTopHeaderStuck, setIsTopHeaderStuck] = useState(false);
     const [isTopHeaderHidden, setIsTopHeaderHidden] = useState(false);
+
+    useEffect(() => {
+        window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    }, [theme]);
 
     useEffect(() => {
         let lastScrollY = window.scrollY;

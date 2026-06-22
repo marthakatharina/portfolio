@@ -12,7 +12,7 @@ export const NotelistaProjectData = {
     _links: {
         featuredmedia: [{ href: "/images/Notelista-featured.png" }],
     },
-    category: "Deployed",
+    category: "Shipped",
 };
 
 export default function Notelista() {

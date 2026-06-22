@@ -12,7 +12,7 @@ export const ImageTagExtractorProjectData = {
     _links: {
         featuredmedia: [{ href: "/images/ImageTagExtractor-featured.png" }],
     },
-    category: "Deployed",
+    category: "Shipped",
 };
 
 export default function ImageTagExtractor() {
@@ -31,7 +31,7 @@ export default function ImageTagExtractor() {
                 style={{ maxWidth: "100%" }}
             />
             <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
-                To open deployed system in the browser click{" "}
+                To open the shipped system in the browser click{" "}
                 <a
                     href="https://marthakatharina.github.io/Image-Metadata-Enrichment/"
                     target="_blank"

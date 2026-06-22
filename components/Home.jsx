@@ -51,7 +51,7 @@ export default function Home({ projects }) {
                     className={`filter-btn ${filter === "Shipped" ? "active" : ""}`}
                     onClick={() => setFilter("Shipped")}
                 >
-                    Deployed
+                    Shipped
                 </button>
             </div>
             <div className="project-cards">

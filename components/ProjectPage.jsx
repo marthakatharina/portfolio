@@ -7,6 +7,7 @@ import AITandem from "./AITandem";
 import EuropeanaAIAgent from "./EuropeanaAIAgent";
 import ImageTagExtractor from "./ImageTagExtractor";
 import Notelista from "./Notelista";
+import AIActAssistant from "./AIActAssistant";
 
 export default function ProjectPage() {
     const { slug } = useParams();
@@ -17,7 +18,8 @@ export default function ProjectPage() {
         "apto-app": <ApTo />,
         "europeana-ai-agent": <EuropeanaAIAgent />,
         "image-tag-extractor": <ImageTagExtractor />,
-        notelista: <Notelista />,
+        "notelista": <Notelista />,
+        "ai-act-assistant": <AIActAssistant />,
         // Add other mappings here as needed
     };
 

@@ -15,6 +15,7 @@ import { AiTandemProjectData } from "/components/AITandem";
 import { EuropeanaAIAgentProjectData } from "/components/EuropeanaAIAgent";
 import { ImageTagExtractorProjectData } from "/components/ImageTagExtractor";
 import { NotelistaProjectData } from "/components/Notelista";
+import { AIActAssistantProjectData } from "/components/AIActAssistant";
 
 const THEME_STORAGE_KEY = "theme";
 
@@ -29,6 +30,7 @@ const getInitialTheme = () => {
 
 export default function App() {
     const [projects] = useState([
+        AIActAssistantProjectData,
         NotelistaProjectData,
         EuropeanaAIAgentProjectData,
         ImageTagExtractorProjectData,

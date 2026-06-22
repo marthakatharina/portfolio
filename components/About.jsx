@@ -83,14 +83,14 @@ export default function About() {
                     </p>
                     <p>
                         Committed to continuous learning, I have recently
-                        completed a master programme in{" "}
+                        completed a further education course in{" "}
                         <a
-                            href="https://lnu.se/en/programme/digital-humanities-master-programme/distance-international-autumn/"
+                            href="https://www.wbstraining.de/kurse/weiterbildung/ki-manager/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <strong className="italic">
-                                Digital Humanities ↗{" "}
+                                AI Management ↗{" "}
                             </strong>
                         </a>{" "}
                         . This dedication to professional growth enables me to

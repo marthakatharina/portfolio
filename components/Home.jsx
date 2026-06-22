@@ -48,8 +48,8 @@ export default function Home({ projects }) {
                     All
                 </button>
                 <button
-                    className={`filter-btn ${filter === "Deployed" ? "active" : ""}`}
-                    onClick={() => setFilter("Deployed")}
+                    className={`filter-btn ${filter === "Shipped" ? "active" : ""}`}
+                    onClick={() => setFilter("Shipped")}
                 >
                     Deployed
                 </button>

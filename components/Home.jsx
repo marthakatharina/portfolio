@@ -48,7 +48,7 @@ export default function Home({ projects }) {
                     All
                 </button>
                 <button
-                    className={`filter-btn ${filter === "Shipped" ? "active" : ""}`}
+                    className={`filter-btn shipped ${filter === "Shipped" ? "active" : ""}`}
                     onClick={() => setFilter("Shipped")}
                 >
                     Shipped

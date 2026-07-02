@@ -51,7 +51,7 @@ export default function Notelista() {
                     <strong className="italic">notelista ↗ </strong>
                 </a>{" "}
                 is a Progressive Web App I designed and developed as a{" "}
-                <strong className="italic">0-1 Product Designer</strong>. The
+                <strong className="italic">0-1 Product Designer and Builder</strong>. The
                 project encompasses the complete product lifecycle - from
                 initial idea and UX/UI design through web development and
                 go-to-market strategy with a dedicated marketing website. The

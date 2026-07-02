@@ -42,7 +42,7 @@ export default function AIActAssistant() {
                
             </p>
 
-            <h2> More about the project comming soon!</h2>
+            <h2> More about the project coming soon!</h2>
         </>
     );
 }

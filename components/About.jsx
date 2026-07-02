@@ -83,7 +83,7 @@ export default function About() {
                     </p>
                     <p>
                         Committed to continuous learning, I have recently
-                        completed a further education course in{" "}
+                        completed a professional development course in{" "}
                         <a
                             href="https://www.wbstraining.de/kurse/weiterbildung/ki-manager/"
                             target="_blank"

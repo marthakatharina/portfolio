@@ -31,7 +31,7 @@ export default function Home({ projects }) {
                     </div>
                 </div>
                 <p id="subintro-line">
-                    I help companies and organizations research, design, and
+                    I help companies and organisations research, design, and
                     develop AI-based solutions to automate workflows and enhance
                     productivity, efficiency, and user adoption.
                 </p>

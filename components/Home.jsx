@@ -15,12 +15,8 @@ export default function Home({ projects }) {
         <>
             <div className="home-intro">
                 <div id="intro-line">
-                    {/* <span className="greeting">
-                        Hi<span className="wave">👋</span>,{" "}
-                    </span> */}
-
                     <div className="intro-name">
-                        <p>I'm Marta Wlusek</p>{" "}
+                        <p>Hi, I'm Marta Wlusek</p>{" "}
                         <span className="role-container">
                             <span className="role italic">
                                 → Product Manager

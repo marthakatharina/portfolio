@@ -111,7 +111,7 @@ export default function Articles() {
             {activeTab === "medium" ? (
                 <>
                     <p className="article-type__subtitle">
-                        <strong>I write about UX design for AI</strong>
+                        <strong>I write about UX for AI</strong>
                     </p>
                     {loading ? (
                         <Loading />

@@ -25,12 +25,10 @@
     margin-top: 1rem;
     margin-bottom: 8px;
 }
-/* .page-container ul,
-.page-container ol {
-    margin-block-start: 0.4em;
-    margin-block-end: 1em;
-    padding-inline-start: 1em;
-} */
+.page-container h4 {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+}
 
 .page-container {
     max-width: 1024px;

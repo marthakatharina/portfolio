@@ -20,6 +20,36 @@
     max-width: 100%;
     letter-spacing: 0px;
 }
+.intro-name p {
+    font-size: 1.8rem;
+}
+
+.role-container {
+    font-family: "Roboto Serif", serif;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 6rem;
+    height: 1.3em;
+    overflow: hidden;
+    position: relative;
+}
+
+.role-container .role {
+    display: block;
+    height: 1.3em;
+    line-height: 1.3em;
+    animation: roll 9s infinite steps(3);
+}
+
+@keyframes roll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-300%);
+    }
+}
+
 #subintro-line {
     width: 100%;
     font-size: 1.8rem;
@@ -126,25 +156,10 @@ body:has(.filter-btn.shipped.active) .project-cards {
 } */
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
-    /* .home-intro {
-        display: block;
-        margin: 3rem auto;
+    #intro-line p{
+        font-size: 1.4rem;
     }
-
-    #intro-line {
-        width: 100%;
-        font-size: 2.6rem;
-        border-right: none;
-        border-bottom: 0.6px solid currentColor;
-        padding: 0.8rem;
-    }
-    #subintro-line {
-        width: 100%;
-        font-size: 0.9rem;
-        padding: 0.8rem;
-    } */
-
-    #intro-line {
+    .role-container {
         font-size: 3.2rem;
     }
     #subintro-line {
@@ -174,10 +189,16 @@ body:has(.filter-btn.shipped.active) .project-cards {
 
     #intro-line {
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         border-right: none;
         border-bottom: 0.6px solid currentColor;
         padding: 0.8rem;
+    }
+    .intro-name p {
+    font-size: 1.2rem;
+   }
+   .role-container {
+        font-size: 1.2rem;
     }
     #subintro-line {
         width: 100%;
@@ -196,30 +217,5 @@ body:has(.filter-btn.shipped.active) .project-cards {
     }
     .container {
         padding: 2em 0;
-    }
-}
-
-.role-container {
-    font-family: "Roboto Serif", serif;
-    display: inline-block;
-    vertical-align: top;
-    height: 1.3em;
-    overflow: hidden;
-    position: relative;
-}
-
-.role-container .role {
-    display: block;
-    height: 1.3em;
-    line-height: 1.3em;
-    animation: roll 9s infinite steps(3);
-}
-
-@keyframes roll {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-300%);
     }
 }

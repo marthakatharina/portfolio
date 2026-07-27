@@ -28,7 +28,7 @@
     font-family: "Roboto Serif", serif;
     display: inline-block;
     vertical-align: top;
-    font-size: 6rem;
+    font-size: 5.6rem;
     height: 1.3em;
     overflow: hidden;
     position: relative;
@@ -56,7 +56,7 @@
     padding: 1rem;
 }
 
-@keyframes wave {
+/* @keyframes wave {
     0% {
         transform: rotate(0deg);
     }
@@ -78,7 +78,7 @@
     100% {
         transform: rotate(0deg);
     }
-}
+} */
 
 .filter-buttons {
     display: flex;

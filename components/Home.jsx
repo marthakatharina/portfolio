@@ -21,15 +21,13 @@ export default function Home({ projects }) {
                             <span className="role italic">
                                 → Product Manager
                             </span>
-                            <span className="role italic">→ Web Developer</span>
-                            <span className="role italic">→ UX Researcher</span>
+                             <span className="role italic">→ Product Developer</span>
+                            <span className="role italic">→ Product Designer</span>
                         </span>
                     </div>
                 </div>
                 <p id="subintro-line">
-                    I help companies and organisations research, design, and
-                    develop AI-based solutions to automate workflows and enhance
-                    productivity, efficiency, and user adoption.
+                    I help companies and organisations research, define, and build AI-powered products that solve real user problems, streamline workflows, and drive meaningful business impact.
                 </p>
             </div>
 

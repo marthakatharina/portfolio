@@ -135,7 +135,7 @@ export default function Notelista() {
             </div>
             <h2>End-to-End Execution</h2>
             <p>
-                Beyond the core product, I designed and launched a dedicated{" "}
+                Beyond <strong className="italic">the app</strong>, I designed and launched a dedicated{" "}
                 <strong className="italic">marketing website</strong> featuring
                 gradient animations, interactive feature cards, and
                 conversion-optimized messaging. The landing page communicates
@@ -146,6 +146,11 @@ export default function Notelista() {
             <img
                 src="/images/Notelista-website.png"
                 alt="Notelista marketing website"
+                style={{ maxWidth: "100%" }}
+            />
+              <img
+                src="/images/Notelista-app.png"
+                alt="Notelista app interface"
                 style={{ maxWidth: "100%" }}
             />
             <p>

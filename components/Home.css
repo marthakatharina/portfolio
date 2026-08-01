@@ -185,6 +185,7 @@ body:has(.filter-btn.shipped.active) .project-cards {
         max-width: 100%;
         display: block;
         padding-top: 0;
+        grid-row-gap: 0em;
     }
 
     .container {
@@ -229,6 +230,7 @@ body:has(.filter-btn.shipped.active) .project-cards {
         max-width: 100%;
         display: block;
         padding-top: 0;
+        grid-row-gap: 0em;
     }
     .container {
         padding: 2em 0;

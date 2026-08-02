@@ -149,7 +149,7 @@ export default function Notelista() {
                 style={{ maxWidth: "100%" }}
             />
               <img
-                src="/images/Notelista-app.png"
+                src="/images/Notelista-webapp.png"
                 alt="Notelista app interface"
                 style={{ maxWidth: "100%" }}
             />

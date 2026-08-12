@@ -25,7 +25,7 @@
 }
 
 .role-container {
-    font-family: "Roboto Serif", serif;
+    font-family: "Roboto Serif", serif !important;
     display: inline-flex;
     align-items: baseline;
     gap: 0.35ch;

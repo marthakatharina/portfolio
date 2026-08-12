@@ -163,6 +163,16 @@ export default function Notelista() {
                     <strong className="italic">https://notelista.com ↗</strong>
                 </a>
             </p>
+              <p>
+                Visit my GitHub repository to explore Version Control with the agile approach
+                <a
+                    href="https://github.com/marthakatharina/to-dolist"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <strong className="italic">here ↗</strong>
+                </a>
+            </p>
         </>
     );
 }

@@ -148,12 +148,7 @@ export default function Notelista() {
                 alt="Notelista marketing website"
                 style={{ maxWidth: "100%" }}
             />
-              <img
-                src="/images/Notelista-webapp.png"
-                alt="Notelista app interface"
-                style={{ maxWidth: "100%" }}
-            />
-            <p>
+               <p>
                 Experience the website and app in the browser at{" "}
                 <a
                     href="https://notelista.com"
@@ -163,8 +158,13 @@ export default function Notelista() {
                     <strong className="italic">https://notelista.com ↗</strong>
                 </a>
             </p>
+              <img
+                src="/images/Notelista-webapp.png"
+                alt="Notelista app interface"
+                style={{ maxWidth: "100%" }}
+            />
               <p>
-                Visit my GitHub repository to explore Version Control with the agile approach
+                Visit my GitHub repository to explore Version Control with the agile approach{" "}
                 <a
                     href="https://github.com/marthakatharina/to-dolist"
                     target="_blank"

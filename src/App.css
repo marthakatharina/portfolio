@@ -118,6 +118,7 @@ a:hover::after {
 
 button {
     cursor: pointer;
+    font-family: "Roboto Serif", serif;
 }
 /* button:disabled {
     cursor: none;

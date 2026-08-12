@@ -18,7 +18,7 @@
     background: transparent;
     border: none;
     padding: 0.4rem 0.75rem;
-    font: inherit;
+    /* font: inherit; */
     font-size: 0.8rem;
     font-weight: 400;
     cursor: pointer;
@@ -62,4 +62,9 @@
 .scholarly-articles--list li {
     list-style-type: none;
     padding: 2em 0 1em 0;
+}
+@media only screen and (max-width: 768px) {
+    .tab-button {
+        font-size: 0.6rem;
+    }
 }

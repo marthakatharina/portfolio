@@ -22,7 +22,7 @@ export default function Notelista() {
                 {NotelistaProjectData.title.rendered}
             </h1>
             <p className="project-meta">
-                <a href="/">Marta Wlusek</a> | Product Designer, UI Designer, Web Developer | {NotelistaProjectData.date}
+                <a href="/">Marta Wlusek</a> | Product Owner, Product Designer, UI Designer, Web Developer | {NotelistaProjectData.date}
             </p>
             <img
                 src={NotelistaProjectData._links.featuredmedia[0].href}
@@ -50,7 +50,7 @@ export default function Notelista() {
                     <strong className="italic">notelista ↗ </strong>
                 </a>{" "}
                 is a Progressive Web App I designed and developed as a{" "}
-                <strong className="italic">0-1 Product Designer and Builder</strong>. The
+                <strong className="italic">0-1 Product Owner and Builder</strong>. The
                 project encompasses the complete product lifecycle - from
                 initial idea and UX/UI design through web development and
                 go-to-market strategy with a dedicated marketing website. The

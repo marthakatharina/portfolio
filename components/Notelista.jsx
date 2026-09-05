@@ -30,7 +30,7 @@ export default function Notelista() {
                 style={{ maxWidth: "100%" }}
             />
             <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
-                Link to the shipped notelista.com landing page and app{" "}
+                Link to the shipped notelista.com landing page and web app{" "}
                 <a
                     href="https://notelista.com/"
                     target="_blank"
@@ -40,14 +40,14 @@ export default function Notelista() {
                     <strong className="italic">https://notelista.com ↗</strong>
                 </a>
             </p>
-            <h2>What is notelista?</h2>
+            <h2>What is Notelista?</h2>
             <p>
                 <a
                     href="https://notelista.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <strong className="italic">notelista ↗ </strong>
+                    <strong className="italic">Notelista ↗ </strong>
                 </a>{" "}
                 is a Progressive Web App I designed and developed as a{" "}
                 <strong className="italic">0-1 Product Manager and Builder</strong>. The
@@ -114,7 +114,7 @@ export default function Notelista() {
                     By
                     <span className="italic"> eliminating friction </span>
                     points like mandatory registration and complex navigation
-                    notelista delivers:
+                    Notelista delivers:
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>

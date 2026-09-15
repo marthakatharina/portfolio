@@ -97,7 +97,7 @@ export default function EuropeanaAIAgent() {
                         💡 Promote ethical and responsible AI in public
                         applications{" "}
                         <span className="inline-bracket">
-                            (Bonus: aligns with EU AI Act and relevant ISO
+                            (Bonus: aligns with the EU AI Act and relevant ISO
                             standards)
                         </span>
                     </li>

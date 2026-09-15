@@ -26,7 +26,7 @@
     font-size: 1.9rem;
 }
 
-.role-container {
+#role-container {
     font-family: "Roboto Serif", serif !important;
     display: inline-flex;
     align-items: baseline;
@@ -151,7 +151,7 @@ body:has(.filter-btn.shipped.active) .project-cards {
     #intro-line p{
         font-size: 1.4rem;
     }
-    .role-container {
+    #role-container {
         font-size: 3.2rem;
     }
     #subintro-line {
@@ -191,7 +191,7 @@ body:has(.filter-btn.shipped.active) .project-cards {
     .intro-name p {
     font-size: 1rem;
    }
-   .role-container {
+   #role-container {
         font-size: 1rem;
     }
     #subintro-line {

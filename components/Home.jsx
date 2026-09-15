@@ -56,7 +56,7 @@ export default function Home({ projects }) {
                     <div className="intro-name">
                         <p>Hi, I'm Marta Wlusek</p>{" "}
                         <span
-                            className="role-container"
+                            id="role-container"
                             aria-label={`→ Product ${roles[roleIndex]}`}
                         >
                             <span className="role-prefix italic">→ Product</span>

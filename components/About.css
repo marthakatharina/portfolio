@@ -4,11 +4,6 @@
     gap: 20px;
 }
 .about-heading {
-    font-family: "Roboto Serif", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings: "wdth" 100, "GRAD" 0;
     text-align: center;
     margin-bottom: 1em;
 }

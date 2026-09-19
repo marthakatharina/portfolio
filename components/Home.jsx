@@ -54,7 +54,6 @@ export default function Home({ projects }) {
             <div className="home-intro">
                 <div id="intro-line">
                     <div className="intro-name">
-                        <p>Hi, I'm Marta Wlusek</p>{" "}
                         <span
                             id="role-container"
                             aria-label={`→ Product ${roles[roleIndex]}`}
@@ -68,7 +67,7 @@ export default function Home({ projects }) {
                     </div>
                 </div>
                 <p id="subintro-line">
-                    I help companies and organisations research, define, and build AI-powered products that solve real user problems, streamline workflows, and drive meaningful business impact.
+                    Hi, I'm Marta Wlusek. I help companies and organisations research, define, and build AI-powered products that solve real user problems, streamline workflows, and drive meaningful business impact.
                 </p>
             </div>
 

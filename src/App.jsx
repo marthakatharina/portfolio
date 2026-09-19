@@ -139,7 +139,7 @@ export default function App() {
                             } ${isTopHeaderHidden ? "hidden" : ""}`}
                         >
                             <div className="menu-container">
-                                <div className="logo"></div>
+                                <div className="logo"><Link to="/">MW</Link></div>
                                 <nav className="menu">
                                     <ul>
                                         <li>

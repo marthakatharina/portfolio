@@ -141,12 +141,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu li {
     font-family: "Lato", sans-serif;
+    opacity: 0.7;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "wdth" 100,
         "GRAD" 0;
+    list-style: none;
     margin-bottom: 0;
 }
 
@@ -167,10 +169,6 @@ p, li {
     justify-self: center;
 }
 
-.menu li {
-    list-style: none;
-    font-size: 3.2em;
-}
 .menu-button {
     color: #111111;
     background-color: #ffffff;
@@ -275,7 +273,9 @@ footer p {
         flex-direction: column;
     }
     .menu li {
+        list-style: none;
         font-size: 2.6em;
+        opacity: 1;
     }
     .logo {
         padding: 4em 0 4em 0;

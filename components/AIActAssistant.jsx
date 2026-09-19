@@ -22,7 +22,7 @@ export default function AIActAssistant() {
                 {AIActAssistantProjectData.title.rendered}
             </h1>
             <p className="project-meta">
-                <a href="/">Marta Wlusek</a> |AI Product Manager | {AIActAssistantProjectData.date}
+                <a href="/">Marta Wlusek</a> | AI Product Manager | {AIActAssistantProjectData.date}
             </p>
             <img
                 src={AIActAssistantProjectData._links.featuredmedia[0].href}

@@ -27,12 +27,12 @@
 }
 
 #role-container {
-    /* font-family: "Roboto Serif", serif !important; */
     display: inline-flex;
     align-items: baseline;
     gap: 0.35ch;
     vertical-align: top;
-    font-size: 6rem;
+    font-size: 7rem;
+    font-weight: 600;
     line-height: 1.1;
     white-space: nowrap;
 }
@@ -153,7 +153,7 @@ body:has(.filter-btn.shipped.active) .project-cards {
         font-size: 1.4rem;
     }
     #role-container {
-        font-size: 3.2rem;
+        font-size: 4rem;
     }
     #subintro-line {
         font-size: 1.4rem;
@@ -193,7 +193,7 @@ body:has(.filter-btn.shipped.active) .project-cards {
     font-size: 1rem;
    }
    #role-container {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     #subintro-line {
         width: 100%;

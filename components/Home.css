@@ -27,12 +27,12 @@
 }
 
 #role-container {
-    font-family: "Roboto Serif", serif !important;
+    /* font-family: "Roboto Serif", serif !important; */
     display: inline-flex;
     align-items: baseline;
     gap: 0.35ch;
     vertical-align: top;
-    font-size: 5.6rem;
+    font-size: 6rem;
     line-height: 1.1;
     white-space: nowrap;
 }

@@ -58,7 +58,7 @@ export default function Home({ projects }) {
                             id="role-container"
                             aria-label={`→ Product ${roles[roleIndex]}`}
                         >
-                            <span className="role-prefix italic">→ Product</span>
+                            <span className="role-prefix italic">Product</span>
                             <span className="role-text italic" aria-hidden="true">
                                 {typedRole}
                                 <span className="role-cursor" />

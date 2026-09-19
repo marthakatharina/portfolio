@@ -202,9 +202,11 @@ p, li {
 } */
 
 .logo {
+    font-family: 'Roboto Serif', serif;
+    letter-spacing: -2px;
     padding-right: 3em;
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 h1,

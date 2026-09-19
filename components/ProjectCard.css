@@ -1,7 +1,7 @@
 .project-card--container {
     position: relative;
     height: auto;
-    border-radius: 14px;
+    border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     overflow: hidden;
 }
@@ -13,7 +13,6 @@
     object-fit: cover;
     overflow: hidden;
     display: block;
-    /* border-radius: 14px; */
 }
 
 .project-card--title {
@@ -35,7 +34,7 @@
 
 @media only screen and (max-width: 768px) {
     .project-card--container {
-        border-radius: 8px;
+        border-radius: 10px;
     }
     .project-card--title {
         font-size: 1.2em;

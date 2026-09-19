@@ -30,7 +30,7 @@ export default function ImageTagExtractor() {
                 alt="Image Tag Extractor"
                 style={{ maxWidth: "100%" }}
             />
-            <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
+            <p style={{ textAlign: "center", fontSize: "16px", color: "#7f7f7f" }}>
                 To open the shipped system in the browser click{" "}
                 <a
                     href="https://marthakatharina.github.io/Image-Metadata-Enrichment/"

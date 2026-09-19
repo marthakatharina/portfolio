@@ -29,7 +29,7 @@ export default function AIActAssistant() {
                 alt="AI Act Assistant"
                 style={{ maxWidth: "100%" }}
             />
- <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
+ <p style={{ textAlign: "center", fontSize: "16px", color: "#7f7f7f" }}>
                 Link to the shipped Lovable prototype{" "}
                 <a
                     href="https://ai-act-assistant.lovable.app/"

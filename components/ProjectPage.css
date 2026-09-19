@@ -23,11 +23,10 @@
 .page-container ol,
 .page-container ul {
     margin-top: 1rem;
-    margin-bottom: 8px;
+    margin-bottom: 1rem;
 }
 .page-container h4 {
-   font-family: "Lato", sans-serif;
-   font-weight: 400;
+   font-size: 1.2rem;
 }
 
 .page-container {
@@ -52,12 +51,12 @@ figure {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: gray;
+    color: #7f7f7f;
 }
 
 .inline-bracket {
     font-size: 14px;
-    color: gray;
+    color: #7f7f7f;
 }
 
 .italic {

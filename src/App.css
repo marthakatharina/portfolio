@@ -236,6 +236,7 @@ footer ul {
     flex-wrap: wrap;
 }
 footer li {
+    font-family: "Lato", sans-serif;
     list-style: none;
 }
 footer p {

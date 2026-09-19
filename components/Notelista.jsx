@@ -29,7 +29,7 @@ export default function Notelista() {
                 alt="Notelista"
                 style={{ maxWidth: "100%" }}
             />
-            <p style={{ textAlign: "center", fontSize: "16px", color: "gray" }}>
+            <p style={{ textAlign: "center", fontSize: "16px", color: "#7f7f7f" }}>
                 Link to the shipped notelista.com landing page and web app{" "}
                 <a
                     href="https://notelista.com/"

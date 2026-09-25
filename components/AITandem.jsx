@@ -470,7 +470,7 @@ export default function AITandem() {
                     </li>
                 </ul>
             </div>
-            <h3>Adaptivity & Personalization Within the Feedback Loop</h3>
+            <h4>Adaptivity & Personalization Within the Feedback Loop</h4>
             <p>
                 The power of this feedback loop lies in its ability to adjust to
                 Joanna's learning progress in real-time, and in its

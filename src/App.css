@@ -362,12 +362,10 @@ footer p {
     #top-header .menu li {
         font-size: 1.1rem;
 }
+}
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .content {
         padding-left: 44px;
         padding-right: 44px;
     }
 }
-/* @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-   
-} */

@@ -25,10 +25,7 @@
 }
 
 .project-card--content {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    padding: 1em;
     background-color: #ffffff;
     color: #111111;
 }
@@ -38,6 +35,6 @@
         border-radius: 10px;
     }
     .project-card--title {
-        font-size: 1.2em;
+        line-height: 1.5em;
     }
 }

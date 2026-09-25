@@ -16,7 +16,8 @@
 }
 
 .project-card--title {
-    font-size: 1.4em;
+    font-size: 1.4em !important;
+    padding-bottom: 8px;
 }
 
 .project-card--link {
@@ -24,7 +25,7 @@
 }
 
 .project-card--content {
-    padding-top: 0.5em;
+    padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 0.8em;
     padding-right: 0.8em;

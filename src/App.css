@@ -152,8 +152,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
-p, li {
+p {
     font-family: "Roboto Serif", serif;
+    margin-bottom: 1rem;
+}
+li {
+    font-family: "Lato", sans-serif;
     margin-bottom: 1rem;
 }
 
@@ -205,12 +209,6 @@ p, li {
     padding-right: 3em;
     font-weight: 500;
     font-size: 1.1rem;
-}
-
-h1,
-h2 {
-    padding-bottom: 8px;
-    line-height: 1.5;
 }
 
 h1 {

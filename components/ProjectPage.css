@@ -5,9 +5,6 @@
     font-style: normal;
     font-variation-settings: "wdth" 100, "GRAD" 0;
 } */
-.project-meta {
-    font-size: 16px;
-}
 
 .page-container h2 {
     margin-top: 6rem;
@@ -25,8 +22,17 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.page-container p {
+   font-size: 1.2rem;
+}
+
 .page-container h4 {
    font-size: 1.2rem;
+}
+
+.project-meta {
+    font-size: 16px !important;
 }
 
 .page-container {
@@ -37,10 +43,6 @@
 
 .page-container img {
     border-radius: 20px;
-}
-
-.project-meta {
-    margin-bottom: 0;
 }
 
 figure {

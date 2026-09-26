@@ -12,7 +12,7 @@ export const AIActAssistantProjectData = {
     _links: {
         featuredmedia: [{ href: "/images/AIActAssistant-featured.png" }],
     },
-    category: "Shipped",
+    category: "Prototype",
 };
 
 export default function AIActAssistant() {

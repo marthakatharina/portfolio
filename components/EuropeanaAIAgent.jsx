@@ -12,7 +12,7 @@ export const EuropeanaAIAgentProjectData = {
     _links: {
         featuredmedia: [{ href: "/images/EuropeanaAIAgent-featured.png" }],
     },
-    category: "Figma",
+    category: "Prototype",
 };
 
 export default function EuropeanaAIAgent() {

@@ -13,7 +13,7 @@ export const AiTandemProjectData = {
     _links: {
         featuredmedia: [{ href: "/images/AI Tandem - featured.png" }],
     },
-    category: "Figma",
+    category: "Prototype",
 };
 
 export default function AITandem() {

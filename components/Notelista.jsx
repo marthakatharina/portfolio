@@ -60,12 +60,12 @@ export default function Notelista() {
                 <strong className="italic">CSS</strong>, and{" "}
                 <strong className="italic">JavaScript</strong> that work
                 seamlessly across all devices and browsers, offering the
-                simplicity of a sticky note with the power of modern web
+                simplicity of a paper note with the power of modern web
                 technology.
             </p>
             <h2>The App's Value Proposition</h2>
             <p>
-                The app's "digital sticky note" concept resonates with users who
+                The app's "digital paper note" concept resonates with users who
                 want organization without overwhelming complexity - no account
                 creation, no complex features to navigate, just immediate
                 productivity.
@@ -105,7 +105,7 @@ export default function Notelista() {
             <h2>Impact</h2>
             <p>
                 The design philosophy centers on convenient simplicity,
-                accessibility, and privacy of the sticky note - users understand
+                accessibility, and privacy of a paper note - users understand
                 the interface instantly with zero learning curve, increasing
                 adoption.
             </p>
@@ -118,8 +118,7 @@ export default function Notelista() {
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>
-                        ✅ <b>Digital Sustainability:</b> Replaces paper sticky
-                        notes with reusable digital notes.
+                        ✅ <b>Digital Sustainability:</b> Replaces paper notes with reusable digital notes.
                     </li>
                     <li>
                         ✅ <b>Universal Accessibility:</b> Offers simple access

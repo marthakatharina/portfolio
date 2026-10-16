@@ -247,6 +247,104 @@ footer p {
     font-size: 14px;
 }
 
+.cv-dialog-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 12000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: rgba(17, 17, 17, 0.55);
+}
+
+.cv-dialog {
+    position: relative;
+    width: min(100%, 420px);
+    padding: 2rem;
+    border: 1px solid currentColor;
+    background: #f8f8f4;
+    color: currentColor;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.cv-dialog-backdrop.dark .cv-dialog {
+    background: #252526;
+    color: currentColor;
+}
+
+.cv-dialog h2 {
+    padding: 0;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.cv-dialog label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-family: "Lato", sans-serif;
+}
+
+.cv-dialog input {
+    width: 100%;
+    padding: 0.65rem;
+    border: 1px solid currentColor;
+    border-radius: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    letter-spacing: 0.25em;
+}
+
+.cv-dialog-close {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.8rem;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.cv-dialog-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+.cv-dialog-actions button {
+    flex: 1;
+    padding: 0.7rem 0.8rem;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.light .cv-dialog-actions button {
+    border: 1px solid currentColor;
+    background-color: #111111;
+    color: #f8f8f4;
+}
+.light .cv-dialog-actions button:hover {
+    background-color: transparent;
+    color: currentColor;
+}
+
+.dark .cv-dialog-actions button {
+    border: 1px solid currentColor;
+    background-color: #f8f8f4;
+    color: #111111;
+}
+.dark .cv-dialog-actions button:hover {
+    background-color: transparent;
+    color: currentColor;
+}
+
+.cv-dialog-error {
+    margin: 0.5rem 0 0;
+    color: #a12626;
+    font-size: 0.9rem;
+}
+
 @media only screen and (max-width: 768px) {
     .dot,
     .dot svg {

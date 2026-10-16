@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import PropTypes from "prop-types";
 import "./App.css";
 import Main from "/components/Main";
 import Dot from "/components/Dot";
@@ -18,6 +19,9 @@ import { NotelistaProjectData } from "/components/Notelista";
 import { AIActAssistantProjectData } from "/components/AIActAssistant";
 
 const THEME_STORAGE_KEY = "theme";
+const CV_URL = "/CV_MartaWlusek.pdf";
+const CV_PASSWORD = "482731";
+const CV_CONTACT_EMAIL = "martaratajski@gmail.com";
 
 const getInitialTheme = () => {
     if (typeof window === "undefined") {
@@ -26,6 +30,90 @@ const getInitialTheme = () => {
 
     const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
     return savedTheme === "dark" ? "dark" : "light";
+};
+
+function CvPasswordDialog({ theme, isOpen, onClose }) {
+    const [password, setPassword] = useState("");
+    const [error, setError] = useState("");
+
+    useEffect(() => {
+        if (!isOpen) {
+            setPassword("");
+            setError("");
+        }
+    }, [isOpen]);
+
+    if (!isOpen) {
+        return null;
+    }
+
+    const accessCv = () => {
+        if (password !== CV_PASSWORD) {
+            setError("That password is not correct.");
+            return;
+        }
+
+        window.open(CV_URL, "_blank", "noopener,noreferrer");
+        onClose();
+    };
+
+    return (
+        <div className={`cv-dialog-backdrop ${theme}`} onClick={onClose}>
+            <div
+                className="cv-dialog"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="cv-dialog-title"
+                onClick={(event) => event.stopPropagation()}
+            >
+                <button
+                    className="cv-dialog-close"
+                    type="button"
+                    aria-label="Close CV password dialog"
+                    onClick={onClose}
+                >
+                    ×
+                </button>
+                <h2 id="cv-dialog-title">Access my CV</h2>
+                <p>
+                    Enter the password to open my CV.</p>
+                <p>
+                    To request the
+                    password, email{" "}
+                    <a href={`mailto:${CV_CONTACT_EMAIL}`}>
+                        {CV_CONTACT_EMAIL}
+                    </a>
+                    .
+                </p>
+                <label htmlFor="cv-password">Password</label>
+                <input
+                    id="cv-password"
+                    type="password"
+                    inputMode="numeric"
+                    pattern="[0-9]{6}"
+                    maxLength={6}
+                    value={password}
+                    onChange={(event) => {
+                        setPassword(event.target.value.replace(/\D/g, ""));
+                        setError("");
+                    }}
+                    autoFocus
+                />
+                {error && <p className="cv-dialog-error">{error}</p>}
+                <div className="cv-dialog-actions">
+                    <button type="button" onClick={accessCv}>
+                        Open CV
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+CvPasswordDialog.propTypes = {
+    theme: PropTypes.string.isRequired,
+    isOpen: PropTypes.bool.isRequired,
+    onClose: PropTypes.func.isRequired,
 };
 
 export default function App() {
@@ -43,6 +131,7 @@ export default function App() {
     const [isHeaderHidden, setIsHeaderHidden] = useState(true);
     const [isTopHeaderStuck, setIsTopHeaderStuck] = useState(false);
     const [isTopHeaderHidden, setIsTopHeaderHidden] = useState(false);
+    const [isCvDialogOpen, setIsCvDialogOpen] = useState(false);
 
     useEffect(() => {
         window.localStorage.setItem(THEME_STORAGE_KEY, theme);
@@ -94,6 +183,11 @@ export default function App() {
         setIsHeaderHidden(!isHeaderHidden); // Toggle the state on large vieports
     };
 
+    const openCvDialog = (event) => {
+        event.preventDefault();
+        setIsCvDialogOpen(true);
+    };
+
     return (
         <>
             <Context.Provider value={contextValues}>
@@ -139,7 +233,7 @@ export default function App() {
                             } ${isTopHeaderHidden ? "hidden" : ""}`}
                         >
                             <div className="menu-container">
-                                <div className="logo"><Link to="/">MW</Link></div>
+                                <div className="logo"><Link to="/">MR</Link></div>
                                 <nav className="menu">
                                     <ul>
                                         <li>
@@ -175,9 +269,10 @@ export default function App() {
                                         </li>
                                         <li>
                                             <a
-                                                href="/CV_MartaWlusek.pdf/"
+                                                href={CV_URL}
                                                 target="_blank"
                                                 rel="noreferrer"
+                                                onClick={openCvDialog}
                                             >
                                                 CV
                                             </a>
@@ -244,9 +339,10 @@ export default function App() {
                                         </li>
                                         <li>
                                             <a
-                                                href="/CV_MartaWlusek.pdf/"
+                                                href={CV_URL}
                                                 target="_blank"
                                                 rel="noreferrer"
+                                                onClick={openCvDialog}
                                             >
                                                 CV
                                             </a>
@@ -279,9 +375,10 @@ export default function App() {
                         <ul>
                             <li>
                                 <a
-                                    href="https://martawlusek.netlify.app/CV_MartaWlusek.pdf/"
+                                    href={CV_URL}
                                     target="_blank"
                                     rel="noreferrer"
+                                    onClick={openCvDialog}
                                 >
                                     CV
                                 </a>
@@ -307,10 +404,15 @@ export default function App() {
                         </ul>
                     </div>
                     <p>
-                        © Marta Wlusek 2026. Designed and developed with ♡ React
-                        by Marta Wlusek.
+                        © Marta Ratajski 2026. Designed and developed with ♡ React
+                        by Marta Ratajski.
                     </p>
                 </footer>
+                <CvPasswordDialog
+                    theme={theme}
+                    isOpen={isCvDialogOpen}
+                    onClose={() => setIsCvDialogOpen(false)}
+                />
             </Context.Provider>
         </>
     );

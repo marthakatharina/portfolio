@@ -67,7 +67,7 @@ export default function Home({ projects }) {
                     </div>
                 </div>
                 <p id="subintro-line">
-                    Hi, I'm Marta Wlusek. I help companies and organisations research, define, and build AI-powered products that solve real user problems, streamline workflows, and drive meaningful business impact.
+                    Hi, I'm Marta Ratajski. I help companies and organisations research, define, and build AI-powered products that solve real user problems, streamline workflows, and drive meaningful business impact.
                 </p>
             </div>
 

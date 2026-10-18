@@ -19,7 +19,7 @@ import { NotelistaProjectData } from "/components/Notelista";
 import { AIActAssistantProjectData } from "/components/AIActAssistant";
 
 const THEME_STORAGE_KEY = "theme";
-const CV_URL = "/CV_MartaWlusek.pdf";
+const CV_URL = "/CV_Marta_Ratajski.pdf";
 const CV_PASSWORD = "482731";
 const CV_CONTACT_EMAIL = "martaratajski@gmail.com";
 

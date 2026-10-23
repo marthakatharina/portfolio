@@ -77,7 +77,7 @@ export default function Notelista() {
                 </h4>
                 <ul className="no-bullets two-col">
                     <li>
-                        💡 <b>Simple List Management:</b> Create custom lists
+                        💡 <b>Intuitive Checklists:</b> Create custom lists
                         for separating to-do and shopping lists without
                         overwhelming clutter.
                     </li>
@@ -87,14 +87,12 @@ export default function Notelista() {
                         ensuring your lists are always accessible even offline.
                     </li>
                     <li>
-                        💡 <b>Intuitive UI:</b> Tap to complete items with
-                        satisfying animations, then delete or batch-clear when
+                        💡 <b>Multimodal UI:</b> Add notes with a variety of input methods, then delete or batch-clear when
                         ready.
                     </li>
                     <li>
                         💡 <b>Progressive Web App:</b> Install to your home
-                        screen for instant access. No app store required, no
-                        downloads weighing down your device.
+                        screen or add to your bookmarks for instant access. Everything works instantly in the browser.
                     </li>
                     <li>
                         💡 <b>Smart Reminders:</b> Push notification system

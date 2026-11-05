@@ -1,5 +1,2 @@
+https://martawlusek.netlify.app/* https://martaratajski.netlify.app/:splat  301!
 /* /index.html  200
-from = "https://martawlusek.netlify.app/*"
-  to = "https://martaratajski.netlify.app/:splat"
-  status = 301
-  force = true

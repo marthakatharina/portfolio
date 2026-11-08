@@ -22,7 +22,7 @@ export default function Notelista() {
                 {NotelistaProjectData.title.rendered}
             </h1>
             <p className="project-meta">
-                <a href="/">Marta Wlusek</a> | Product Manager, Product Designer, UI Designer, Web Developer | {NotelistaProjectData.date}
+                <a href="/">Marta Wlusek</a> | Product Manager, Product Designer, App Developer | {NotelistaProjectData.date}
             </p>
             <img
                 src={NotelistaProjectData._links.featuredmedia[0].href}
